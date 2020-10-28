@@ -1,0 +1,37 @@
+@import url("../assets/styles/vendor/normalize.css");
+@import url("../assets/styles/vendor/bootstrap.css");
+
+@import url("../blocks/page.css");
+@import url("../blocks/rectangle/rectangle.css");
+@import url("../blocks/devider/devider.css");
+
+@import url("../blocks/header/header.css");
+
+@import url("../blocks/section/__header/section__header.css");
+@import url("../blocks/section/__title/section__title.css");
+
+@import url("../blocks/carousel/carousel.css");
+@import url("../blocks/carousel/__title-container/carousel__title-container.css");
+@import url("../blocks/carousel/__button/carousel__main_button.css");
+@import url("../blocks/carousel/__title/carousel__title.css");
+@import url("../blocks/carousel/__subtitle/carousel__subtitle.css");
+
+@import url("../blocks/why-we/why-we.css");
+
+@import url("../blocks/cards/cards.css");
+@import url("../blocks/cards/__item/cards__item.css");
+
+@import url("../blocks/team/team.css");
+@import url("../blocks/team/__texts/team__texts.css");
+@import url("../blocks/team/__texts/team__texts_text_italic.css");
+@import url("../blocks/team/__texts/team__texts_two_cols.css");
+
+@import url("../blocks/team/_title/team_title.css");
+
+@import url("../blocks/team/__guests/h3-blue-r.css");
+@import url("../blocks/team/__guests/team__guests_image-king.css");
+
+@import url("../blocks/details/details.css");
+@import url("../blocks/bg/grey.css");
+
+@import url("../blocks/footer/footer.css");

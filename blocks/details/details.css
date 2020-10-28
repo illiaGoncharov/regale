@@ -1,0 +1,22 @@
+/*.grey {
+	position: absolute;
+	top: 0px;
+	margin-top: 1710px;
+	background-color: #F7F7FA;
+	border-radius: 1px;
+	width: 1440px;
+	height: 850px;
+ }*/
+
+.details {
+	/*background-color: #D8D8D8; */
+	height: 680px;
+}
+
+.ditalis { 
+	background-color: rgba(255, 255, 255, 0.9);
+	border-radius: 5px;
+	box-shadow: 0 15px 35px 0 rgba(0, 0, 0, 0.2);
+	width: 476px;
+	height: 196px;
+}

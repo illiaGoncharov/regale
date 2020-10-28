@@ -1,0 +1,121 @@
+* {
+	padding: 0;
+	margin: 0;
+  box-sizing: border-box;;
+}
+
+@font-face {
+src: url('https://pictures.s3.yandex.net/fonts/Ibmplexserifsemibold.woff2') format('woff2'),
+url('https://pictures.s3.yandex.net/fonts/Ibmplexserifsemibold.woff') format('woff'),
+url('https://pictures.s3.yandex.net/fonts/Ibmplexserifsemibold.ttf') format('truetype');
+font-style: bold;
+font-family: 'IBM Plex Serif';
+font-weight: bold;
+}
+
+@font-face {
+	src: url('../assets/fonts/VisueltPro-Regular.ttf') format('truetype');
+	font-style: normal;
+	font-family: 'VisueltPro';
+	font-weight: normal;
+}
+
+@font-face {
+  src: url('../assets/fonts/VisueltPro-Bold.ttf') format('truetype');
+  font-style: bold;
+  font-family: 'VisueltPro';
+  font-weight: bold;
+}
+
+@font-face {
+  src: url('../assets/fonts/VisueltPro-Italic.ttf') format('truetype');
+  font-style: italic;
+  font-family: 'VisueltPro';
+  font-weight: italic;
+}
+
+.root {  
+  color: #fff;
+  font-family: VisueltPro;
+  font-size: 14px;
+  line-height: 17px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+.ol, .ul, .dl {
+  margin-top: 0;
+  margin-bottom: 0; 
+  list-style-type: none;
+  margin-block-start: 0;
+  margin-block-end: 0;
+  margin-inline-start: 0;
+  margin-inline-end: 0;
+  padding-inline-start: 0;
+}
+
+.h2-black {
+  color: #171717;
+  font-family: '../IBM Plex Serif';
+  font-weight: bold ;
+  font-size: 24px;
+  line-height: 30px;
+  width: 185px;
+  text-align: left;
+  margin-bottom: 0;
+  margin-block-start: 0;
+  margin-block-end: 0;
+}
+
+.h3-blue {
+  color: #143C7D;
+  font-family:../VisueltPro;
+  font-size: 20px;
+  line-height: 24px;
+  text-align: left;
+  font-weight: bold;
+   margin-block-start: 0;
+  margin-block-end: 0;
+  margin-bottom: 23px;
+}
+
+.p-basic {
+  color: #171717;
+  font-family: ../;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: left;
+}
+
+
+/*ul {
+	position: relative;
+	margin-block-start: 0em;
+    margin-block-end: 0em;
+}
+
+li {
+	display: list-item;
+    text-align: -webkit-match-parent;
+}
+
+.slick-dots {
+	font: 100 14px system-ui;
+	z-index: 9999;
+    bottom: 150px;
+    right: 100px;
+    list-style: none;
+}
+
+.slick-dots li button {
+	width: 5px;
+    height: 5px;
+    border-radius: 100%;
+    opacity: 0.5;
+}*/
+
+
+/* RESPONSIVE CSS
+-------------------------------------------------- */
+
+

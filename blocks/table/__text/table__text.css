@@ -1,0 +1,10 @@
+.table__text {
+  margin-block-start: 0em;
+  margin-block-end: 0em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-size: 18px;
+  font-weight: normal;
+  line-height: 1.2;
+  margin-top: 20px;
+}

@@ -1,0 +1,7 @@
+.rectangle {
+  display: flex;
+  background-color: #17171D;
+  border-radius: 1px;
+  width: 76px;
+  height: 2px;
+}

@@ -1,0 +1,15 @@
+.carousel__main_button {
+  background-color: rgba(255, 255, 255, 0.3);
+  border-radius: 5px;
+  border: none;
+  width: 176px;
+  height: 50px;
+  position: relative;
+  color: #FFFFFF;
+  font-family: VisueltPro;
+  font-size: 16px;
+  line-height: 20px;
+  text-align: center;
+  padding-top: 15px;
+  margin-top: 50px;
+}

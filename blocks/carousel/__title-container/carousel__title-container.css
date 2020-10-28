@@ -1,0 +1,5 @@
+.carousel__title-container {
+	display: flex;
+	flex-direction: column;
+	margin-top: 160px;
+}
