@@ -9,14 +9,16 @@
  }*/
 
 .details {
-	/*background-color: #D8D8D8; */
-	height: 680px;
+	position: relative;
+	background-color: #F7F7FA; 
+	height: 850px;
+	min-width: 100vw;
 }
 
-.ditalis { 
+/*.ditalis { 
 	background-color: rgba(255, 255, 255, 0.9);
 	border-radius: 5px;
 	box-shadow: 0 15px 35px 0 rgba(0, 0, 0, 0.2);
 	width: 476px;
 	height: 196px;
-}
+}*/

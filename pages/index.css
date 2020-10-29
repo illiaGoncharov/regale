@@ -1,9 +1,12 @@
-@import url("../assets/styles/vendor/normalize.css");
 @import url("../assets/styles/vendor/bootstrap.css");
+@import url("../assets/styles/vendor/normalize.css");
 
+@import url("../blocks/test.css");
 @import url("../blocks/page.css");
 @import url("../blocks/rectangle/rectangle.css");
 @import url("../blocks/devider/devider.css");
+
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@500;600&display=swap');
 
 @import url("../blocks/header/header.css");
 
@@ -26,12 +29,21 @@
 @import url("../blocks/team/__texts/team__texts_text_italic.css");
 @import url("../blocks/team/__texts/team__texts_two_cols.css");
 
-@import url("../blocks/team/_title/team_title.css");
-
-@import url("../blocks/team/__guests/h3-blue-r.css");
-@import url("../blocks/team/__guests/team__guests_image-king.css");
+@import url("../blocks/team/__imgs/team__imgs.css");
+@import url("../blocks/team/__imgs-container/team__imgs-container.css");
+@import url("../blocks/team/__imgs-name/team__imgs-name.css");
 
 @import url("../blocks/details/details.css");
-@import url("../blocks/bg/grey.css");
+@import url("../blocks/details/__img/details__img.css");
+@import url("../blocks/details/__info-module/details__info-module.css");
+
+@import url("../blocks/main-services/main-services.css");
+@import url("../blocks/main-services/__img/main-services__img.css");
+@import url("../blocks/main-services/__info-module/main-services__info-module.css");
+
+@import url("../blocks/form/form.css");
+@import url("../blocks/form/__header/form__header.css");
+
+@import url("../blocks/map/map.css");
 
 @import url("../blocks/footer/footer.css");

@@ -1,5 +1,6 @@
 .footer {
-	margin-top: 2000px;
+	background-color: lightgrey;
 	padding-top: 60px;
 	padding-bottom: 100px;
+	height: 300px;
 }

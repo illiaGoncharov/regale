@@ -1,0 +1,7 @@
+.details__img {
+	min-width: 100vw;
+	height: 680px;
+	object-fit: cover;
+	position: absolute;
+	top: 170px;
+}

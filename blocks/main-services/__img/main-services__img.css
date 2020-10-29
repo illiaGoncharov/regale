@@ -1,0 +1,8 @@
+.main-services__img {
+	width: 70vw;
+	position: absolute;
+	height: 570px;
+	top: 160px;
+	right: -26px;
+	object-fit: cover;
+}

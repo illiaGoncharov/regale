@@ -13,7 +13,7 @@
       <nav class="navbar navbar-expand-md navbar-dark menu">
         <div class="container collapse navbar-collapse" id="navbarCollapse">
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button> 
-          <ul class="navbar-nav mr-auto">
+          <ul class="navbar-nav mr-auto ">
             <li class="nav-item active">
               <a class="nav-link" href="#">Главная <span class="sr-only">(current)</span></a>
             </li>
@@ -85,10 +85,11 @@
           </a>
         </div>
       </section>
+
     </header>
 
-    <main class="container content">
-      <section class="why-we">
+    <main class=" content">
+      <section class="container why-we">
         <div class="row section__header">
           <div class="rectangle align-self-center"></div>
           <h2 class="section__title h2-black">Наш подход</h2>
@@ -113,9 +114,9 @@
         </ul>
       </section>
 
-      <div class="devider"></div>
+      <div class="container devider"></div>
 
-      <section class="team">
+      <section class="container team">
         <div class="row section__header">
           <div class="rectangle align-self-center"></div>
           <h2 class="section__title h2-black">Уникальный коллектив Regale</h2>
@@ -128,42 +129,70 @@
           </li>
         </ul>
 
-        <div class="team__examples ul">
-
-          <div class="team__guests_image-king">
-            <img class="" style="position: absolute; z-index: -1;height: 670px;width: 446px; top: 1100px; right: 48px; -webkit-tap-highlight-color: #171717;" src="./blocks/why-we/doctor-1.png" alt="Врач">
-          </div>
-
-           <h3 style="position: absolute; top: 1650px;right: 530px; text-align: right;" class="h3-blue"> Полевой Роман Михайлович <br> Врач-ортодонт</h3>
-          <div class="team__examples-switcher">
-            
-          </div>
+        <div class="team__imgs-container ul">
+          <img class="team__imgs" src="./blocks/why-we/doctor-1.png" alt="Врач">
+          <h3 style="" class="h3-blue team__imgs-name"> Полевой Роман Михайлович <br> Врач-ортодонт</h3>
+          <div class="team__imgs-switcher"></div>
         </div>
       </section>
 
       <section class="details">
-        <!-- <div class="row section__header">
-          <div class="rectangle align-self-center"></div>
-          <h2 class="section__title h2-black">Уникальный коллектив Regale</h2>
-        </div> -->
-        <!-- <div class="details__header">
-          <li class="rectangle align-self-center"></li>
-          <h2 class="details__header h2-black">Клиника в деталях</h2>
-        </div> -->
+        <div class="container">
+          <div class="row section__header">
+            <div class="rectangle align-self-center"></div>
+            <h2 class="section__title h2-black">Клиника в деталях</h2>
+          </div>
+        </div>
+        <div class="container">
+          <div class="col-lg-5 details__info-module"></div>
+        </div>
 
-      
-
+        <img class="details__img" src="./blocks/details/details-img-1.png" alt="details-img-1">
       </section>
-      <section class="main-services"></section>
-      <section class="form"></section>
-      <section class="map"></section>
-    </main>
+  
+      <section class="main-services">
+        <div class="container">
+          <div class="row section__header">
+            <div class="rectangle align-self-center"></div>
+            <h2 class="section__title h2-black">Популярные виды лечения</h2>
+          </div>
+        </div>
 
-    <footer class="container footer"></footer>
+        <div class="container">
+          <div class="col-lg-5 main-services__info-module">
+            <div class="main-services__module-1"></div>
+          </div>
+        </div>
+
+        <img class="main-services__img" src="./blocks/main-services/__img/main-services-img-1.png" alt="details-img-1">
+      </section>
+      
+      <section class="form">
+        <div class="container">
+          <h1 class="carousel__title text-left form__header">Центры инновационной стоматологии Regale</h1>
+          <p class="carousel__subtitle">Философия наших центров – создавать улыбки, которые дарят своим владельцам уверенность и свободу общения</p>
+          <form>
+            <div class="form-group">
+              <label for="exampleInputEmail1">Email address</label>
+                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+              </div>
+              <div class="form-group">
+                <label for="exampleInputPassword1">Password</label>
+                <input type="password" class="form-control" id="exampleInputPassword1">
+              </div>
+              <button type="submit" class="btn btn-primary carousel__main_button">Отправить</button>
+          </form>
+        </div>
+      </section>
+      <section class="map"></section>
+      <footer class="footer"></footer>
+    </main>
   </div>
 	<script src="../assets/scripts/vendor/jquery-slim.min.js"></script>
 	<script src="../assets/scripts/vendor/bootstrap.js"></script>
   <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js" integrity="sha256-T0Vest3yCU7pafRw9r+settMBX6JkKN06dqBnpQ8d30=" crossorigin="anonymous"></script> 
+  <script src="../assets/scripts/vendor/parallax.js"></script>
   <script type="text/javascript">
       $(document).on('ready', function() {
         $('.single-item').slick({
