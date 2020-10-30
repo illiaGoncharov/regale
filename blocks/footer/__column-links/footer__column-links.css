@@ -1,0 +1,10 @@
+.footer__column-links {
+	list-style: none;
+	display: inline-flex;
+
+}
+
+.footer__column-links li {
+	margin-right: 10px;
+
+}

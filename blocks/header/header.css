@@ -15,6 +15,14 @@
 	top: 0;
 }
 
+.navbar-dark .navbar-nav .nav-link {
+	color: #fff;
+}
+
+.nav-item.active {
+	text-decoration: underline;
+}
+
 .nav-item {
 	margin-left: 38px;
 }
