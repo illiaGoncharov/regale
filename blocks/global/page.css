@@ -15,21 +15,21 @@ font-weight: bold;
 */
 
 @font-face {
-	src: url('../assets/fonts/VisueltPro-Regular.ttf') format('truetype');
+	src: url('./../../assets/fonts/VisueltPro-Regular.ttf') format('truetype');
 	font-style: normal;
 	font-family: 'VisueltPro';
 	font-weight: normal;
 }
 
 @font-face {
-  src: url('../assets/fonts/VisueltPro-Bold.ttf') format('truetype');
+  src: url('./../../assets/fonts/VisueltPro-Bold.ttf') format('truetype');
   font-style: bold;
   font-family: 'VisueltPro';
   font-weight: bold;
 }
 
 @font-face {
-  src: url('../assets/fonts/VisueltPro-Italic.ttf') format('truetype');
+  src: url('./../../assets/fonts/VisueltPro-Italic.ttf') format('truetype');
   font-style: italic;
   font-family: 'VisueltPro';
   font-weight: italic;
@@ -78,7 +78,6 @@ font-weight: bold;
   text-align: left;
   font-weight: bold;
   margin-bottom: 23px;
-
 }
 
 .p-basic {
@@ -87,6 +86,25 @@ font-weight: bold;
   line-height: 19px;
   text-align: left;
   padding-right: 24px;
+}
+
+@media (max-width: 576px) {
+  .team__imgs {
+    display: none;
+  }
+}
+
+@media (max-width: 768px) {
+  .p-basic {
+    padding-right: 15px;
+  }
+}
+
+@media (max-width: 992px) {
+}
+
+@media (max-width: 1200px) {
+
 }
 
 

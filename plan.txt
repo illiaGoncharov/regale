@@ -1,0 +1,44 @@
+plan 
+
+- media querries = works 
+- menu button on small size
+
+- border-right
+- carousel media q
+
+- why we delay (block, header, elements)
+
+- pointers on carousel
+
+- controler 
+
+- team carousel 
+- team media querries
+
+- details (block, header, elements)
+- details media querries
+
+- details carousel 
+
+- services (block, header, elements)
+- services photo fix ?
+
+- srvices module + elements 
+
+- services finish
+	- pointers 
+	- controler
+
+- sevices media querries
+
+- form fix 
+	- styles 
+	- pix-perf
+	- border-right	
+
+- map scroll bug
+
+- footer layout
+- footer icons 
+
+- scroll back button 

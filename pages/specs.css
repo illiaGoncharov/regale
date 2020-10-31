@@ -1,0 +1,25 @@
+@import url("../assets/styles/vendor/bootstrap.css");
+@import url("../assets/styles/vendor/normalize.css");
+
+@import url("../blocks/global/page.css");
+@import url("../blocks/global/page-specs.css");
+@import url("../blocks/global/test.css");
+@import url("../blocks/rectangle/rectangle.css");
+@import url("../blocks/devider/devider.css");
+
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@500;600&display=swap');
+
+@import url("../blocks/header/header.css");
+
+
+@import url("../blocks/form/form.css");
+@import url("../blocks/form/__header/form__header.css");
+@import url("../blocks/form/__input/form__input.css");
+
+@import url("../blocks/map/map.css");
+
+@import url("../blocks/footer/footer.css");
+@import url("../blocks/footer/__column/footer__column.css");
+@import url("../blocks/footer/__column-link/footer__column-link.css");
+@import url("../blocks/footer/__column-links/footer__column-links.css");
+@import url("../blocks/footer/__columns/footer__columns.css");

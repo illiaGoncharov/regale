@@ -1,13 +1,15 @@
-.carousel__subtitle {
+.form__title {
+	padding-top: 90px;
 	color: #fff;
-	font-size: 16px;
-  	line-height: 20px;
+	font-family: Lora;
+	font-size: 43px;
+	line-height: 52px;
 	position: relative;
-	left: 0;
+	display: flex;
+	margin-bottom: 25px;
 }
 
 @media (max-width: 576px) {
-
 }
 
 @media (max-width: 768px) {
