@@ -13,6 +13,14 @@
   margin-top: 50px;
 }
 
+.form__button:hover,
+.form__button:focus {
+  background-color: #515066;
+  border: none;
+  outline: none;
+  box-shadow: none;
+}
+
 @media (max-width: 576px) {
 
 }

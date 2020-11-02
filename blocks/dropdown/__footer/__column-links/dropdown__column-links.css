@@ -1,0 +1,14 @@
+.dropdown__column-links {
+	margin-left: 0;
+	padding-top: 0;
+	padding-left: 0;
+}
+
+.dropdown__column-links:nth-child(3) {
+	display: inline-flex;
+	list-style: none;
+}
+
+.dropdown__column-links:nth-child(3) li {
+	margin-right: 10px;
+}

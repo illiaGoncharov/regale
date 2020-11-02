@@ -1,0 +1,23 @@
+.header__menu {
+	padding: 0 0 0 0;
+	height: 90px;
+	background: transparent;
+	z-index: 9999;
+	left: 0;
+	top: 0;
+}
+
+.header__link-item {
+	color: #fff;
+	padding-right: 0 !important;
+    padding-left: 0 !important;
+}
+
+.header__list-item {
+	margin-left: 38px;
+	padding-left: 0;
+}
+
+.header__list-item:nth-child(1) {
+	margin-left: 0;
+}

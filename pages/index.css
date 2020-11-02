@@ -8,10 +8,22 @@
 
 @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@500;600&display=swap');
 
-@import url("../blocks/overlay/overlay.css");
-
 @import url("../blocks/header/header.css");
-@import url("../blocks/header/__dropdown/header__dropdown.css");
+@import url("../blocks/header/__menu/header__menu.css");
+
+@import url("../blocks/dropdown/dropdown.css");
+@import url("../blocks/dropdown/__container/dropdown__container.css");
+@import url("../blocks/dropdown/__link-column/dropdown__link-column.css");
+@import url("../blocks/dropdown/__link-item/dropdown__link-item.css");
+@import url("../blocks/dropdown/__pic-column/dropdown__pic-column.css");
+@import url("../blocks/dropdown/__pic-column/__pic/dropdown__pic.css");
+@import url("../blocks/dropdown/__pic-column/__pic-text/dropdown__pic-text.css");
+@import url("../blocks/dropdown/__pic-column/__pic-text/dropdown__pic-text.css");
+@import url("../blocks/dropdown/__link-submenu/dropdown__link-submenu.css");
+@import url("../blocks/dropdown/__footer/dropdown__footer.css");
+@import url("../blocks/dropdown/__footer/__column-link/dropdown__column-link.css");
+@import url("../blocks/dropdown/__footer/__column-links/dropdown__column-links.css");
+@import url("../blocks/dropdown/__social-icon/dropdown__social-icon.css");
 
 @import url("../blocks/section/__header/section__header.css");
 @import url("../blocks/section/__title/section__title.css");
@@ -62,4 +74,5 @@
 @import url("../blocks/footer/__column/footer__column.css");
 @import url("../blocks/footer/__column-link/footer__column-link.css");
 @import url("../blocks/footer/__column-links/footer__column-links.css");
+@import url("../blocks/footer/__social-icon/footer__social-icon.css");
 @import url("../blocks/footer/__columns/footer__columns.css");

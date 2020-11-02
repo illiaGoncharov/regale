@@ -4,6 +4,7 @@
   	line-height: 20px;
 	position: relative;
 	left: 0;
+	max-width: 500px;
 }
 
 @media (max-width: 576px) {

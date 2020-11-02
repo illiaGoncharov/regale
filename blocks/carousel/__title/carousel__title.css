@@ -1,15 +1,14 @@
 .carousel__title {
-  color: #fff;
-  font-family: Lora;
-  font-size: 43px;
-  line-height: 52px;
-  position: relative;
-  display: flex;
+	color: #fff;
+	font-family: Lora;
+	font-size: 43px;
+	line-height: 52px;
+	position: relative;
+	display: flex;
+	margin-bottom: 30px;
 }
 
 @media (max-width: 576px) {
-	.carousel__title {
-	}
 }
 
 @media (max-width: 768px) {

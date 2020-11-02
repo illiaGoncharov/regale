@@ -1,0 +1,11 @@
+.dropdown__footer {
+	padding-left: 0px;
+	padding-top: 40px;
+	color: #fff;
+	font-family: VisueltPro;
+	font-size: 14px;
+	line-height: 17px;
+	text-align: left;
+	margin-bottom: 8px;
+	display: inline-flex;
+}

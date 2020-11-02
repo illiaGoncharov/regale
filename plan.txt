@@ -2,11 +2,18 @@ plan
 
 + media querries works + carousel media q + team basic media q + form styles 
 + form final styles + footer responsive layout
++ dropdown basics
 
 ---
-- dropdown
-	- overlay markaup 
-	- 
+- menu file structure + overflow-y on body + elements file structure + header upload speed 
+- menu styles 
+	- service-link
+	- media q 
+	- menu button on small size
+	- appear animation
+
+- team carousel 
+- team media querries
 
 - few animation correctons
 
@@ -19,9 +26,6 @@ plan
 - pointers on carousel
 
 - controler 
-
-- team carousel 
-- team media querries
 
 - details (block, header, elements)
 - details media querries

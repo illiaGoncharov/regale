@@ -5,13 +5,21 @@
   width: 176px;
   height: 50px;
   position: relative;
-  color: #FFFFFF;
+  color: #fff;
   font-family: VisueltPro;
   font-size: 16px;
   line-height: 20px;
   text-align: center;
   padding-top: 15px;
   margin-top: 50px;
+}
+
+.carousel__main_button:hover,
+.carousel__main_button:focus {
+  background-color: #515066;
+  border: none;
+  outline: none;
+  box-shadow: none;
 }
 
 @media (max-width: 576px) {

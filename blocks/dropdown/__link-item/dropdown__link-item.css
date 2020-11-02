@@ -1,0 +1,33 @@
+.dropdown__link-item {
+	color: #fff;
+	padding-top: 0;
+	padding-left: 0;
+	padding-bottom: 6px;
+  	font-family: VisueltPro;
+ 	font-size: 16px;
+  	line-height: 19px;
+}
+
+.dropdown__link-item:hover,
+.dropdown__link-item:focus {
+	color: #fff;
+    text-decoration: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.dropdown__link-item::after {
+	content: "▸";
+	position: absolute;
+	right: 0;
+}
+
+.dropdown__link-item > .dropdown__link-submenu {
+	display: none;
+}
+
+.dropdown__link-item:hover > .dropdown__link-submenu {
+	display: block;
+	position: absolute;
+	height: 100%;
+}

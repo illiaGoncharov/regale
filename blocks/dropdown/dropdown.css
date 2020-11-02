@@ -1,0 +1,17 @@
+.dropdown {
+	position: fixed !important;
+	min-width: 100vw;
+	top: 0;
+	left: 0;
+	padding: 0;
+    margin: 0;
+    background: #515066;
+	border: none;
+	height: 100vh;
+	z-index: -1;
+}
+
+.dropdown__link-item_place_pic-column {
+	color: #fff;
+	text-decoration: underline;
+}

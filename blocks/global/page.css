@@ -11,19 +11,9 @@
   -webkit-font-smoothing: antialiased;
 }
 
-[hidden] {
-    display: none !important;
+html {
+  scroll-behavior: smooth;
 }
-
-/*@font-face {
-src: url('https://pictures.s3.yandex.net/fonts/Ibmplexserifsemibold.woff2') format('woff2'),
-url('https://pictures.s3.yandex.net/fonts/Ibmplexserifsemibold.woff') format('woff'),
-url('https://pictures.s3.yandex.net/fonts/Ibmplexserifsemibold.ttf') format('truetype');
-font-style: bold;
-font-family: 'IBM Plex Serif';
-font-weight: bold;
-}
-*/
 
 @font-face {
 	src: url('./../../assets/fonts/VisueltPro-Regular.ttf') format('truetype');
@@ -101,6 +91,10 @@ font-weight: bold;
   line-height: 19px;
   text-align: left;
   padding-right: 24px;
+}
+
+.hello {
+  color: red !important;
 }
 
 @media (max-width: 576px) {

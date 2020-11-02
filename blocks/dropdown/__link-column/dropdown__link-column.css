@@ -1,0 +1,10 @@
+.dropdown__link-column {
+	list-style: none;
+	padding-left: 0;
+	padding-right: 0;
+	color: #fff;
+	padding-bottom: 6px;
+  	font-family: VisueltPro;
+ 	font-size: 16px;
+  	line-height: 19px;
+}
