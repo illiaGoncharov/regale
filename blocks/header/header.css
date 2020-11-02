@@ -11,7 +11,7 @@
 	height: 90px;
 	background: transparent;
 	position: sticky;
-	z-index: 999;
+	z-index: 9999;
 	left: 0;
 	top: 0;
 }
@@ -26,8 +26,14 @@
 
 .nav-item {
 	margin-left: 38px;
+	padding-left: 0;
 }
 
 .nav-item:nth-child(1) {
 	margin-left: 0;
+}
+
+.nav-link {
+	padding-right: 0 !important;
+    padding-left: 0 !important;
 }

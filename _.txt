@@ -1,3 +1,117 @@
+  <!-- <div id="overlay" class="overlay">
+      <div class="container overlay-menu__container">
+        <div class="col-lg-6">
+          <ul style="padding-top: 90px;">
+            <li id="overlay-menu__list-item-1">
+              <a id="overlay-menu__item-1" class="overlay-menu__item" href="#">Эстетическая стоматология</a>
+              <ul id="overlay-menu__submenu-1" class="overlay-menu__submenu">
+                <li class="overlay-menu__submenu-list-item">
+                  <a id="overlay-menu__submenu-item-1" class="overlay-menu__submenu-item" href="">Эстетическая стоматология</a>
+                </li>
+                <li class="overlay-menu__submenu-list-item">
+                  <a id="overlay-menu__submenu-item-2" class="overlay-menu__submenu-item" href="#">Детская стоматология</a>
+                </li>
+                <li class="overlay-menu__submenu-list-item">
+                  <a id="overlay-menu__submenu-item-3" class="overlay-menu__submenu-item" href="#">Протезирование зубов</a>
+                </li>
+                <li class="overlay-menu__submenu-list-item">    
+                  <a id="overlay-menu__submenu-item-4" class="overlay-menu__submenu-item" href="#">Имплантация и хирургия</a>
+                </li>
+                <li class="overlay-menu__submenu-list-item">
+                  <a id="overlay-menu__submenu-item-5" class="overlay-menu__submenu-item" href="#">Исправление прикуса</a>
+                </li>
+                <li class="overlay-menu__submenu-list-item"> 
+                  <a id="overlay-menu__submenu-item-6" class="overlay-menu__submenu-item" href="#">Гнатология</a>
+                </li>
+                <li class="overlay-menu__submenu-list-item"> 
+                  <a id="overlay-menu__submenu-item-7" class="overlay-menu__submenu-item" href="#">Гигиена и профилактика</a>
+                </li>
+              </ul>   
+            </li>
+            <li id="overlay-menu__list-item-2">
+              <a id="overlay-menu__item-2" class="overlay-menu__item" href="#">Детская стоматология</a>
+              <ul id="overlay-menu__submenu-2" class="overlay-menu__submenu">
+                <li class="overlay-menu__submenu-list-item">    
+                  <a id="overlay-menu__submenu-item-4" class="overlay-menu__submenu-item" href="#">Имплантация и хирургия</a>
+                </li>
+                <li class="overlay-menu__submenu-list-item">
+                  <a id="overlay-menu__submenu-item-5" class="overlay-menu__submenu-item" href="#">Исправление прикуса</a>
+                </li>
+                <li class="overlay-menu__submenu-list-item"> 
+                  <a id="overlay-menu__submenu-item-6" class="overlay-menu__submenu-item" href="#">Гнатология</a>
+                </li>
+                <li class="overlay-menu__submenu-list-item"> 
+                  <a id="overlay-menu__submenu-item-7" class="overlay-menu__submenu-item" href="#">Гигиена и профилактика</a>
+                </li>
+              </ul>   
+            </li>
+            <li class="overlay-menu__list-item">
+              <a id="overlay-menu__item-3" class="overlay-menu__item" href="#">Протезирование зубов</a>
+            </li>
+            <li class="overlay-menu__list-item">    
+              <a id="overlay-menu__item-4" class="overlay-menu__item" href="#">Имплантация и хирургия</a>
+            </li>
+            <li class="overlay-menu__list-item">
+              <a id="overlay-menu__item-5" class="overlay-menu__item" href="#">Исправление прикуса</a>
+            </li>
+            <li class="overlay-menu__list-item"> 
+              <a id="overlay-menu__item-6" class="overlay-menu__item" href="#">Гнатология</a>
+            </li>
+            <li class="overlay-menu__list-item"> 
+              <a id="overlay-menu__item-7" class="overlay-menu__item" href="#">Гигиена и профилактика</a>
+            </li>
+          </ul>   
+        </div>
+        <div class="col-lg-3">
+          
+          <div class="service-overlay__submenu service-overlay__submenu-2"></div>
+          <div class="service-overlay__submenu service-overlay__submenu-3"></div>
+          <div class="service-overlay__submenu service-overlay__submenu-4"></div>
+          <div class="service-overlay__submenu service-overlay__submenu-5"></div>
+          <div class="service-overlay__submenu service-overlay__submenu-6"></div>
+          <div class="service-overlay__submenu service-overlay__submenu-7"></div>
+        </div>
+      </div>
+    </div> -->
+    
+  <!-- <div class="loader">
+    <div class="loading-animation"></div>
+  </div> -->
+
+ <!-- <ul class="col-lg-12 dropdown-menu header__dropdown" aria-labelledby="navbarDropdown" onclick="openServiceMenu()">
+                  <div class="container header__dropdown-container">
+                    <ul class="col-lg-3 header__link-column">
+                      <li id="ml-1" class="dropdown-item header__link-item">Эстетическая стоматология</li>
+                      <li class="dropdown-item header__link-item">Детская стоматология</li>
+                      <li class="dropdown-item header__link-item">Протезирование зубов</li>
+                      <li class="dropdown-item header__link-item">Имплантация и хирургия</li>
+                      <li class="dropdown-item header__link-item">Исправление прикуса</li>
+                      <li class="dropdown-item header__link-item">Гнатология</li>
+                      <li class="dropdown-item header__link-item">Гигиена и профилактика</li>
+                    </ul>
+                    <ul class="col-lg-3 header__link-column">
+                      <ul id="ms-1">
+                        <li class="dropdown-item header__link-item">Детская стоматология</li>
+                        <li class="dropdown-item header__link-item">Протезирование зубов</li>
+                        <li class="dropdown-item header__link-item">Имплантация и хирургия</li>
+                        <li class="dropdown-item header__link-item">Исправление прикуса</li>
+                        <li class="dropdown-item header__link-item">Гнатология</li>
+                        <li class="dropdown-item header__link-item">Гигиена и профилактика</li>
+                      </ul>
+                      <li id="ms-"></li>
+                      <li id="ms-"></li>
+                      <li id="ms-"></li>
+                      <li id="ms-"></li>
+                      <li id="ms-"></li>
+                    </ul>
+                  <div class="col-lg-5 col-lg-offset-1 header__pic-column">
+                    <img src="" alt="">
+                  </div>
+
+                  </div>
+                </ul> -->
+
+
   <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
 
   <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>

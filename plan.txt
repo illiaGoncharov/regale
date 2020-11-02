@@ -1,10 +1,16 @@
 plan 
 
 + media querries works + carousel media q + team basic media q + form styles 
++ form final styles + footer responsive layout
 
 ---
+- dropdown
+	- overlay markaup 
+	- 
 
-- form final + footer responsive layout + few animation correctons
+- few animation correctons
+
+- form engine
 
 - menu button on small size
 
@@ -38,7 +44,7 @@ plan
 	- pix-perf
 	- border-right	
 
-- map scroll bug
+- map scroll bug https://qna.habr.com/q/97795
 
 - footer layout
 - footer icons 
