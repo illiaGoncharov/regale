@@ -8,7 +8,10 @@
 
 @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@500;600&display=swap');
 
+@import url("../blocks/overlay/overlay.css");
+
 @import url("../blocks/header/header.css");
+@import url("../blocks/header/__dropdown/header__dropdown.css");
 
 @import url("../blocks/section/__header/section__header.css");
 @import url("../blocks/section/__title/section__title.css");

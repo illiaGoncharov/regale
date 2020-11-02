@@ -3,9 +3,10 @@
  	max-width: 1440px;
 	position: relative;
 	height: 680px;
+	color: #fff;
 }
 
-.menu {
+.header__menu {
 	padding: 0 0 0 0;
 	height: 90px;
 	background: transparent;
@@ -20,7 +21,7 @@
 }
 
 .nav-item.active {
-	text-decoration: underline;
+/*	text-decoration: underline;*/
 }
 
 .nav-item {

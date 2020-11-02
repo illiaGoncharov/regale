@@ -8,13 +8,88 @@
 	<link rel="stylesheet" href="./pages/index.css">
 </head>
 <body>
-  <div class="loader">
+ <!-- <div class="loader">
     <div class="loading-animation"></div>
-  </div>
-  <div class="root">
-    <div class="dropdown__overlay"></div>
+  </div> -->
+
+  <div id="root" class="root">
+    <div id="overlay" class="overlay">
+      <!-- <div class="container overlay-menu__container">
+        <div class="col-lg-6">
+          <ul style="padding-top: 90px;">
+            <li id="overlay-menu__list-item-1">
+              <a id="overlay-menu__item-1" class="overlay-menu__item" href="#">Эстетическая стоматология</a>
+              <ul id="overlay-menu__submenu-1" class="overlay-menu__submenu">
+                <li class="overlay-menu__submenu-list-item">
+                  <a id="overlay-menu__submenu-item-1" class="overlay-menu__submenu-item" href="">Эстетическая стоматология</a>
+                </li>
+                <li class="overlay-menu__submenu-list-item">
+                  <a id="overlay-menu__submenu-item-2" class="overlay-menu__submenu-item" href="#">Детская стоматология</a>
+                </li>
+                <li class="overlay-menu__submenu-list-item">
+                  <a id="overlay-menu__submenu-item-3" class="overlay-menu__submenu-item" href="#">Протезирование зубов</a>
+                </li>
+                <li class="overlay-menu__submenu-list-item">    
+                  <a id="overlay-menu__submenu-item-4" class="overlay-menu__submenu-item" href="#">Имплантация и хирургия</a>
+                </li>
+                <li class="overlay-menu__submenu-list-item">
+                  <a id="overlay-menu__submenu-item-5" class="overlay-menu__submenu-item" href="#">Исправление прикуса</a>
+                </li>
+                <li class="overlay-menu__submenu-list-item"> 
+                  <a id="overlay-menu__submenu-item-6" class="overlay-menu__submenu-item" href="#">Гнатология</a>
+                </li>
+                <li class="overlay-menu__submenu-list-item"> 
+                  <a id="overlay-menu__submenu-item-7" class="overlay-menu__submenu-item" href="#">Гигиена и профилактика</a>
+                </li>
+              </ul>   
+            </li>
+            <li id="overlay-menu__list-item-2">
+              <a id="overlay-menu__item-2" class="overlay-menu__item" href="#">Детская стоматология</a>
+              <ul id="overlay-menu__submenu-2" class="overlay-menu__submenu">
+                <li class="overlay-menu__submenu-list-item">    
+                  <a id="overlay-menu__submenu-item-4" class="overlay-menu__submenu-item" href="#">Имплантация и хирургия</a>
+                </li>
+                <li class="overlay-menu__submenu-list-item">
+                  <a id="overlay-menu__submenu-item-5" class="overlay-menu__submenu-item" href="#">Исправление прикуса</a>
+                </li>
+                <li class="overlay-menu__submenu-list-item"> 
+                  <a id="overlay-menu__submenu-item-6" class="overlay-menu__submenu-item" href="#">Гнатология</a>
+                </li>
+                <li class="overlay-menu__submenu-list-item"> 
+                  <a id="overlay-menu__submenu-item-7" class="overlay-menu__submenu-item" href="#">Гигиена и профилактика</a>
+                </li>
+              </ul>   
+            </li>
+            <li class="overlay-menu__list-item">
+              <a id="overlay-menu__item-3" class="overlay-menu__item" href="#">Протезирование зубов</a>
+            </li>
+            <li class="overlay-menu__list-item">    
+              <a id="overlay-menu__item-4" class="overlay-menu__item" href="#">Имплантация и хирургия</a>
+            </li>
+            <li class="overlay-menu__list-item">
+              <a id="overlay-menu__item-5" class="overlay-menu__item" href="#">Исправление прикуса</a>
+            </li>
+            <li class="overlay-menu__list-item"> 
+              <a id="overlay-menu__item-6" class="overlay-menu__item" href="#">Гнатология</a>
+            </li>
+            <li class="overlay-menu__list-item"> 
+              <a id="overlay-menu__item-7" class="overlay-menu__item" href="#">Гигиена и профилактика</a>
+            </li>
+          </ul>   
+        </div>
+        <div class="col-lg-3">
+          
+          <div class="service-overlay__submenu service-overlay__submenu-2"></div>
+          <div class="service-overlay__submenu service-overlay__submenu-3"></div>
+          <div class="service-overlay__submenu service-overlay__submenu-4"></div>
+          <div class="service-overlay__submenu service-overlay__submenu-5"></div>
+          <div class="service-overlay__submenu service-overlay__submenu-6"></div>
+          <div class="service-overlay__submenu service-overlay__submenu-7"></div>
+        </div>
+      </div> -->
+    </div>
     <header class="container header">
-      <nav id="navbarCollapse" class="container navbar navbar-expand-lg navbar-dark menu"data-aos="fade-down" data-aos-duration="1500">
+      <nav id="navbarCollapse" class="container navbar navbar-expand-lg navbar-dark header__menu">
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCol" aria-controls="navbarCollapse" aria-expanded="" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
         </button> 
@@ -24,15 +99,27 @@
                 <a class="nav-link" href="./index.html">Главная <span class="sr-only">(current)</span></a>
               </li>
               <li class="nav-item">
-                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" onclick="openServiceMenu()">
                 Виды лечения
                 </a>
-                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                  <a class="dropdown-item" href="#">Action</a>
-                  <a class="dropdown-item" href="#">Another action</a>
-                  <div class="dropdown-divider"></div>
-                  <a class="dropdown-item" href="#">Something else here</a>
-                </div>
+                <ul class="col-lg-12 dropdown-menu header__dropdown" aria-labelledby="navbarDropdown" onclick="openServiceMenu()">
+                  <div class="container">
+                    <ul class="col-lg-3 header__link-column">
+                      <li class="dropdown-item header__link-item">Эстетическая стоматология</li>
+                      <li class="dropdown-item header__link-item">Детская стоматология</li>
+                      <li class="dropdown-item header__link-item">Протезирование зубов</li>
+                      <li class="dropdown-item header__link-item">Имплантация и хирургия</li>
+                      <li class="dropdown-item header__link-item">Исправление прикуса</li>
+                      <li class="dropdown-item header__link-item">Гнатология</li>
+                      <li class="dropdown-item header__link-item">Гигиена и профилактика</li>
+                    </ul>
+                  <div class="col-lg-3 header__link-column">
+
+                  </div>
+                  <div class="col-lg-5 col-lg-offset-1 header__pic-column">
+                  </div>
+                  </div>
+                </ul>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="./prices.html">Цены</a>
@@ -291,7 +378,24 @@
       </footer>
     </main>
   </div>
-  <script src="https://code.jquery.com/jquery-2.2.0.min.js" type="text/javascript"></script>
+  <script src="https://code.jquery.com/jquery-3.5.0.js" type="text/javascript"></script>
+  <script>
+    function openServiceMenu() {
+      $("#overlay").toggleClass("overlay_condition_visible");
+      $("body").toggleClass("body_state_off");
+    }
+
+    $('#ml-1').hover(
+      function() {
+        $('#ms-1').css('display', 'block')
+      }
+    );
+
+    /* Close */
+    /*function closeNav() {
+      document.getElementById("overlay").style.display = "none";
+    }*/
+  </script>  
 	<script src="./assets/scripts/vendor/bootstrap.js"></script>
   <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
   <!-- https://michalsnik.github.io/aos/ -->

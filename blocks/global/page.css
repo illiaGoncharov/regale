@@ -55,6 +55,10 @@ font-weight: bold;
   overflow: hidden;
 }
 
+.body_state_off {
+  overflow-y: hidden;
+}
+
 .ol, .ul, .dl {
   margin-top: 0;
   margin-bottom: 0; 
