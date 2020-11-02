@@ -1,0 +1,5 @@
+.form__file-field-container {
+	width: inherit;
+	height: 20px;
+	cursor: pointer;
+}

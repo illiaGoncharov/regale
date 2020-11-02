@@ -1,10 +1,12 @@
 plan 
 
-- media querries = works 
-- menu button on small size
++ media querries works + carousel media q + team basic media q + form styles 
 
-- border-right
-- carousel media q
+---
+
+- form final + footer responsive layout + few animation correctons
+
+- menu button on small size
 
 - why we delay (block, header, elements)
 

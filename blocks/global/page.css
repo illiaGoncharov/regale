@@ -1,7 +1,18 @@
 * {
 	padding: 0;
 	margin: 0;
-  box-sizing: border-box;;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-tap-highlight-color: #0000;
+}
+
+*, *:before, *:after {
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+}
+
+[hidden] {
+    display: none !important;
 }
 
 /*@font-face {

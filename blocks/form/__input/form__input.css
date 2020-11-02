@@ -1,8 +1,7 @@
 .form__input {
   font-size:18px;
   padding:10px 10px 10px 5px;
-  display:block;
-  width:300px;
+  width: inherit !important;
   border:none;
   border-radius: 0px;
   border-bottom:1px solid #fff;
@@ -10,10 +9,13 @@
 }
 
 .form__input:focus { 
-	color: #fff;
-	outline:none;
-	border: none;
-    box-shadow: none;
-    background: #0000;
-    border-bottom: 2px solid #fff;
+  color: #fff;
+  outline:none;
+  border: none;
+  box-shadow: none;
+  background: #0000;
+  border-bottom: 2px solid #fff;
+}
+
+.button:not(.button_filled):not(.button_rehab):not(.button_reset), .text a:not(.button_filled):not(.button_rehab):not(.button_reset), .editor-text a:not(.button_filled):not(.button_rehab):not(.button_reset) {
 }

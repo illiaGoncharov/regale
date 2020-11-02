@@ -43,8 +43,14 @@
 
 @import url("../blocks/form/form.css");
 @import url("../blocks/form/__title/form__title.css");
+@import url("../blocks/form/__group/form__group.css");
+@import url("../blocks/form/__title-container/form__title-container.css");
+@import url("../blocks/form/__main-container/form__main-container.css");
 @import url("../blocks/form/__subtitle/form__subtitle.css");
 @import url("../blocks/form/__input/form__input.css");
+@import url("../blocks/form/__file-field/form__file-field.css");
+@import url("../blocks/form/__file-field/__file-field-container/form__file-field-container.css");
+@import url("../blocks/form/__file-field/__file-field-input/form__file-field-input.css");
 @import url("../blocks/form/__button/form__button.css");
 
 @import url("../blocks/map/map.css");

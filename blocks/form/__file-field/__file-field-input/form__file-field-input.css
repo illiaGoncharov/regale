@@ -1,0 +1,7 @@
+.form__file-field-input {
+	opacity: 0;
+    position: absolute;
+    height: 1px;
+    width: 1px;
+    overflow: hidden;
+}

@@ -1,0 +1,19 @@
+.form__title-container {
+	padding-left: 0px;
+	padding-right: 0px;
+}
+
+@media (max-width: 576px) {
+	.form__title-container {
+
+	}
+}
+
+@media (max-width: 768px) {
+}
+
+@media (max-width: 992px) {
+}
+
+@media (max-width: 1200px) {
+}

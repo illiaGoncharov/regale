@@ -4,7 +4,7 @@
   border: none;
   width: 176px;
   height: 50px;
-  position: relative;
+  display: block;
   color: #FFFFFF;
   font-family: VisueltPro;
   font-size: 16px;
@@ -18,9 +18,6 @@
 }
 
 @media (max-width: 768px) {
-   .form__button {
-      margin-top: 25px;
-  }
 
 }
 
