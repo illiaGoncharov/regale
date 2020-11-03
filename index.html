@@ -609,7 +609,7 @@
   <script src="./assets/scripts/vendor/aos.js" type="text/javascript"></script>
   <script>
     AOS.init({
-      disable: true, // accepts following values: 'phone', 'tablet', 'mobile', boolean, expression or function
+      disable: false, // accepts following values: 'phone', 'tablet', 'mobile', boolean, expression or function
       startEvent: 'DOMContentLoaded', // name of the event dispatched on the document, that AOS should initialize on
       initClassName: false, // class applied after initialization
       animatedClassName: 'aos-animate', // class applied on animation
@@ -638,7 +638,7 @@
         $(this).parents('body').removeClass('body_state_off ');
     });
   </script>
-  <script> 
+  <!-- <script> 
     $(document).ready(function() {
       $(window).scrollTop(0);
 
@@ -646,6 +646,6 @@
           e.stopPropagation();
       });
     });        
-  </script>
+  </script> -->
 </body>
 </html>
