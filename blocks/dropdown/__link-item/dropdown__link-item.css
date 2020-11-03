@@ -1,4 +1,5 @@
-.dropdown__link-item {
+.dropdown__link-item,
+.dropdown__link-item a {
 	color: #fff;
 	padding-top: 0;
 	padding-left: 0;
@@ -29,5 +30,30 @@
 .dropdown__link-item:hover > .dropdown__link-submenu {
 	display: block;
 	position: absolute;
+	width: 100%;
 	height: 100%;
+}
+
+@media (max-width: 1200px) {
+
+}
+
+@media (max-width: 992px) {
+	/*.dropdown_user_Mobilewn__link-item a {
+		color: #fff;
+		padding-top: 0;
+		padding-left: 0;
+		padding-bottom: 6px;
+	  	font-family: VisueltPro;
+	 	font-size: 16px;
+	  	line-height: 19px;
+	}*/
+}
+
+@media (max-width: 768px) {
+
+}
+
+@media (max-width: 576px) {
+    
 }

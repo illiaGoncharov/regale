@@ -3,46 +3,28 @@ plan
 + media querries works + carousel media q + team basic media q + form styles 
 + form final styles + footer responsive layout
 + dropdown basics
++ menu file structure + overflow-y on body + elements file structure + header upload speed 
 
 ---
-- menu file structure + overflow-y on body + elements file structure + header upload speed 
+
+mobile menu draft + links & social (inst) + service-link + dropdown footer prevent default + mobile menu links + header media q basics + footer links 
+
+--- main 
 - menu styles 
-	- service-link
-	- media q 
-	- menu button on small size
-	- appear animation
+	- 
+	- phone drop + foot
 
-- team carousel 
-- team media querries
+- typogrphy classes 
+- appear animation
+- footer rects
 
-- few animation correctons
+- icons change
+- map adresses 
+
+- animation correctons
+- menu pic 
 
 - form engine
-
-- menu button on small size
-
-- why we delay (block, header, elements)
-
-- pointers on carousel
-
-- controler 
-
-- details (block, header, elements)
-- details media querries
-
-- details carousel 
-
-- services (block, header, elements)
-- services photo fix ?
-
-- srvices module + elements 
-
-- services finish
-	- pointers 
-	- controler
-
-- sevices media querries
-
 - form fix 
 	- styles 
 	- pix-perf
@@ -54,3 +36,30 @@ plan
 - footer icons 
 
 - scroll back button 
+
+--- 
+
+- team carousel 
+- team media querries
+
+- why we delay (block, header, elements)
+
+- pointers on carousel
+- controller 
+
+- details (block, header, elements)
+- details media querries
+
+- details carousel 
+
+- services (block, header, elements)
+- services photo fix ?
+
+- srvices module + elements 
+- services finish
+	- pointers 
+	- controler
+
+- sevices media querries
+
+

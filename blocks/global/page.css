@@ -93,6 +93,17 @@ html {
   padding-right: 24px;
 }
 
+.a-white, 
+.a-white:hover {
+  color: #fff;
+  padding-top: 0;
+  padding-left: 0;
+  padding-bottom: 6px;
+  font-family: VisueltPro;
+  font-size: 16px;
+  line-height: 19px;
+}
+
 .hello {
   color: red !important;
 }

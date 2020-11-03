@@ -1,0 +1,10 @@
+.header__link-item {
+	color: #fff;
+	padding: 0;
+	padding-right: 0 !important;
+    padding-left: 0 !important;
+}
+
+.header__link-item::after {
+	display: none;
+}

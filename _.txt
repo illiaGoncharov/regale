@@ -1,3 +1,84 @@
+Классическая схема организации файловой структуры БЭМ-проектов:
+
+Блоку соответствует одна директория.
+
+Код модификаторов и элементов находится в отдельных файлах.
+
+Файлы модификаторов и элементов хранятся в отдельных директориях.
+
+Директория блока является корневой для поддиректорий его элементов и модификаторов.
+
+Имена директорий элементов начинаются с двойного подчеркивания (__).
+
+Имена директорий модификаторов начинаются с одинарного подчеркивания (_).
+
+
+
+
+---
+<div class="container">
+      <div class="row">
+          <div class="col-1-6 hide_tablet"></div>
+          <div class="col-1-6 col-md-1-4 col-md-2-4 col-xs-1-1 mb40">
+              <a href="/services/" class="sitemap_title">Услуги</a>
+              <a href="/services/lechenie-zubov-i-desen/" class="sitemap_subtitle">Лечение зубов и десен</a>
+              <a href="/services/lechenie-zubov-i-desen/lechenie-zubov-pod-mikroskopom/" class="sitemap_subsubtitle">Лечение зубов под микроскопом</a>
+              <a href="/services/lechenie-zubov-i-desen/lechenie-kariesa/" class="sitemap_subsubtitle">Лечение кариеса</a>
+              <a href="/services/lechenie-zubov-i-desen/lechenie-pulpita-i-periodontita/" class="sitemap_subsubtitle">Лечение пульпита и периодонтита</a>
+              <a href="/services/lechenie-zubov-i-desen/parodontologiya/" class="sitemap_subsubtitle">Пародонтология</a>
+              <a href="/services/lechenie-zubov-i-desen/lechenie-za-odin-den/" class="sitemap_subsubtitle">Лечение зубов за 1 день</a>
+              <a href="/services/lechenie-zubov-i-desen/lechenie-zubov-pri-beremennosti/" class="sitemap_subsubtitle">Лечение зубов при беременности</a>
+              <a href="/services/esteticheskaya-stomatologiya/" class="sitemap_subtitle">Эстетическая стоматология</a>
+              <a href="/services/esteticheskaya-stomatologiya/viniry-i-ultratonkie-viniry/" class="sitemap_subsubtitle">Виниры и ультратонкие виниры</a>
+              <a href="/services/esteticheskaya-stomatologiya/khudozhestvennaya-restavratsiya-zubov/" class="sitemap_subsubtitle">Художественная реставрация зубов</a>
+              <a href="/services/esteticheskaya-stomatologiya/otbelivanie-zubov/" class="sitemap_subsubtitle">Отбеливание зубов</a>
+              <a href="/services/detskaya-stomatologiya/" class="sitemap_subtitle">Детская стоматология</a>
+          </div>
+          <div class="col-1-6 col-md-1-4 col-md-2-4 col-xs-1-1 mb40">
+              <a href="/services/protezirovanie-zubov/" class="sitemap_subtitle">Протезирование зубов</a>
+              <a href="/services/protezirovanie-zubov/koronki-na-osnove-dioksida-tsirkoniya-i-tselnokeramicheskie-koronki/" class="sitemap_subsubtitle">Коронки на основе диоксида циркония и цельнокерамические коронки</a>
+              <a href="/services/protezirovanie-zubov/mikroprotezirovanie-vkladkami/" class="sitemap_subsubtitle">Микропротезирование вкладками</a>
+              <a href="/services/protezirovanie-zubov/protezirovanie-na-implantakh/" class="sitemap_subsubtitle">Протезирование на имплантах</a>
+              <a href="/services/protezirovanie-zubov/protezirovanie-all-on-4-i-all-on-6/" class="sitemap_subsubtitle">Протезирование All-on-4 и All-on-6</a>
+              <a href="/services/implantatsiya-i-khirurgiya/" class="sitemap_subtitle">Имплантация и хирургия</a>
+              <a href="/services/implantatsiya-i-khirurgiya/udalenie-zubov-lyuboy-slozhnosti/" class="sitemap_subsubtitle">Удаление зубов любой сложности</a>
+              <a href="/services/implantatsiya-i-khirurgiya/implantatsiya-s-otsrochennoy-nagruzkoy/" class="sitemap_subsubtitle">Имплантация с отсроченной нагрузкой</a>
+              <a href="/services/implantatsiya-i-khirurgiya/implantatsiya-s-nemedlennoy-nagruzkoy/" class="sitemap_subsubtitle">Имплантация с немедленной нагрузкой</a>
+              <a href="/services/implantatsiya-i-khirurgiya/implantatsiya-zubov-vo-sne/" class="sitemap_subsubtitle">Имплантация во сне</a>
+              <a href="/services/implantatsiya-i-khirurgiya/uslovno-semnoe-protezirovanie-na-implantakh/" class="sitemap_subsubtitle">Условно-съемное протезирование на имплантах</a>
+              <a href="/services/implantatsiya-i-khirurgiya/sinus-lifting-i-kostnaya-plastika/" class="sitemap_subsubtitle">Синус-лифтинг и костная пластика</a>
+              <a href="/services/implantatsiya-i-khirurgiya/implantatsiya-all-on-4-i-all-on-6/" class="sitemap_subsubtitle">Имплантация All-on-4 и All-on-6</a>
+          </div>
+          <div class="col-1-6 col-md-1-4 col-md-2-4 col-xs-1-1 mb40">
+              <a href="/services/ispravlenie-prikusa/" class="sitemap_subtitle">Исправление прикуса</a>
+              <a href="/services/ispravlenie-prikusa/brekety/" class="sitemap_subsubtitle">Брекеты (многопетлевая техника и техника прямой дуги)</a>
+              <a href="/services/ispravlenie-prikusa/elaynery-plastinki-kapy/" class="sitemap_subsubtitle">Элайнеры, пластинки, каппы</a>
+              <a href="/services/gnatologiya/" class="sitemap_subtitle">Гнатология</a>
+              <a href="/services/gnatologiya/kompleksnaya-gnatologicheskaya-diagnostika/" class="sitemap_subsubtitle">Комплексная гнатологическая диагностика</a>
+              <a href="/services/gnatologiya/metodiki-gnatologicheskoy-reabilitatsii/" class="sitemap_subsubtitle">Методики гнатологической реабилитации</a>
+              <a href="/services/gigiena-i-profilaktika/" class="sitemap_subtitle">Гигиена и профилактика</a>
+              <a href="/services/gigiena-i-profilaktika/professionalnaya-gigiena-air-flow-i-ultrazvukovaya-chistka/" class="sitemap_subsubtitle">Профессиональная гигиена Air Flow и ультразвуковая чистка</a>
+              <a href="/services/gigiena-i-profilaktika/glubokoe-professionalnoe-ftorirovanie-i-remoterapiya/" class="sitemap_subsubtitle">Глубокое профилактическое фторирование и ремотерапия</a>
+          </div>
+          <div class="col-1-6 col-md-1-4 col-md-2-4 col-xs-1-1">
+              <a href="/o-klinike/" class="sitemap_title">О клинике</a>
+              <a href="/news/" class="sitemap_subsubtitle">Новости</a>
+              <a href="/o-klinike/o-doktore-kuzmenkovoy/" class="sitemap_subsubtitle">О докторе Кузьменковой</a>
+              <a href="/o-klinike/oborudovanie-i-tekhnologii/" class="sitemap_subsubtitle">Оборудование и технологии</a>
+              <a href="/o-klinike/venskaya-shkola-mezhdistsiplinarnoy-stomatologii/" class="sitemap_subsubtitle">Венская школа междисциплинарной стоматологии</a>
+              <a href="/o-klinike/blagotvoritelnost/" class="sitemap_subsubtitle">Благотворительность</a>
+              <!-- <a href="" class="sitemap_subsubtitle">Акции и бонусы</a> -->
+              <a href="/gallery/" class="sitemap_subsubtitle">Фотогалерея</a>
+              <a href="/doctors/" class="sitemap_title">Врачи</a>
+              <a href="/reviews/" class="sitemap_title">Отзывы</a>
+              <a href="/tseny/" class="sitemap_title">Цены</a>
+              <a href="/contacts/" class="sitemap_title">Контакты</a>
+          </div>
+          <div class="col-1-6 hide_tablet"></div>
+      </div>
+  </div>
+
+
   <script>
     function openServiceMenu() {
       $("#overlay").toggleClass("overlay_condition_visible");
