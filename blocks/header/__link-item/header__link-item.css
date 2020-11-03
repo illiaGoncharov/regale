@@ -1,8 +1,14 @@
 .header__link-item {
-	color: #fff;
+	color: #fff !important;
+	opacity: .9;
 	padding: 0;
 	padding-right: 0 !important;
     padding-left: 0 !important;
+}
+
+.header__link-item:hover,
+.header__link-item:focus {
+	opacity: 1 !important;
 }
 
 .header__link-item::after {

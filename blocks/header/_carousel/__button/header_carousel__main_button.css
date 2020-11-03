@@ -1,0 +1,41 @@
+.header_carousel__main_button {
+  background-color: rgba(255, 255, 255, 0.3);
+  border-radius: 5px;
+  border: none;
+  width: 176px;
+  height: 50px;
+  position: relative;
+  color: #fff;
+  font-family: VisueltPro;
+  font-size: 16px;
+  line-height: 20px;
+  text-align: center;
+  padding-top: 15px;
+  margin-top: 50px;
+}
+
+.header_carousel__main_button:hover,
+.header_carousel__main_button:focus {
+  background-color: #515066;
+  border: none;
+  outline: none;
+  box-shadow: none;
+}
+
+@media (max-width: 576px) {
+
+}
+
+@media (max-width: 768px) {
+   .header_carousel__main_button {
+      margin-top: 25px;
+  }
+
+}
+
+@media (max-width: 992px) {
+
+}
+
+@media (max-width: 1200px) {
+}

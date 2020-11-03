@@ -1,10 +1,4 @@
 .footer__column-link,
 .footer__column-link a {
-	color: #143C7D;
-	font-family: VisueltPro;
-	font-size: 14px;
-	line-height: 17px;
-	text-align: left;
-	margin-bottom: 8px;
 	display: block;
 }

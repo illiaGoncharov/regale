@@ -5,3 +5,24 @@
   width: 76px;
   height: 2px;
 }
+
+.footer__rectangle {
+	margin-top: 5px;
+	width: 40px;
+	background-color: #143C7D;
+}
+
+@media (max-width: 576px) {
+}
+
+@media (max-width: 768px) {
+  .rectangle {
+    display: none;
+  }
+}
+
+@media (max-width: 992px) {
+}
+
+@media (min-width: 1200px) {
+}

@@ -1,0 +1,24 @@
+.header_carousel__title-container {
+	display: flex;
+	flex-direction: column;
+	margin-top: 160px;
+	padding-left: 0;
+	padding-right: 0;
+}
+
+@media (max-width: 576px) {
+	.header_carousel__title-container {
+		margin-top: 120px;
+		padding-left: 15px;
+		padding-right: 15px;
+	}
+}
+
+@media (max-width: 768px) {
+}
+
+@media (max-width: 992px) {
+}
+
+@media (max-width: 1200px) {
+}

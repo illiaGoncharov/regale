@@ -1,0 +1,13 @@
+.header_carousel__carousel-item {
+	z-index: 1;
+	transition: transform 0.6s ease, 
+	-webkit-transform 0.6s ease;
+}
+
+.header_carousel__carousel-item > img {
+	position: absolute;
+	top: 0;
+	left: 0;
+	min-width: 100vw;
+	height: 680px;
+}

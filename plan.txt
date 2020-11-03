@@ -4,21 +4,14 @@ plan
 + form final styles + footer responsive layout
 + dropdown basics
 + menu file structure + overflow-y on body + elements file structure + header upload speed 
++ mobile menu draft + links & social (inst) + service-link + dropdown footer prevent default + mobile menu links + header media q basics + footer links & phone
 
----
+--- main
 
-mobile menu draft + links & social (inst) + service-link + dropdown footer prevent default + mobile menu links + header media q basics + footer links 
++ pointers on carousel + appear animation + footer rects + updated icons 
 
---- main 
-- menu styles 
-	- 
-	- phone drop + foot
+- lv2 pages drafts
 
-- typogrphy classes 
-- appear animation
-- footer rects
-
-- icons change
 - map adresses 
 
 - animation correctons
@@ -32,10 +25,11 @@ mobile menu draft + links & social (inst) + service-link + dropdown footer preve
 
 - map scroll bug https://qna.habr.com/q/97795
 
-- footer layout
-- footer icons 
+
 
 - scroll back button 
+
+- mobile menu [cool]
 
 --- 
 

@@ -2,16 +2,31 @@
 @import url("../assets/styles/vendor/normalize.css");
 
 @import url("../blocks/global/page.css");
-@import url("../blocks/global/test.css");
 @import url("../blocks/rectangle/rectangle.css");
 @import url("../blocks/devider/devider.css");
 
 @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@500;600&display=swap');
 
+/*@import url("../blocks/carousel/carousel.css");
+@import url("../blocks/carousel/__button/carousel__main_button.css");
+@import url("../blocks/carousel/__title-container/carousel__title-container.css");
+@import url("../blocks/carousel/__title/carousel__title.css");
+@import url("../blocks/carousel/__subtitle/carousel__subtitle.css");
+*/
+
 @import url("../blocks/header/header.css");
 @import url("../blocks/header/__menu/header__menu.css");
 @import url("../blocks/header/__link-item/header__link-item.css");
 @import url("../blocks/header/__list-item/header__list-item.css");
+
+@import url("../blocks/header/_carousel/header_carousel.css");
+@import url("../blocks/header/_carousel/__carousel-item/header_carousel__carousel-item.css");
+@import url("../blocks/header/_carousel/__title-container/header_carousel__title-container.css");
+@import url("../blocks/header/_carousel/__title/header_carousel__title.css");
+@import url("../blocks/header/_carousel/__subtitle/header_carousel__subtitle.css");
+@import url("../blocks/header/_carousel/__button/header_carousel__main_button.css");
+@import url("../blocks/header/_carousel/__carousel-indicators/header_carousel__carousel-indicators.css");
+@import url("../blocks/header/_carousel/__circles/carousel__circles.css");
 
 @import url("../blocks/dropdown/dropdown.css");
 @import url("../blocks/dropdown/__container/dropdown__container.css");
@@ -22,19 +37,13 @@
 @import url("../blocks/dropdown/__pic-column/__pic-text/dropdown__pic-text.css");
 @import url("../blocks/dropdown/__pic-column/__pic-text/dropdown__pic-text.css");
 @import url("../blocks/dropdown/__link-submenu/dropdown__link-submenu.css");
-@import url("../blocks/dropdown/__footer/dropdown__footer.css");
 @import url("../blocks/dropdown/__footer/__column-link/dropdown__column-link.css");
 @import url("../blocks/dropdown/__footer/__column-links/dropdown__column-links.css");
+@import url("../blocks/dropdown/__footer/dropdown__footer.css");
 @import url("../blocks/dropdown/__social-icon/dropdown__social-icon.css");
 
 @import url("../blocks/section/__header/section__header.css");
 @import url("../blocks/section/__title/section__title.css");
-
-@import url("../blocks/carousel/carousel.css");
-@import url("../blocks/carousel/__title-container/carousel__title-container.css");
-@import url("../blocks/carousel/__button/carousel__main_button.css");
-@import url("../blocks/carousel/__title/carousel__title.css");
-@import url("../blocks/carousel/__subtitle/carousel__subtitle.css");
 
 @import url("../blocks/why-we/why-we.css");
 
@@ -53,6 +62,8 @@
 @import url("../blocks/details/details.css");
 @import url("../blocks/details/__img/details__img.css");
 @import url("../blocks/details/__info-module/details__info-module.css");
+@import url("../blocks/details/_carousel/details_carousel.css");
+@import url("../blocks/details/_carousel/__carousel-item/details_carousel__carousel-item.css");
 
 @import url("../blocks/main-services/main-services.css");
 @import url("../blocks/main-services/__img/main-services__img.css");

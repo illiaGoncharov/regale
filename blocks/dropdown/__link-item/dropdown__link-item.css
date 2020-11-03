@@ -1,12 +1,7 @@
 .dropdown__link-item,
 .dropdown__link-item a {
-	color: #fff;
-	padding-top: 0;
-	padding-left: 0;
+	padding: 0;
 	padding-bottom: 6px;
-  	font-family: VisueltPro;
- 	font-size: 16px;
-  	line-height: 19px;
 }
 
 .dropdown__link-item:hover,
@@ -21,6 +16,12 @@
 	content: "▸";
 	position: absolute;
 	right: 0;
+	color: #fff;
+	opacity: .4;
+}
+
+.dropdown__link-item:hover::after {
+	opacity: 1;
 }
 
 .dropdown__link-item > .dropdown__link-submenu {
@@ -34,20 +35,15 @@
 	height: 100%;
 }
 
+.dropdown__link-item:hover .dropdown__link-item::after {
+	opacity: 1;
+}
+
 @media (max-width: 1200px) {
 
 }
 
 @media (max-width: 992px) {
-	/*.dropdown_user_Mobilewn__link-item a {
-		color: #fff;
-		padding-top: 0;
-		padding-left: 0;
-		padding-bottom: 6px;
-	  	font-family: VisueltPro;
-	 	font-size: 16px;
-	  	line-height: 19px;
-	}*/
 }
 
 @media (max-width: 768px) {

@@ -1,0 +1,24 @@
+.details_carousel {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+}
+
+.details_carousel-inner {
+	position: relative;
+    margin-top: 170px;
+    height: 680px;
+}
+
+@media (max-width: 576px) {
+}
+
+@media (max-width: 768px) {
+
+}
+
+@media (max-width: 992px) {
+}
+
+@media (min-width: 1200px) {
+}

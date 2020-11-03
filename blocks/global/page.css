@@ -36,6 +36,30 @@ html {
   font-weight: italic;
 }
 
+::placeholder {
+  font-family: VisueltPro;
+  font-size: 14px;
+  color: #fff !important;
+  opacity: 0.3 !important;
+  text-align: left;
+}
+
+:focus {
+    outline: none !important;
+}
+
+.md-25 {
+  margin-bottom: 25px !important;
+}
+
+.md-30 {
+  margin-bottom: 30px !important;
+}
+
+.body_state_off {
+  overflow-y: hidden;
+}
+
 .root {  
   color: #fff;
   font-family: VisueltPro;
@@ -43,10 +67,6 @@ html {
   line-height: 17px;
   margin: 0 auto;
   overflow: hidden;
-}
-
-.body_state_off {
-  overflow-y: hidden;
 }
 
 .ol, .ul, .dl {
@@ -82,7 +102,7 @@ html {
   line-height: 24px;
   text-align: left;
   font-weight: bold;
-  margin-bottom: 23px;
+  margin-bottom: 0;
 }
 
 .p-basic {
@@ -91,6 +111,7 @@ html {
   line-height: 19px;
   text-align: left;
   padding-right: 24px;
+  margin-bottom: 0;
 }
 
 .a-white, 
@@ -104,14 +125,18 @@ html {
   line-height: 19px;
 }
 
-.hello {
-  color: red !important;
+.a-blue, 
+.a-blue:hover {
+  color: #143C7D;
+  font-family: VisueltPro;
+  font-size: 14px;
+  line-height: 17px;
+  text-align: left;
+  margin-bottom: 8px;
 }
 
 @media (max-width: 576px) {
-  .team__imgs {
-    display: none;
-  }
+
 }
 
 @media (max-width: 768px) {
