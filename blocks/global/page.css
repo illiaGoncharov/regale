@@ -9,6 +9,9 @@
 *, *:before, *:after {
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%; 
 }
 
 html {
@@ -129,8 +132,8 @@ html {
 .a-blue:hover {
   color: #143C7D;
   font-family: VisueltPro;
-  font-size: 14px;
-  line-height: 17px;
+  font-size: 16px;
+  line-height: 19px;
   text-align: left;
   margin-bottom: 8px;
 }

@@ -7,3 +7,9 @@
 	padding: 40px;
 	z-index: 1;
 }
+
+.main-services__list-item a::after {
+	content: "▸";
+	color: inherit;
+	opacity: 1;
+}
