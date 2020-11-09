@@ -1,4 +1,14 @@
 .dropdown__pic {
+	background-image: url('../../../../images/img-1.jpg');
+	background-size: cover;
+    background-position: center;
 	height: 200px;
-	object-fit: cover;
+}
+
+.dropdown__pic.ser-1 {
+	background-image: url('../../../../images/img-2.jpg');
+}
+
+.dropdown__pic.ser-2 {
+	background-image: url('../../../../images/img-3.jpg');
 }
