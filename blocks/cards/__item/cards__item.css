@@ -1,6 +1,6 @@
 .cards__item {
-	width: 250px;
-	margin-right: 24px;
+	/*width: 250px;
+	margin-right: 24px;*/
 } 
 
 @media (max-width: 576px) {

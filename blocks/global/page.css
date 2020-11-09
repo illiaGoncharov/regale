@@ -6,6 +6,9 @@
   -webkit-tap-highlight-color: #0000;
 }
 
+/*Значение optimizeLegibility (от англ. optimize legibility, в значении «оптимизировать читаемость») говорит браузеру, что кёрнинг и лигатуры должны быть отрисованы. Учтите, что такая настройка сильно замедлит рендеринг страницы в целом.*/
+
+
 *, *:before, *:after {
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
@@ -137,6 +140,12 @@ html {
   text-align: left;
   margin-bottom: 8px;
 }
+
+/*.a-blue:hover::before {
+  text-decoration: none;
+}
+*/
+
 
 @media (max-width: 576px) {
 

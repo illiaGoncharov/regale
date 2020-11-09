@@ -8,8 +8,9 @@
 	z-index: 1;
 }
 
-.main-services__list-item a::after {
+.main-services__list-item a::before {
 	content: "▸";
+	margin-right: 15px;
 	color: inherit;
 	opacity: 1;
 }

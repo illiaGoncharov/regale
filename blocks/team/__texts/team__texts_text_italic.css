@@ -8,19 +8,24 @@
 	padding-left: 100px;
 }
 
-@media (max-width: 576px) {
-
-}
-
-@media (max-width: 768px) {
+@media (max-width: 1200px) {
 	.team__texts_text_italic {
-		padding-left: 15px;
-	}
+		padding-right: 10%;
+	}	
 }
 
 @media (max-width: 992px) {
 }
 
-@media (max-width: 1200px) {
+@media (max-width: 768px) {
+	.team__texts_text_italic {
+		padding-left: 15px;
+		padding-right: 15px;
+	}
+}
+
+@media (max-width: 576px) {
 
 }
+
+
