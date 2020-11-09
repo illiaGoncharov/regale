@@ -328,8 +328,8 @@
             <li data-target="#headerCarousel" data-slide-to="2" class="carousel__circles"></li>
           </ul>
           <div class="carousel-inner header_carousel-inner" role="listbox">
-            <div class="carousel-item header_carousel__carousel-item active">
-              <img class="first-slide" src="./blocks/header/_carousel/overlay-1.png" alt="">
+            <div class="carousel-item header_carousel__carousel-item active" role="option">
+              <img src="./blocks/header/_carousel/overlay-1.png" alt="">
               <div class="container">
                 <div class="col-lg-7 carousel__title-container header_carousel__title-container" data-aos="fade-up" data-aos-duration="1500">
                   <h1 class="carousel__title header_carousel__title">
@@ -344,8 +344,8 @@
                 </div>
               </div>
             </div>
-            <div class="carousel-item header_carousel__carousel-item">
-              <img class="second-slide" src="./blocks/header/_carousel/overlay-2.png" alt="">
+            <div class="carousel-item header_carousel__carousel-item" role="option">
+              <img src="./blocks/header/_carousel/overlay-2.png" alt="">
               <div class="container">
                 <div class="col-lg-7 carousel__title-container header_carousel__title-container">
                   <h2 class="carousel__title header_carousel__title">
@@ -360,8 +360,8 @@
                 </div>
               </div>
             </div>
-            <div class="carousel-item header_carousel__carousel-item">
-              <img class="third-slide" src="./blocks/header/_carousel/overlay-3.png" alt="">
+            <div class="carousel-item header_carousel__carousel-item" role="option">
+              <img src="./blocks/header/_carousel/overlay-3.png" alt="">
               <div class="container">
                 <div class="col-lg-7 carousel__title-container header_carousel__title-container">
                  <h2 class="carousel__title header_carousel__title">
@@ -388,25 +388,25 @@
         </div>
         <ul class="row ul align-items-start cards">
           <li class="cards__item">
-            <h3 class="cards__title h3-blue mb-25">Гнатологический <br> подход</h3>
+            <h3 class="cards__title h3-blue mb-25">Гнатологический подход</h3>
             <p class="cards__description p-basic">
               Вспоминайте изученное — это позволит соединить разрозненные порции памяти.
             </p>
           </li>
           <li class="cards__item">
-            <h3 class="cards__title h3-blue mb-25">Лечение <br> под микроскопом</h3>
+            <h3 class="cards__title h3-blue mb-25">Лечение под микроскопом</h3>
             <p class="cards__description p-basic">
               Глубокие знания возникают, если чередовать сфокусированное и рассеянное мышление.
             </p>
           </li>
           <li class="cards__item">
-            <h3 class="cards__title h3-blue mb-25">Hi-tech <br> оборудование</h3>
+            <h3 class="cards__title h3-blue mb-25">Hi-tech оборудование</h3>
             <p class="cards__description p-basic">
               Изучайте несколько навыков одновременно, они обогащают друг друга.
             </p>
           </li>
           <li class="cards__item">
-            <h3 class="cards__title h3-blue mb-25">Комфорт <br> и безмятежность</h3>
+            <h3 class="cards__title h3-blue mb-25">Комфорт и безмятежность</h3>
             <p class="cards__description p-basic">
               Слушая преподавателя, придумывайте хороший вопрос, который вас действительно волнует.
             </p>
@@ -420,25 +420,52 @@
           <h2 class="section__title h2-black">Уникальный коллектив Regale</h2>
         </div>
         <ul class="team__texts ul">
-          <li class="col-lg-8 team__texts_text_italic"> 
+          <li class="col-lg-8 team__text_basic"> 
             <p>
               Создавая команду Regale, мы исходили из того, что доктор – это олицетворение добра, чистоты, сострадания и благородства. Поэтому неотъемлемым условием являются не только большой опыт и знания актуальные технологии, но и готовность постоянно совершенствоваться, делиться полученными знаниями с другими стоматологами. Каждый наш доктор обладает не только глубокими знаниями и большим опытом, но и большим сердцем, готовность потратить каждый день на благо здоровья пациентов.
             </p>
           </li>
-          <!-- <li class="team__texts_two_cols">
-            <div class="col-lg-3 ul p-basic">Клиника предоставляет широкий спектр услуг в различных областях стоматологии, от профилактики и отбеливания зубов до имплантации и установки сложных. </div>
-            <div class="col-lg-3 ul p-basic">Укомплектованность центра исключительно современным оборудованием способствует более эффективному.</div>
-          </li> -->
+          <div id="teamCarousel" class="col-lg-7 carousel team__text_italic" data-ride="carousel">
+            <ul class="carousel-inner ul">
+              <li class="carousel-item active">
+                <p class="p-basic">
+                  Мне в жизни очень повезло, я занимаюсь работой, которая работой для меня никогда не являлась. Стоматология это дело, всей моей жизни. С большой любовью принимаю пациентов. стараюсь сделать все, чтобы они были здоровы и не боялись нам доверять. В нашей профессии важно не останавливаться на достигнутых результатах. А постоянно учиться и совершенствовать свои навыки и знания.
+                </p>
+              </li>
+              <li class="carousel-item">
+                <p class="p-basic">
+                  Стоматология является значимой частью в моей жизни, ведь именно эта наука позволяет человеку улыбаться, иметь здоровые и крепкие зубы, становиться уверенным в себе. Я стараюсь всегда осваивать новые и новые знания в области хирургии, регулярно изучая передовые технологии, которые я использую на практике, так как нет ничего важнее прогресса в науке и практике , позволяющего нам двигаться вперёд.
+                </p>
+              </li>
+              <li class="carousel-item">
+                <p class="p-basic">
+                  Люблю свою профессию. Люблю своих пациентов. Люблю делать зубы здоровыми, а людей счастливыми. Когда лечишь людей не один год, всю семью, наблюдаешь, как растут дети, очень привязываешься сердцем и душой. Это уже больше , чем просто работа. Это дружба.
+                </p>
+              </li>
+            </ul>
+          </div>
         </ul>
-        <div class="team__imgs-container ul">
+        <div class="team__imgs-container active">
           <img class="team__imgs" src="./blocks/team/doctor-1.png" alt="Врач">
           <h3 style="" class="h3-blue team__imgs-name"> Полевой Роман Михайлович <br> Врач-ортодонт</h3>
           <div class="team__imgs-switcher"></div>
         </div>
+        <div class="team__imgs-container_hidden">
+          <img class="team__imgs" src="./blocks/team/doctor-2.png" alt="Врач">
+          <h3 style="" class="h3-blue team__imgs-name"> Базылева Галина Николаевна <br> Врач-ортодонт</h3>
+          <div class="team__imgs-switcher"></div>
+        </div>
+        <div class="team__imgs-container_hidden">
+          <img class="team__imgs" src="./blocks/team/doctor-1.png" alt="Врач">
+          <h3 style="" class="h3-blue team__imgs-name"> Евгений Анатольевич Мечников <br> Врач-ортодонт</h3>
+          <div class="team__imgs-switcher"></div>
+        </div>
+        <!-- <div class="team__imgs-container ul">
+          <img class="team__imgs" src="./blocks/team/doctor-1.png" alt="Врач">
+          <h3 style="" class="h3-blue team__imgs-name"> Полевой Роман Михайлович <br> Врач-ортодонт</h3>
+          <div class="team__imgs-switcher"></div>
+        </div> -->
       </section>
-
-      <!-- --- -->
-
       <section class="details" data-aos="fade-up">
         <div class="container">
           <div class="row section__header">
@@ -495,7 +522,6 @@
           </div>
         </section>
       </section>
-  
       <section class="main-services" data-aos="fade-up">
         <div class="container">
           <div class="row section__header">
@@ -513,9 +539,7 @@
                   </a>
                 </h3>
                 <p class="p-basic mb-30">
-                  <strong>
                     Спасти зуб от удаления и вернуть ему полноценную функцию - наша главная задача. Это сохранит прикус, правильную работу лицевых мышц и височно-нижнечелюстного сустава.
-                  </strong>
                 <br>
                 <br>
                   Использование современного оборудования и инновационных технологий лечения позволяет сделать все операции безболезненными, а посещение специалиста максимально комфортным.
@@ -553,9 +577,9 @@
                   </li>
                 </ul>
                 <ul class="list-inline">
-                  <li class="list-inline-item"><a class="a-blue" href="#">Lorem ipsum</a></li>
-                  <li class="list-inline-item"><a class="a-blue" href="#">Phasellus iaculis</a></li>
-                  <li class="list-inline-item"><a class="a-blue" href="#">Nulla volutpat</a></li>
+                  <li class="list-inline-item"><a class="a-blue" href="#"><strong>Записаться</strong></a></li>
+                  <li class="list-inline-item"><a class="a-blue" href="#"><strong>Подробнее</strong></a></li>
+                  <li class="list-inline-item"><a class="a-blue" href="#"><strong>Цены</strong></a></li>
                 </ul>
               </div>
             </div>
@@ -600,7 +624,8 @@
       </section>
 
       <section class="map">  
-        <iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3Abca18db7c0eea38875e4dc6b96d33ffacaef3c5931a77a9555fe78e600c2f01d&amp;source=constructor" width="100%" height="400" frameborder="0"></iframe>
+        <iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3Abca18db7c0eea38875e4dc6b96d33ffacaef3c5931a77a9555fe78e600c2f01d&amp;source=constructor" width="100%" height="400" frameborder="0">
+        </iframe>
       </section>
 
       <footer class="container footer">
@@ -666,7 +691,7 @@
   <script src="./assets/scripts/vendor/aos.js" type="text/javascript"></script>
   <script>
     AOS.init({
-      disable: true, // accepts following values: 'phone', 'tablet', 'mobile', boolean, expression or function
+      disable: false, // accepts following values: 'phone', 'tablet', 'mobile', boolean, expression or function
       startEvent: 'DOMContentLoaded', // name of the event dispatched on the document, that AOS should initialize on
       initClassName: false, // class applied after initialization
       animatedClassName: 'aos-animate', // class applied on animation
@@ -692,7 +717,7 @@
     });
 
      $('#navbarCol-1, #navbarCol-2').on('hide.bs.dropdown', function () {
-        $(this).parents('body').removeClass('body_state_off ');
+        $(this).parents('body').removeClass('body_state_off');
     });
   </script>
   <script>
@@ -707,25 +732,39 @@
     $('#headerCarousel').on('slide.bs.carousel', function() {
       currentIndex = $('.header_carousel__carousel-item.active').index() + 1;
      $('.header_carousel__num-controller').html(''+currentIndex+'/'+totalItems+'');
-  });
-  </script> 
-  <!-- <script>
-    $(document).ready(function() {
-       $("#myCarousel").swiperight(function() {
-          $(this).carousel('prev');
-        });
-       $("#myCarousel").swipeleft(function() {
-          $(this).carousel('next');
-       });
     });
-  </script> -->
-  <!-- <script> 
+  </script> 
+  <script> 
     $(document).ready(function() {
       $(window).scrollTop(0);
       $('.dropdown__column').click(function(e) {
           e.stopPropagation();
       });
     });        
-  </script> -->
+  </script>
+  <script>
+    let cur = 1;
+    $("#teamCarousel").bind('slide.bs.carousel', function (e) {
+      if (cur < 3) {
+        $('.team__imgs-container.active')
+          .addClass('team__imgs-container_hidden')
+          .removeClass('team__imgs-container active')
+            .next()
+              .removeClass('team__imgs-container_hidden')
+              .addClass('team__imgs-container active');
+        console.log(cur);
+        cur = cur + 1;
+      } else {
+        $('.team__imgs-container.active')
+          .removeClass('team__imgs-container active')
+          .addClass('team__imgs-container_hidden');
+        $('.team__imgs-container_hidden').eq(0)
+          .removeClass('team__imgs-container_hidden')
+          .addClass('team__imgs-container active');
+        console.log(cur + "!");
+        cur = 1;
+      }
+    });
+  </script> 
 </body>
 </html>

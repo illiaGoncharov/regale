@@ -1,4 +1,6 @@
-.team__texts_two_cols {
+.team__text_basic {
+	margin: 0;
+	padding: 0;
 	width: inherit;
 	height: inherit;
 	display: flex;
@@ -15,7 +17,7 @@
 }
 
 @media (max-width: 768px) {
-	.team__texts_two_cols {
+	.team__text_basic {
 		padding-left: 15px;
 	}
 }

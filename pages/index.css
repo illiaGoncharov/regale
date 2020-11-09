@@ -46,11 +46,11 @@
 
 @import url("../blocks/team/team.css");
 @import url("../blocks/team/__texts/team__texts.css");
-@import url("../blocks/team/__texts/team__texts_text_italic.css");
-@import url("../blocks/team/__texts/team__texts_two_cols.css");
-
+@import url("../blocks/team/__text/team__text_italic.css");
+@import url("../blocks/team/__text/team__text_basic.css");
 @import url("../blocks/team/__imgs/team__imgs.css");
 @import url("../blocks/team/__imgs-container/team__imgs-container.css");
+@import url("../blocks/team/__imgs-container/_hidden/team__imgs-container_hidden.css");
 @import url("../blocks/team/__imgs-name/team__imgs-name.css");
 
 @import url("../blocks/details/details.css");
