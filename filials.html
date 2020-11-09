@@ -3,17 +3,21 @@
 <head>
 	<meta http-equiv="Content-Type"  content="text/html; charset=utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Regale - инновационная стоматология</title>
+	<title>Regale - Карты</title>
   <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-	<link rel="stylesheet" href="./pages/index.css">
+	<link rel="stylesheet" href="./pages/team.css">
 </head>
 <body>
+  <!-- мета 
+  меню 
+  форма
+  скрипт дропдаун -->
   <div class="root">
     <header class="container header">
-      <nav class="container navbar navbar-expand-lg navbar-dark header__menu">
+      <nav class="container navbar navbar-expand-lg navbar-light header__menu">
         <div class="collapse navbar-collapse justify-content-between" id="navbarCol-1">
           <ul class="navbar-nav">
-            <li class="nav-item header__list-item active">
+            <li class="nav-item header__list-item">
               <a class="nav-link header__link-item" href="./index.html">
                 Главная
               </a> 
@@ -253,7 +257,7 @@
             <li class="nav-item header__list-item">
               <a class="nav-link header__link-item" href="./prices.html">Цены</a>
             </li>
-            <li class="nav-item header__list-item">
+            <li class="nav-item header__list-item active">
               <a class="nav-link header__link-item" href="./filials.html">Наши клиники</a>
             </li>
             <li class="nav-item header__list-item">
@@ -289,13 +293,13 @@
             </li>     
           </ul>
           <ul class="navbar-nav">
-            <li class="nav-item header__list-item header_user_Mobile__list-item active">
+            <li class="nav-item header__list-item header_user_Mobile__list-item">
               <a class="nav-link header_user_Mobile__link-item" href="./index.html">Главная</a>
             </li>
             <li class="nav-item header__list-item header_user_Mobile__list-item">
               <a class="nav-link header_user_Mobile__link-item" href="./prices.html">Цены</a>
             </li>
-            <li class="nav-item header__list-item header_user_Mobile__list-item">
+            <li class="nav-item header__list-item header_user_Mobile__list-item active">
               <a class="nav-link header_user_Mobile__link-item" href="./filials.html">Наши клиники</a>
             </li>
             <li class="nav-item header__list-item header_user_Mobile__list-item">
@@ -345,294 +349,33 @@
           </ul>
         </div>
       </nav>
-      <section class="header_carousel" data-aos="fade-up" data-aos-duration="2000">
-        <div id="headerCarousel" class="carousel slide carousel-fade" data-ride="carousel">
-          <div class="header_carousel__num-controller-container">
-            <a class="a-white header_carousel__num-arrow" href="#headerCarousel" role="button" data-slide="prev">
-             <!--  &#9668 --> 
-             <!-- ◂ -->
-             ▸
-            </a>
-            <div class="header_carousel__num-controller"></div>
-            <a class="a-white header_carousel__num-arrow" href="#headerCarousel" role="button" data-slide="next">
-              ▸
-              <!-- &#9658 -->
-            </a>
-          </div>
-          <ul class="carousel-indicators header_carousel__carousel-indicators">
-            <li data-target="#headerCarousel" data-slide-to="0" class="carousel__circles active"></li>
-            <li data-target="#headerCarousel" data-slide-to="1" class="carousel__circles"></li>
-            <li data-target="#headerCarousel" data-slide-to="2" class="carousel__circles"></li>
-          </ul>
-          <div class="carousel-inner header_carousel-inner" role="listbox">
-            <div class="carousel-item header_carousel__carousel-item active" role="option">
-              <img src="./blocks/header/_carousel/overlay-1.png" alt="">
-              <div class="container">
-                <div class="col-lg-7 carousel__title-container header_carousel__title-container" data-aos="fade-up" data-aos-duration="1500">
-                  <h1 class="carousel__title header_carousel__title">
-                    Центр инновационной стоматологии Regale
-                  </h1>
-                  <p class="carousel__subtitle header_carousel__subtitle">
-                    Откройте для себя стоматологию по-новому: ультрасовременные технологии сочетаются с расслабляющим комфортом
-                  </p>
-                  <a class="btn btn-lg btn-primary header_carousel__main_button" href="#" role="button">  
-                    Записаться
-                  </a>
-                </div>
-              </div>
-            </div>
-            <div class="carousel-item header_carousel__carousel-item" role="option">
-              <img src="./blocks/header/_carousel/overlay-2.png" alt="">
-              <div class="container">
-                <div class="col-lg-7 carousel__title-container header_carousel__title-container">
-                  <h2 class="carousel__title header_carousel__title">
-                    Центр инновационной стоматологии Regale
-                  </h2>
-                  <p class="carousel__subtitle header_carousel__subtitle">
-                    Комплексный подход к заботе о вашем здоровье: в диагностике и лечении мы придерживаемся протокола Венской школы междисциплинарной стоматологии VieSID
-                  </p>
-                  <a class="btn btn-lg btn-primary header_carousel__main_button" href="#" role="button">
-                    Записаться
-                  </a>
-                </div>
-              </div>
-            </div>
-            <div class="carousel-item header_carousel__carousel-item" role="option">
-              <img src="./blocks/header/_carousel/overlay-3.png" alt="">
-              <div class="container">
-                <div class="col-lg-7 carousel__title-container header_carousel__title-container">
-                 <h2 class="carousel__title header_carousel__title">
-                    Центр инновационной стоматологии Regale
-                  </h2>
-                  <p class="carousel__subtitle header_carousel__subtitle">
-                    Regale один из самых современных стоматологических центров в Европе, Наш центр изначально был задуман как уникальное место, в которой собраны все самое современное оборудование и технологии
-                  </p>
-                  <a class="btn btn-lg btn-primary header_carousel__main_button" href="#" role="button">
-                    Записаться
-                  </a>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>    
+      <section style="pointer-events: none;" class="filials__map">
+          <iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3Abca18db7c0eea38875e4dc6b96d33ffacaef3c5931a77a9555fe78e600c2f01d&amp;scroll=false source=constructor;scroll=false" width="100%" height="590" frameborder="0">
+          </iframe>
+      </section>
     </header>
-    <main class="content">
-      <section class="container" data-aos="fade-up">
-        <div class="row section__header">
-          <div class="rectangle align-self-center"></div>
-          <h2 class="section__title h2-black">Наши преимущества</h2>
-        </div>
-        <ul class="row ul align-items-start cards">
-          <li class="cards__item">
-            <h3 class="cards__title h3-blue mb-25">Гнатологический подход</h3>
-            <p class="cards__description p-basic">
-              Вспоминайте изученное — это позволит соединить разрозненные порции памяти.
-            </p>
-          </li>
-          <li class="cards__item">
-            <h3 class="cards__title h3-blue mb-25">Лечение под микроскопом</h3>
-            <p class="cards__description p-basic">
-              Глубокие знания возникают, если чередовать сфокусированное и рассеянное мышление.
-            </p>
-          </li>
-          <li class="cards__item">
-            <h3 class="cards__title h3-blue mb-25">Hi-tech оборудование</h3>
-            <p class="cards__description p-basic">
-              Изучайте несколько навыков одновременно, они обогащают друг друга.
-            </p>
-          </li>
-          <li class="cards__item">
-            <h3 class="cards__title h3-blue mb-25">Комфорт и безмятежность</h3>
-            <p class="cards__description p-basic">
-              Слушая преподавателя, придумывайте хороший вопрос, который вас действительно волнует.
-            </p>
-          </li>
-        </ul>
-      </section>
-      <div class="container devider" data-aos="zoom-in"></div>
-      <section class="container team" data-aos="fade-up">
-        <div class="row section__header">
-          <div class="rectangle align-self-center"></div>
-          <h2 class="section__title h2-black">Уникальный коллектив Regale</h2>
-        </div>
-        <ul class="team__texts ul">
-          <li class="col-lg-8 team__text_basic"> 
-            <p>
-              Создавая команду Regale, мы исходили из того, что доктор – это олицетворение добра, чистоты, сострадания и благородства. Поэтому неотъемлемым условием являются не только большой опыт и знания актуальные технологии, но и готовность постоянно совершенствоваться, делиться полученными знаниями с другими стоматологами. Каждый наш доктор обладает не только глубокими знаниями и большим опытом, но и большим сердцем, готовность потратить каждый день на благо здоровья пациентов.
-            </p>
-          </li>
-          <div id="teamCarousel" class="col-lg-7 carousel team__text_italic" data-ride="carousel">
-            <ul class="carousel-inner ul">
-              <li class="carousel-item active">
-                <p class="p-basic">
-                  Мне в жизни очень повезло, я занимаюсь работой, которая работой для меня никогда не являлась. Стоматология это дело, всей моей жизни. С большой любовью принимаю пациентов. стараюсь сделать все, чтобы они были здоровы и не боялись нам доверять. В нашей профессии важно не останавливаться на достигнутых результатах. А постоянно учиться и совершенствовать свои навыки и знания.
-                </p>
-              </li>
-              <li class="carousel-item">
-                <p class="p-basic">
-                  Стоматология является значимой частью в моей жизни, ведь именно эта наука позволяет человеку улыбаться, иметь здоровые и крепкие зубы, становиться уверенным в себе. Я стараюсь всегда осваивать новые и новые знания в области хирургии, регулярно изучая передовые технологии, которые я использую на практике, так как нет ничего важнее прогресса в науке и практике , позволяющего нам двигаться вперёд.
-                </p>
-              </li>
-              <li class="carousel-item">
-                <p class="p-basic">
-                  Люблю свою профессию. Люблю своих пациентов. Люблю делать зубы здоровыми, а людей счастливыми. Когда лечишь людей не один год, всю семью, наблюдаешь, как растут дети, очень привязываешься сердцем и душой. Это уже больше , чем просто работа. Это дружба.
-                </p>
-              </li>
-            </ul>
-          </div>
-        </ul>
-        <div class="team__imgs-container active">
-          <img class="team__imgs" src="./blocks/team/doctor-1.png" alt="Врач">
-          <h3 style="" class="h3-blue team__imgs-name"> Полевой Роман Михайлович <br> Врач-ортодонт</h3>
-          <div class="team__imgs-switcher"></div>
-        </div>
-        <div class="team__imgs-container_hidden">
-          <img class="team__imgs" src="./blocks/team/doctor-2.png" alt="Врач">
-          <h3 style="" class="h3-blue team__imgs-name"> Базылева Галина Николаевна <br> Врач-ортодонт</h3>
-          <div class="team__imgs-switcher"></div>
-        </div>
-        <div class="team__imgs-container_hidden">
-          <img class="team__imgs" src="./blocks/team/doctor-1.png" alt="Врач">
-          <h3 style="" class="h3-blue team__imgs-name"> Евгений Анатольевич Мечников <br> Врач-ортодонт</h3>
-          <div class="team__imgs-switcher"></div>
-        </div>
-        <!-- <div class="team__imgs-container ul">
-          <img class="team__imgs" src="./blocks/team/doctor-1.png" alt="Врач">
-          <h3 style="" class="h3-blue team__imgs-name"> Полевой Роман Михайлович <br> Врач-ортодонт</h3>
-          <div class="team__imgs-switcher"></div>
-        </div> -->
-      </section>
-      <section class="details" data-aos="fade-up">
-        <div class="container">
-          <div class="row section__header">
-            <div class="rectangle align-self-center"></div>
-            <h2 class="section__title h2-black">Клиника в деталях</h2>
-          </div>
-        </div>  
-        <section class="container-fluid details_carousel">
-          <div id="detailsCarousel" class="carousel slide carousel-fade" data-ride="carousel">
-            <div class="carousel-inner details_carousel-inner">
-              <div class="carousel-item details_carousel__carousel-item active">
-                <img class="first-slide" src="./images/img-12.jpg" alt="details-img-1">
-                <div class="container">
-                  <div class="col-lg-5 details__info-module" data-aos="zoom-in" >
-                    <h3 style="" class="h3-blue mb-30">Интерьер</h3>
-                    <p class="p-basic">
-                      Для создания комфортного и безмятежного пространства мы пригласили итальянского дизайнера Франческо Бинфаре.
-                    </p>
-                  </div>
-                </div>
-              </div>
-              <div class="carousel-item details_carousel__carousel-item">
-                <!-- <img class="d-block details__img" src="./blocks/details/details-img-1.png" alt="details-img-1"> -->
-                <img class="second-slide" src="./images/img-5.jpg" alt="details-img-1">
-                <div class="container">
-                  <div class="col-lg-5 details__info-module" data-aos="zoom-in" >
-                    <h3 style="" class="h3-blue mb-30">Оборудование</h3>
-                    <p class="p-basic">
-                      Все реставрации и микротекстура зуба делается только под микроскопом. Качество лечения увеличивается во много раз. Анатомия зуба получается на микроуровне.
-                    </p>
-                  </div>
-                </div>
-              </div>
-              <div class="carousel-item details_carousel__carousel-item">
-                <img class="third-slide" src="./images/img-7.jpg" alt="details-img-1">
-                <div class="container">
-                  <div class="col-lg-5 details__info-module" data-aos="zoom-in" >
-                    <h3 style="" class="h3-blue mb-30">Детская стоматология</h3>
-                    <p class="p-basic">
-                      Мы заботимся о том, чтобы первое посещение стоматолога самыми маленькими пациентами не оставило неприятных воспоминаний и они никогда не боялись приходить к стоматологу.
-                    </p>
-                  </div>
-                </div>
-              </div>
-              <a class="carousel-control-prev" href="#detailsCarousel" role="button" data-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="sr-only">Прошлый слайд</span>
-              </a>
-              <a class="carousel-control-next" href="#detailsCarousel" role="button" data-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="sr-only">Следующий слайд</span>
-              </a>
-            </div> 
-          </div>
-        </section>
-      </section>
-      <section class="main-services" data-aos="fade-up">
-        <div class="container">
-          <div class="row section__header">
-            <div class="rectangle align-self-center"></div>
-            <h2 class="section__title h2-black">Популярные виды лечения</h2>
-          </div>
-        </div>
-        <div class="container">
-          <div class="col-lg-6 align-self-center main-services__info-module" data-aos="zoom-in">
-            <div class="main-services__module">
-              <div>
-                <h3 style="" class="mb-30">
-                  <a class="h3-blue" href="./services/lechenie_z/lechenie_z.html">
-                    Лечение зубов и десен
-                  </a>
-                </h3>
-                <p class="p-basic mb-30">
-                    Спасти зуб от удаления и вернуть ему полноценную функцию - наша главная задача. Это сохранит прикус, правильную работу лицевых мышц и височно-нижнечелюстного сустава.
-                <br>
-                <br>
-                  Использование современного оборудования и инновационных технологий лечения позволяет сделать все операции безболезненными, а посещение специалиста максимально комфортным.
-                </p>
-                <ul class="ul main-services__list  mb-30">
-                  <li class="main-services__list-item">
-                    <a class="a-blue" href="./services/lechenie_z/lechenie_z_1.html">
-                      Лечение зубов под микроскопом
-                    </a>
-                  </li>
-                  <li class="main-services__list-item">
-                    <a class="a-blue" href="./services/lechenie_z/lechenie_z_2.html">
-                      Лечение кариеса
-                    </a>
-                  </li>
-                  <li class="main-services__list-item">
-                    <a class="a-blue" href="./services/lechenie_z/lechenie_z_3.html">
-                      Лечение пульпита и периодонтита
-                    </a>
-                  </li>
-                  <li class="main-services__list-item">
-                    <a class="a-blue" href="./services/lechenie_z/lechenie_z_4.html">
-                      Пародонтология
-                    </a>
-                  </li>
-                  <li class="main-services__list-item">
-                    <a class="a-blue" href="./services/lechenie_z/lechenie_z_5.html">
-                      Лечение зубов за 1 день
-                    </a>
-                  </li>
-                  <li class="main-services__list-item">
-                    <a class="a-blue" href="./services/lechenie_z/lechenie_z_6.html">
-                      Лечение зубов при беременности
-                    </a>
-                  </li>
-                </ul>
-                <ul class="list-inline">
-                  <li class="list-inline-item"><a class="a-blue" href="#"><strong>Записаться</strong></a></li>
-                  <li class="list-inline-item"><a class="a-blue" href="#"><strong>Подробнее</strong></a></li>
-                  <li class="list-inline-item"><a class="a-blue" href="#"><strong>Цены</strong></a></li>
-                </ul>
-              </div>
-            </div>
-          </div>
-        </div>
-        <img class="main-services__img" src="./blocks/main-services/__img/main-services-img-1.png" alt="details-img-1">
-      </section>
 
-      <!-- Эстетическая стоматология
-      Красивая и естественная улыбка перестает быть мечтой и становится реальностью в Regale.
-      Сочетание развитого художественного вкуса и мастерства наших специалистов, европейских материалов, передовых технологий и оборудования - микроскопа, 3D-диагностики и артикулятора - является гарантией того, что вскоре вы встретите новый день с новой улыбкой.
-      Виниры и ультратонкие виниры Художественная реставрация зубов Отбеливание зубов -->
-      <!-- Имплантация и хирургия
-      Аккуратное и безболезненное проведение операций с заботой о вашем самочувствии
-      Все реставрации и микротекстура зуба делается только под микроскопом. Качество лечения увеличивается во много раз. Анатомия зуба получается на микроуровне. -->
-      
+    <main class="content">
+      <section class="adresses">
+        <div class="container adress">
+          <div class="row section__header">
+            <div class="rectangle align-self-center"></div>
+            <h2 class="section__title h2-black">Лосиновская 72</h2>
+          </div>
+        </div>
+         <div class="container adress">
+          <div class="row section__header">
+            <div class="rectangle align-self-center"></div>
+            <h2 class="section__title h2-black">Арбарт 12к1</h2>
+          </div>
+        </div>
+         <div class="container adress">
+          <div class="row section__header">
+            <div class="rectangle align-self-center"></div>
+            <h2 class="section__title h2-black">Коломенская 12к1</h2>
+          </div>
+        </div>
+      </section>
       <section class="form" data-aos="fade-up" data-aos-duration="800">
         <div class="container">
           <div class="form__title-container">
@@ -659,12 +402,6 @@
           </form>
         </div>
       </section>
-
-      <section class="map">  
-        <iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3Abca18db7c0eea38875e4dc6b96d33ffacaef3c5931a77a9555fe78e600c2f01d&amp;source=constructor" width="100%" height="400" frameborder="0">
-        </iframe>
-      </section>
-
       <footer class="container footer">
         <div class="row footer__columns">
           <ul class="col-lg-3 ul footer__column">
@@ -757,20 +494,6 @@
         $(this).parents('body').removeClass('body_state_off');
     });
   </script>
-  <script>
-    let totalItems = $('.header_carousel__carousel-item').length;
-    let currentIndex = $('.header_carousel__carousel-item.active').index() + 1;
-    $('.header_carousel__num-controller').html(''+currentIndex+'/'+totalItems+'');
-
-    $('#headerCarousel').carousel({
-        interval: 3500
-    });
-
-    $('#headerCarousel').on('slide.bs.carousel', function() {
-      currentIndex = $('.header_carousel__carousel-item.active').index() + 1;
-     $('.header_carousel__num-controller').html(''+currentIndex+'/'+totalItems+'');
-    });
-  </script> 
   <script> 
     $(document).ready(function() {
       $(window).scrollTop(0);
@@ -779,30 +502,6 @@
       });
     });        
   </script>
-  <script>
-    let cur = 1;
-    $("#teamCarousel").bind('slide.bs.carousel', function (e) {
-      if (cur < 3) {
-        $('.team__imgs-container.active')
-          .addClass('team__imgs-container_hidden')
-          .removeClass('team__imgs-container active')
-            .next()
-              .removeClass('team__imgs-container_hidden')
-              .addClass('team__imgs-container active');
-        console.log(cur);
-        cur = cur + 1;
-      } else {
-        $('.team__imgs-container.active')
-          .removeClass('team__imgs-container active')
-          .addClass('team__imgs-container_hidden');
-        $('.team__imgs-container_hidden').eq(0)
-          .removeClass('team__imgs-container_hidden')
-          .addClass('team__imgs-container active');
-        console.log(cur + "!");
-        cur = 1;
-      }
-    });
-  </script> 
   <script>
     $(document).ready(function(){
       $('.dropdown__link-item:eq(0)').hover(function(){
@@ -816,6 +515,8 @@
           $(".dropdown__pic").removeClass("ser-2");
       });
     });
+  </script> 
+  <script>
   </script> 
 </body>
 </html>
