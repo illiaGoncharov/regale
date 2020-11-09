@@ -308,18 +308,27 @@
           </ul>
         </div>
       </nav>
-      <section class="carousel header_carousel" data-aos="fade-up" data-aos-duration="2000">
-        <div id="headerCarousel" class="carousel carousel-fade " data-ride="carousel">
-          <ol class="carousel-indicators header_carousel__carousel-indicators">
+      <section class="header_carousel" data-aos="fade-up" data-aos-duration="2000">
+        <div id="headerCarousel" class="carousel slide carousel-fade" data-ride="carousel">
+          <div class="header_carousel__num-controller-container">
+            <a class="a-white header_carousel__num-arrow" href="#headerCarousel" role="button" data-slide="prev">
+             <!--  &#9668 --> 
+             <!-- ◂ -->
+             ▸
+            </a>
+            <div class="header_carousel__num-controller"></div>
+            <a class="a-white header_carousel__num-arrow" href="#headerCarousel" role="button" data-slide="next">
+              ▸
+              <!-- &#9658 -->
+            </a>
+          </div>
+          <ul class="carousel-indicators header_carousel__carousel-indicators">
             <li data-target="#headerCarousel" data-slide-to="0" class="carousel__circles active"></li>
             <li data-target="#headerCarousel" data-slide-to="1" class="carousel__circles"></li>
             <li data-target="#headerCarousel" data-slide-to="2" class="carousel__circles"></li>
-            <!-- <li data-target="#headerCarousel" data-slide-to="3" class="carousel__circles"></li>
-            <li data-target="#headerCarousel" data-slide-to="4" class="carousel__circles"></li>
-            <li data-target="#headerCarousel" data-slide-to="5" class="carousel__circles"></li> -->
-          </ol>
-          <div class="carousel-inner header_carousel-inner">
-            <div class="carousel-item header_carousel__carousel-item active" data-interval="2500" >
+          </ul>
+          <div class="carousel-inner header_carousel-inner" role="listbox">
+            <div class="carousel-item header_carousel__carousel-item active">
               <img class="first-slide" src="./blocks/header/_carousel/overlay-1.png" alt="">
               <div class="container">
                 <div class="col-lg-7 carousel__title-container header_carousel__title-container" data-aos="fade-up" data-aos-duration="1500">
@@ -335,7 +344,7 @@
                 </div>
               </div>
             </div>
-            <div class="carousel-item header_carousel__carousel-item" data-interval="2500">
+            <div class="carousel-item header_carousel__carousel-item">
               <img class="second-slide" src="./blocks/header/_carousel/overlay-2.png" alt="">
               <div class="container">
                 <div class="col-lg-7 carousel__title-container header_carousel__title-container">
@@ -351,7 +360,7 @@
                 </div>
               </div>
             </div>
-            <div class="carousel-item header_carousel__carousel-item" data-interval="2500">
+            <div class="carousel-item header_carousel__carousel-item">
               <img class="third-slide" src="./blocks/header/_carousel/overlay-3.png" alt="">
               <div class="container">
                 <div class="col-lg-7 carousel__title-container header_carousel__title-container">
@@ -367,36 +376,6 @@
                 </div>
               </div>
             </div>
-            <!-- <div class="carousel-item header_carousel__carousel-item" data-interval="2500" >
-              <img class="first-slide" src="./blocks/header/_carousel/overlay-1.png" alt="">
-              <div class="container">
-                <div class="col-lg-7 carousel__title-container header_carousel__title-container" data-aos="fade-up" data-aos-duration="1500">
-                  <h1 class="carousel__title header_carousel__title">Центры инновационной стоматологии Regale</h1>
-                  <p class="carousel__subtitle header_carousel__subtitle">Философия наших центров – создавать улыбки, которые дарят своим владельцам уверенность и свободу общения</p>
-                  <a class="btn btn-lg btn-primary header_carousel__main_button" href="#" role="button">Записаться</a>
-                </div>
-              </div>
-            </div>
-            <div class="carousel-item header_carousel__carousel-item" data-interval="2500">
-              <img class="second-slide" src="./blocks/header/_carousel/overlay-2.png" alt="">
-              <div class="container">
-                <div class="col-lg-7 carousel__title-container header_carousel__title-container">
-                  <h2 class="carousel__title header_carousel__title">Сеть стоматологических клиник. Мы работаем, чтобы вы улыбались.</h2>
-                  <p class="carousel__subtitle header_carousel__subtitle">Философия наших центров – создавать улыбки, которые дарят своим владельцам уверенность и свободу общения</p>
-                  <a class="btn btn-lg btn-primary header_carousel__main_button" href="#" role="button">Записаться</a>
-                </div>
-              </div>
-            </div>
-            <div class="carousel-item header_carousel__carousel-item" data-interval="2500">
-              <img class="third-slide" src="./blocks/header/_carousel/overlay-3.png" alt="">
-              <div class="container">
-                <div class="col-lg-7 carousel__title-container header_carousel__title-container">
-                 <h2 class="carousel__title header_carousel__title">Центры инновационной стоматологии Regale</h2>
-                  <p class="carousel__subtitle header_carousel__subtitle">Философия наших центров – создавать улыбки, которые дарят своим владельцам уверенность и свободу общения</p>
-                  <a class="btn btn-lg btn-primary header_carousel__main_button" href="#" role="button">Записаться</a>
-                </div>
-              </div>
-            </div> -->
           </div>
         </div>
       </section>    
@@ -409,25 +388,25 @@
         </div>
         <ul class="row ul align-items-start cards">
           <li class="cards__item">
-            <h3 class="cards__title h3-blue md-30">Гнатологический <br> подход</h3>
+            <h3 class="cards__title h3-blue mb-25">Гнатологический <br> подход</h3>
             <p class="cards__description p-basic">
               Вспоминайте изученное — это позволит соединить разрозненные порции памяти.
             </p>
           </li>
           <li class="cards__item">
-            <h3 class="cards__title h3-blue md-30">Лечение <br> под микроскопом</h3>
+            <h3 class="cards__title h3-blue mb-25">Лечение <br> под микроскопом</h3>
             <p class="cards__description p-basic">
               Глубокие знания возникают, если чередовать сфокусированное и рассеянное мышление.
             </p>
           </li>
           <li class="cards__item">
-            <h3 class="cards__title h3-blue md-30">Hi-tech <br> оборудование</h3>
+            <h3 class="cards__title h3-blue mb-25">Hi-tech <br> оборудование</h3>
             <p class="cards__description p-basic">
               Изучайте несколько навыков одновременно, они обогащают друг друга.
             </p>
           </li>
           <li class="cards__item">
-            <h3 class="cards__title h3-blue md-30">Комфорт <br> и безмятежность</h3>
+            <h3 class="cards__title h3-blue mb-25">Комфорт <br> и безмятежность</h3>
             <p class="cards__description p-basic">
               Слушая преподавателя, придумывайте хороший вопрос, который вас действительно волнует.
             </p>
@@ -467,14 +446,14 @@
             <h2 class="section__title h2-black">Клиника в деталях</h2>
           </div>
         </div>  
-        <section class="container-fluid carousel details_carousel">
-          <div id="detailsCarousel" class="carousel slide  carousel_fade" data-ride="carousel">
+        <section class="container-fluid details_carousel">
+          <div id="detailsCarousel" class="carousel slide carousel-fade" data-ride="carousel">
             <div class="carousel-inner details_carousel-inner">
               <div class="carousel-item details_carousel__carousel-item active">
-                <img class="first-slide" src="./blocks/details/_carousel/overlay-1.png" alt="details-img-1">
+                <img class="first-slide" src="./images/img-12.jpg" alt="details-img-1">
                 <div class="container">
                   <div class="col-lg-5 details__info-module" data-aos="zoom-in" >
-                    <h3 style="" class="h3-blue md-30">Интерьер</h3>
+                    <h3 style="" class="h3-blue mb-30">Интерьер</h3>
                     <p class="p-basic">
                       Для создания комфортного и безмятежного пространства мы пригласили итальянского дизайнера Франческо Бинфаре.
                     </p>
@@ -483,10 +462,10 @@
               </div>
               <div class="carousel-item details_carousel__carousel-item">
                 <!-- <img class="d-block details__img" src="./blocks/details/details-img-1.png" alt="details-img-1"> -->
-                <img class="second-slide" src="./blocks/details/_carousel/overlay-2.png" alt="details-img-1">
+                <img class="second-slide" src="./images/img-5.jpg" alt="details-img-1">
                 <div class="container">
                   <div class="col-lg-5 details__info-module" data-aos="zoom-in" >
-                    <h3 style="" class="h3-blue md-30">Оборудование</h3>
+                    <h3 style="" class="h3-blue mb-30">Оборудование</h3>
                     <p class="p-basic">
                       Все реставрации и микротекстура зуба делается только под микроскопом. Качество лечения увеличивается во много раз. Анатомия зуба получается на микроуровне.
                     </p>
@@ -494,10 +473,10 @@
                 </div>
               </div>
               <div class="carousel-item details_carousel__carousel-item">
-                <img class="third-slide" src="./blocks/details/_carousel/overlay-3.png" alt="details-img-1">
+                <img class="third-slide" src="./images/img-7.jpg" alt="details-img-1">
                 <div class="container">
                   <div class="col-lg-5 details__info-module" data-aos="zoom-in" >
-                    <h3 style="" class="h3-blue md-30">Детская стоматология</h3>
+                    <h3 style="" class="h3-blue mb-30">Детская стоматология</h3>
                     <p class="p-basic">
                       Мы заботимся о том, чтобы первое посещение стоматолога самыми маленькими пациентами не оставило неприятных воспоминаний и они никогда не боялись приходить к стоматологу.
                     </p>
@@ -524,17 +503,16 @@
             <h2 class="section__title h2-black">Популярные виды лечения</h2>
           </div>
         </div>
-
         <div class="container">
-          <div class="col-lg-6 main-services__info-module" data-aos="zoom-in">
+          <div class="col-lg-6 align-self-center main-services__info-module" data-aos="zoom-in">
             <div class="main-services__module">
               <div>
-                <h3 style="" class="md-30">
+                <h3 style="" class="mb-30">
                   <a class="h3-blue" href="./services/lechenie_z/lechenie_z.html">
                     Лечение зубов и десен
                   </a>
                 </h3>
-                <p class="p-basic md-30">
+                <p class="p-basic mb-30">
                   <strong>
                     Спасти зуб от удаления и вернуть ему полноценную функцию - наша главная задача. Это сохранит прикус, правильную работу лицевых мышц и височно-нижнечелюстного сустава.
                   </strong>
@@ -542,7 +520,7 @@
                 <br>
                   Использование современного оборудования и инновационных технологий лечения позволяет сделать все операции безболезненными, а посещение специалиста максимально комфортным.
                 </p>
-                <ul class="ul main-services__list">
+                <ul class="ul main-services__list  mb-30">
                   <li class="main-services__list-item">
                     <a class="a-blue" href="./services/lechenie_z/lechenie_z_1.html">
                       Лечение зубов под микроскопом
@@ -574,19 +552,25 @@
                     </a>
                   </li>
                 </ul>
+                <ul class="list-inline">
+                  <li class="list-inline-item"><a class="a-blue" href="#">Lorem ipsum</a></li>
+                  <li class="list-inline-item"><a class="a-blue" href="#">Phasellus iaculis</a></li>
+                  <li class="list-inline-item"><a class="a-blue" href="#">Nulla volutpat</a></li>
+                </ul>
               </div>
-              <!-- Эстетическая стоматология
+            </div>
+          </div>
+        </div>
+        <img class="main-services__img" src="./blocks/main-services/__img/main-services-img-1.png" alt="details-img-1">
+      </section>
+
+      <!-- Эстетическая стоматология
 Красивая и естественная улыбка перестает быть мечтой и становится реальностью в Regale.
 Сочетание развитого художественного вкуса и мастерства наших специалистов, европейских материалов, передовых технологий и оборудования - микроскопа, 3D-диагностики и артикулятора - является гарантией того, что вскоре вы встретите новый день с новой улыбкой.
 Виниры и ультратонкие виниры Художественная реставрация зубов Отбеливание зубов -->
 <!-- Имплантация и хирургия
 Аккуратное и безболезненное проведение операций с заботой о вашем самочувствии
 Все реставрации и микротекстура зуба делается только под микроскопом. Качество лечения увеличивается во много раз. Анатомия зуба получается на микроуровне. -->
-            </div>
-          </div>
-        </div>
-        <img class="main-services__img" src="./blocks/main-services/__img/main-services-img-1.png" alt="details-img-1">
-      </section>
       
       <section class="form" data-aos="fade-up" data-aos-duration="800">
         <div class="container">
@@ -649,7 +633,7 @@
           </ul>
           <ul class="col-lg-2 ul footer__column">
             <h4 class="footer__column-heading h3-blue">Меню</h4>
-            <div class="rectangle footer__rectangle md-25"></div>
+            <div class="rectangle footer__rectangle mb-25"></div>
             <li class="footer__column-link">
               <a class="a-blue" href="./services.html">Виды лечения</a>
             </li>
@@ -665,7 +649,7 @@
           </ul>
           <ul class="col-lg-2 ul footer__column">
             <h4 class="footer__column-heading h3-blue">Поддержка</h4>
-            <div class="rectangle footer__rectangle md-25"></div>
+            <div class="rectangle footer__rectangle mb-25"></div>
               <li class="footer__column-link">
                 <a class="a-blue" href="./terms.html">Условия</a>
               </li>
@@ -682,7 +666,7 @@
   <script src="./assets/scripts/vendor/aos.js" type="text/javascript"></script>
   <script>
     AOS.init({
-      disable: false, // accepts following values: 'phone', 'tablet', 'mobile', boolean, expression or function
+      disable: true, // accepts following values: 'phone', 'tablet', 'mobile', boolean, expression or function
       startEvent: 'DOMContentLoaded', // name of the event dispatched on the document, that AOS should initialize on
       initClassName: false, // class applied after initialization
       animatedClassName: 'aos-animate', // class applied on animation
@@ -711,6 +695,20 @@
         $(this).parents('body').removeClass('body_state_off ');
     });
   </script>
+  <script>
+    let totalItems = $('.header_carousel__carousel-item').length;
+    let currentIndex = $('.header_carousel__carousel-item.active').index() + 1;
+    $('.header_carousel__num-controller').html(''+currentIndex+'/'+totalItems+'');
+
+    $('#headerCarousel').carousel({
+        interval: 3500
+    });
+
+    $('#headerCarousel').on('slide.bs.carousel', function() {
+      currentIndex = $('.header_carousel__carousel-item.active').index() + 1;
+     $('.header_carousel__num-controller').html(''+currentIndex+'/'+totalItems+'');
+  });
+  </script> 
   <!-- <script>
     $(document).ready(function() {
        $("#myCarousel").swiperight(function() {
@@ -721,13 +719,13 @@
        });
     });
   </script> -->
-  <script> 
+  <!-- <script> 
     $(document).ready(function() {
       $(window).scrollTop(0);
       $('.dropdown__column').click(function(e) {
           e.stopPropagation();
       });
     });        
-  </script>
+  </script> -->
 </body>
 </html>

@@ -1,0 +1,10 @@
+
+.header_carousel__num-arrow, 
+.header_carousel__num-arrow:hover {
+	padding: 0;
+	text-decoration: none;
+}
+
+.header_carousel__num-arrow:nth-child(1) {
+	transform: scale(-1);
+}

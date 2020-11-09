@@ -21,6 +21,11 @@ html {
   scroll-behavior: smooth;
 }
 
+.row {
+  margin-left: 0 !important; 
+  margin-right: 0 !important;
+}
+
 @font-face {
 	src: url('./../../assets/fonts/VisueltPro-Regular.ttf') format('truetype');
 	font-style: normal;
@@ -54,11 +59,11 @@ html {
     outline: none !important;
 }
 
-.md-25 {
+.mb-25 {
   margin-bottom: 25px !important;
 }
 
-.md-30 {
+.mb-30 {
   margin-bottom: 30px !important;
 }
 

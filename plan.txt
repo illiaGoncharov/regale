@@ -5,26 +5,34 @@ plan
 + dropdown basics
 + menu file structure + overflow-y on body + elements file structure + header upload speed 
 + mobile menu draft + links & social (inst) + service-link + dropdown footer prevent default + mobile menu links + header media q basics + footer links & phone
-+ pointers on carousel + appear animation + footer rects + updated icons + драфт второй карусели 
-
----
-* https://marvelapp.com/prototype/12jeei2e/screen/73341517/handoff
-* https://developers.google.com/web/tools/chrome-devtools/speed/get-started
++ pointers on carousel + appear animation + footer rects + updated icons + драфт второй карусели
+09.11
++ texts upd + team mq upds + cards to grid  
 
 --- main
 
-- тексты добавить новые 
-- white border [header + form]
+[animation & scroll disabled]
 
-- why we to grid 
++ white border [header + form] + 
+
+- фотографии по брифу
+- mq-s for details, ms-s, form 
+
+- controller 
+
+- favicon
+
+- carousel main services 
+- texts 
 
 - шрифт для заголовка
 - фотки
 	- 10 + оптимизировать изобаржения
 
-- controller 
+- menu pic 
 
-- favicon
+- design mobile menu + button 
+- design team 
 
 ---
 
@@ -33,7 +41,6 @@ plan
 - team mq tablet rows
 
 - animation correctons
-- menu pic 
 
 - form engine
 	- дока
@@ -78,6 +85,8 @@ plan
 - sevices media querries
 
 ---
+* https://marvelapp.com/prototype/12jeei2e/screen/73341517/handoff
+* https://developers.google.com/web/tools/chrome-devtools/speed/get-started
 
 - https://www.google.com/search?q=html+to+wordpress&rlz=1C5CHFA_enRU827RU827&oq=html+to+w&aqs=chrome.3.69i57j0i457j0l3j69i60l3.4367j0j7&sourceid=chrome&ie=UTF-8
 - https://websitesetup.org/html-to-wordpress/

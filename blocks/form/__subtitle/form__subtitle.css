@@ -1,4 +1,6 @@
 .form__subtitle {
 	max-width: 500px;
 	margin-bottom: 50px;
+	border-left: 2px solid #fff;
+	padding-left: 20px;
 }
