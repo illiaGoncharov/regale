@@ -15,11 +15,14 @@ plan
 + header[not main] correction + team intro [intro file str] + dentist draft [grid tamplate area]
 + adresses draft
 + шрифт для заголовка
++ filials animation + devider[dropdown] bug fix + lechenie_z draft + service file structrure
 
 ---
-[] = filials animation + devider[dropdown] bug fix +
+[] =
 
-- микроскоп драфт
+- lechenie_z upd
+  - last module
+  - mq-s
 
 - активировать nav-dark [dropdown]
 - meta 4 стр
