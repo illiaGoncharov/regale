@@ -1,4 +1,6 @@
 .form__file-field {
-	margin-top: 20px;
+	margin: 0;
+	color: #fff;
+	cursor: pointer;
 	padding-left: 0;
 }

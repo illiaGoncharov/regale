@@ -1,0 +1,21 @@
+.dentist {
+  padding: 40px 40px 30px 40px;
+  display: grid;
+  grid-template-areas:
+  "dentist__photo dentist__main-text dentist__add-text"
+  "expandable expandable expandable";
+  grid-template-columns: repeat(3, minmax(100px, 2fr));
+  grid-template-rows: minmax(100px, 470px);
+  overflow: hidden;
+  column-gap: 24px;
+  margin-bottom: 60px;
+  background-color: #FFFFFF;
+  box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.2);
+  transition: box-shadow 0.3s ease-in-out;
+  border-radius: 5px;
+  min-height: 600px;
+}
+
+.dentist:hover {
+  box-shadow: 0 25px 65px 0 rgba(0, 0, 0, 0.2), 0 5px 10px 0 rgba(0, 0, 0, 0.2);
+}

@@ -1,4 +1,5 @@
 .form__file-field-input {
+	cursor: pointer;
 	opacity: 0;
     position: absolute;
     height: 1px;

@@ -1,0 +1,8 @@
+.dentist_expandable {
+  grid-area: expandable;
+}
+
+.dentist_expandable__text {
+  margin: 0;
+  padding: 0;
+}

@@ -12,10 +12,6 @@
 @import url("../blocks/header/__link-item/header__link-item.css");
 @import url("../blocks/header/__list-item/header__list-item.css");
 
-@import url("../blocks/header/_not-main/header_not-main.css");
-@import url("../blocks/header/_not-main/__title/header_not-main__title.css");
-@import url("../blocks/header/_not-main/__subtitle/header_not-main__subtitle.css");
-
 @import url("../blocks/dropdown/dropdown.css");
 @import url("../blocks/dropdown/__container/dropdown__container.css");
 @import url("../blocks/dropdown/__link-column/dropdown__link-column.css");
@@ -32,18 +28,6 @@
 
 @import url("../blocks/section/__header/section__header.css");
 @import url("../blocks/section/__title/section__title.css");
-
-@import url("../blocks/intro/intro.css");
-@import url("../blocks/intro/__texts/intro__texts.css");
-@import url("../blocks/intro/__text/intro__text.css");
-
-@import url("../blocks/dentists/dentists.css");
-@import url("../blocks/dentist/dentist.css");
-@import url("../blocks/dentist/__photo/dentist__photo.css");
-@import url("../blocks/dentist/__main-text/dentist__main-text.css");
-@import url("../blocks/dentist/__add-text/dentist__add-text.css");
-@import url("../blocks/dentist/_expandable/dentist_expandable.css");
-@import url("../blocks/dentist/_expandable/__button/dentist_expandable__button.css");
 
 @import url("../blocks/form/form.css");
 @import url("../blocks/form/__title/form__title.css");

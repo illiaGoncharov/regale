@@ -1,5 +1,9 @@
-.form__file-field-container {
+.form__file-field-container,
+.form__file-field-container p {
 	width: inherit;
 	height: 20px;
+	box-sizing: border-box;
+	padding-top: 20px;
+	padding-bottom: 10px;
 	cursor: pointer;
 }

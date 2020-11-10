@@ -14,7 +14,7 @@
   -webkit-font-smoothing: antialiased;
   -webkit-text-size-adjust: 100%;
   -ms-text-size-adjust: 100%;
-  -moz-text-size-adjust: 100%; 
+  -moz-text-size-adjust: 100%;
 }
 
 html {
@@ -22,7 +22,7 @@ html {
 }
 
 .row {
-  margin-left: 0 !important; 
+  margin-left: 0 !important;
   margin-right: 0 !important;
 }
 
@@ -71,8 +71,7 @@ html {
   overflow-y: hidden;
 }
 
-.root {  
-  color: #fff;
+.root {
   font-family: VisueltPro;
   font-size: 14px;
   line-height: 17px;
@@ -82,7 +81,7 @@ html {
 
 .ol, .ul, .dl {
   margin-top: 0;
-  margin-bottom: 0; 
+  margin-bottom: 0;
   list-style-type: none;
   margin-block-start: 0;
   margin-block-end: 0;
@@ -125,7 +124,17 @@ html {
   margin-bottom: 0;
 }
 
-.a-white, 
+.p-blue {
+  color: #143C7D;
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 19px;
+  text-align: left;
+  padding-right: 24px;
+  margin-bottom: 0;
+}
+
+.a-white,
 .a-white:hover {
   color: #fff;
   padding-top: 0;
@@ -136,7 +145,7 @@ html {
   line-height: 19px;
 }
 
-.a-blue, 
+.a-blue,
 .a-blue:hover {
   color: #143C7D;
   font-family: VisueltPro;

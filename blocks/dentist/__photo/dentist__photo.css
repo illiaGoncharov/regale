@@ -1,0 +1,4 @@
+.dentist__photo {
+  grid-area: dentist__photo;
+  width: inherit;
+}

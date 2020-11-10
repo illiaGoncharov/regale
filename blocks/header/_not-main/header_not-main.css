@@ -1,0 +1,16 @@
+.header_not-main {
+	/*background-color: rgba(20, 60, 125, 0.6);
+	background-size: cover;*/
+	height: 300px;
+}
+
+.header_not-main__img {
+  background-color: rgba(20, 60, 125, 0.6);
+  background-image: url('../../../images/header_not-main__image.jpg');
+  background-size: cover;
+  height: 210px;
+}
+
+.header_team {
+
+}
