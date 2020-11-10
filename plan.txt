@@ -11,12 +11,15 @@ plan
 + white border [header + form] + photo upd + controller main
 + team carousel
 + photo feachure draft
+10.11
 + header[not main] correction + team intro [intro file str] + dentist draft [grid tamplate area]
 + adresses draft
++ шрифт для заголовка
+
 ---
 [] =
 
-- шрифт для заголовка
+-
 
 - meta 3 стр
 - форма 3 стр
