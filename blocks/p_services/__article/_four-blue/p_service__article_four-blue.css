@@ -1,0 +1,12 @@
+.p_service__article_four-blue {
+  border-radius: 5px;
+  background: #fff;
+  box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.2);
+  padding: 40px;
+   transition: box-shadow 0.3s ease-in-out;
+}
+
+.p_service__article_four-blue:hover {
+  box-shadow: 0 25px 65px 0 rgba(0, 0, 0, 0.2), 0 5px 10px 0 rgba(0, 0, 0, 0.2);
+}
+

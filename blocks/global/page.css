@@ -67,6 +67,14 @@ html {
   margin-bottom: 30px !important;
 }
 
+.pr-40 {
+  padding-right: 40px;
+}
+
+.pl-40 {
+  padding-left: 40px;
+}
+
 .body_state_off {
   overflow-y: hidden;
 }

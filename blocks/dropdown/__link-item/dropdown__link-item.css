@@ -1,5 +1,6 @@
 .dropdown__link-item,
 .dropdown__link-item a {
+  color: #fff !important;
 	padding: 0;
 	padding-bottom: 6px;
 }
@@ -7,9 +8,9 @@
 .dropdown__link-item:hover,
 .dropdown__link-item:focus {
 	color: #fff;
-    text-decoration: none;
-    background-color: transparent;
-    cursor: pointer;
+  text-decoration: none;
+  background-color: transparent;
+  cursor: pointer;
 }
 
 .dropdown__link-item::after {
@@ -51,5 +52,5 @@
 }
 
 @media (max-width: 576px) {
-    
+
 }

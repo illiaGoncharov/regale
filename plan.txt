@@ -17,17 +17,29 @@ plan
 + шрифт для заголовка
 
 ---
-[] =
+[] = filials animation + devider[dropdown] bug fix +
 
--
+- микроскоп драфт
 
-- meta 3 стр
-- форма 3 стр
-- скрипт дропдаун 3 стр
+- активировать nav-dark [dropdown]
+- meta 4 стр
+  - https://yandex.ru/q/question/computers/kak_pravilno_zapolniat_metategi_li_teg_6ec772df/
+  - https://yandex.ru/support/webmaster/controlling-robot/html.html
+  - https://css-tricks.com/essential-meta-tags-social-media/
+  - h1 на каждой
+  - h2-h3 несколько абз
+  - h4-h5 много текста
+
+- форма 4 стр
+  - input
+  - шоб работала
+- скрипт дропдаун 4 стр
+- scriptы вынести
 
 - filials upd
   - map bug
   - change text on click
+  - button add
 - dentist upds
   - br to css
   - dentist transition
@@ -62,7 +74,7 @@ plan
 	- pointers
 	- controler
 - mq-s for details, ms-s, form
-- scriptы вынести
+- 404 page
 
 ---
 * https://marvelapp.com/prototype/12jeei2e/screen/73341517/handoff

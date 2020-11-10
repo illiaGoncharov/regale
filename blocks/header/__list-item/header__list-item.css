@@ -9,6 +9,7 @@
 }
 
 .header__list-item.show {
+
 	border-bottom: 1px solid white;
 }
 
@@ -33,7 +34,7 @@
 }
 
 @media (max-width: 576px) {
-  	
+
 }
 
 
@@ -43,7 +44,7 @@
 .header__list-item.show::before {
 	position: absolute;
  	-webkit-transition: all 0.35s ease;
-	transition: all 0.35s ease;	
+	transition: all 0.35s ease;
 }
 
 .header__list-item.show::before {

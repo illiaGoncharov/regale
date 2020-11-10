@@ -1,0 +1,6 @@
+.p_service__img {
+  padding: 0;
+  width: inherit;
+  max-height: 390px;
+  object-fit: cover;
+}

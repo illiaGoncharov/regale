@@ -6,6 +6,8 @@
     padding-left: 0 !important;
 }
 
+color: #fff !important;
+
 .header__link-item:hover,
 .header__link-item:focus {
 	opacity: 1 !important;

@@ -3,6 +3,7 @@
 
 @import url("../blocks/global/page.css");
 @import url("../blocks/rectangle/rectangle.css");
+@import url("../blocks/devider/devider.css");
 @import url("../blocks/devider/_not-main/devider_not-main.css");
 
 @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@500;600&display=swap');
