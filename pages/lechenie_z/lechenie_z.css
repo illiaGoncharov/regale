@@ -1,5 +1,6 @@
 @import url("./../../assets/styles/vendor/bootstrap.css");
 @import url("./../../assets/styles/vendor/normalize.css");
+@import url("./../../assets/styles/vendor/aos.css");
 
 @import url("./../../blocks/global/page.css");
 @import url("./../../blocks/rectangle/rectangle.css");
@@ -11,6 +12,7 @@
 @import url("./../../blocks/p_services/__article/_special-blue/p_service__article_special-blue.css");
 @import url("./../../blocks/p_services/__article/_four-blue/p_service__article_four-blue.css");
 @import url("./../../blocks/p_services/__img/p_service__img.css");
+@import url("./../../blocks/p_services/__text/p_service__text.css");
 
 @import url("./../../blocks/header/header.css");
 @import url("./../../blocks/header/__menu/header__menu.css");
@@ -34,6 +36,8 @@
 @import url("./../../blocks/dropdown/__footer/__column-links/dropdown__column-links.css");
 @import url("./../../blocks/dropdown/__footer/dropdown__footer.css");
 @import url("./../../blocks/dropdown/__social-icon/dropdown__social-icon.css");
+
+@import url("../blocks/content/content.css");
 
 @import url("./../../blocks/intro/intro.css");
 @import url("./../../blocks/intro/__texts/intro__texts.css");

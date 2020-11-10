@@ -4,7 +4,6 @@
   <meta http-equiv="Content-Type"  content="text/html; charset=utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Regale - инновационная стоматология</title>
-  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
   <link rel="stylesheet" href="./pages/team.css">
 </head>
 <body>
@@ -681,6 +680,7 @@
   <script src="https://code.jquery.com/jquery-3.5.1.js" type="text/javascript"></script>
   <script src="./assets/scripts/vendor/bootstrap.js" type="text/javascript"></script>
   <script src="./assets/scripts/vendor/aos.js" type="text/javascript"></script>
+  <script src="./assets/scripts/app/dropdown.js" type="text/javascript"></script>
   <script>
     AOS.init({
       disable: false, // accepts following values: 'phone', 'tablet', 'mobile', boolean, expression or function
@@ -700,16 +700,6 @@
       mirror: false, // whether elements should animate out while scrolling past them
       anchorPlacement: 'top-bottom', // defines which position of the element regarding to window should trigger the animation
       // https://michalsnik.github.io/aos/
-    });
-  </script>
-  <script type="text/javascript">
-    $('#navbarCol-1, #navbarCol-2').on('shown.bs.dropdown', function () {
-        $(this).parents('body').addClass('body_state_off');
-        $(window).scrollTop(0);
-    });
-
-     $('#navbarCol-1, #navbarCol-2').on('hide.bs.dropdown', function () {
-        $(this).parents('body').removeClass('body_state_off');
     });
   </script>
   <script>

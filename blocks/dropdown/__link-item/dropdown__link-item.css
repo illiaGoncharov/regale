@@ -18,11 +18,12 @@
 	position: absolute;
 	right: 0;
 	color: #fff;
-	opacity: .4;
+	opacity: 0;
+  transition: opacity .15s ease-in-out;
 }
 
 .dropdown__link-item:hover::after {
-	opacity: 1;
+	opacity: .65;
 }
 
 .dropdown__link-item > .dropdown__link-submenu {

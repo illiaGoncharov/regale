@@ -18,7 +18,8 @@ plan
 + filials animation + devider[dropdown] bug fix + lechenie_z draft + service file structrure
 
 ---
-[] =
+[] = fonts update local + dropdown bug [team] + dropdown bug [menu dark]
+
 
 - lechenie_z upd
   - last module

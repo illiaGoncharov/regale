@@ -11,7 +11,7 @@
 
 *, *:before, *:after {
   text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
+  /*-webkit-font-smoothing: antialiased;*/
   -webkit-text-size-adjust: 100%;
   -ms-text-size-adjust: 100%;
   -moz-text-size-adjust: 100%;
@@ -26,29 +26,38 @@ html {
   margin-right: 0 !important;
 }
 
+.befuckinwhite * {
+  color: #fff !important;
+}
+
 @font-face {
-	src: url('./../../assets/fonts/VisueltPro-Regular.ttf') format('truetype');
+  src: url('./../../assets/fonts/Lora-VariableFont_wght.ttf') format('truetype');
+  font-family: 'Lora';
+}
+
+@font-face {
+	src: url('./../../assets/fonts/OpenSans-Regular.ttf') format('truetype');
 	font-style: normal;
-	font-family: 'VisueltPro';
+	font-family: 'OpenSans';
 	font-weight: normal;
 }
 
 @font-face {
-  src: url('./../../assets/fonts/VisueltPro-Bold.ttf') format('truetype');
+  src: url('./../../assets/fonts/OpenSans-SemiBold.ttf') format('truetype');
   font-style: bold;
-  font-family: 'VisueltPro';
+  font-family: 'OpenSans';
   font-weight: bold;
 }
 
 @font-face {
-  src: url('./../../assets/fonts/VisueltPro-Italic.ttf') format('truetype');
+  src: url('./../../assets/fonts/OpenSans-Italic.ttf') format('truetype');
   font-style: italic;
-  font-family: 'VisueltPro';
+  font-family: 'OpenSans';
   font-weight: italic;
 }
 
 ::placeholder {
-  font-family: VisueltPro;
+  font-family: OpenSans;
   font-size: 14px;
   color: #fff !important;
   opacity: 0.3 !important;
@@ -57,6 +66,10 @@ html {
 
 :focus {
     outline: none !important;
+}
+
+.mb-20 {
+  margin-bottom: 20px !important;
 }
 
 .mb-25 {
@@ -68,11 +81,11 @@ html {
 }
 
 .pr-40 {
-  padding-right: 40px;
+  padding-right: 40px !important;
 }
 
 .pl-40 {
-  padding-left: 40px;
+  padding-left: 40px !important;
 }
 
 .body_state_off {
@@ -80,7 +93,7 @@ html {
 }
 
 .root {
-  font-family: VisueltPro;
+  font-family: OpenSans;
   font-size: 14px;
   line-height: 17px;
   margin: 0 auto;
@@ -102,7 +115,6 @@ html {
   margin-block-start: 0;
   margin-block-end: 0;
   color: #171717;
-  /*font-family: 'IBM Plex Sans', sans-serif;*/
   font-family: 'Lora';
   font-weight: bold ;
   font-size: 24px;
@@ -116,7 +128,7 @@ html {
   margin-block-start: 0;
   margin-block-end: 0;
   color: #143C7D;
-  font-family: VisueltPro;
+  font-family: OpenSans;
   font-size: 20px;
   line-height: 24px;
   text-align: left;
@@ -149,7 +161,7 @@ html {
   padding-top: 0;
   padding-left: 0;
   padding-bottom: 6px;
-  font-family: VisueltPro;
+  font-family: OpenSans;
   font-size: 16px;
   line-height: 19px;
 }
@@ -157,7 +169,7 @@ html {
 .a-blue,
 .a-blue:hover {
   color: #143C7D;
-  font-family: VisueltPro;
+  font-family: OpenSans;
   font-size: 16px;
   line-height: 19px;
   text-align: left;

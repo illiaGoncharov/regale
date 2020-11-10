@@ -1,6 +1,6 @@
 .team__text_italic {
 	color: #1B2734;
-	font-family: VisueltPro;
+	font-family: OpenSans;
 	font-size: 20px;
 	line-height: 27px;
 	font-style: italic;
@@ -10,7 +10,7 @@
 @media (max-width: 1200px) {
 	.team__text_italic {
 		padding-right: 10%;
-	}	
+	}
 }
 
 @media (max-width: 992px) {
