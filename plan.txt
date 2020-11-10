@@ -11,11 +11,11 @@ plan
 + white border [header + form] + photo upd + controller main
 + team carousel
 + photo feachure draft
++ header[not main] correction + team intro [intro file str] + dentist draft [grid tamplate area]
 
 ---
-[] = + header[not main] correction + team intro [intro file str]
+[] =
 
-- dentist draft [grid tamplate area]
 - dentist upds
   - br to css
   - dentist transition
