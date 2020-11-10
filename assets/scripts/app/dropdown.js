@@ -7,7 +7,7 @@ $('#navbarCol-1, #navbarCol-2').on('shown.bs.dropdown', function () {
         .removeClass('navbar-light');
       } else {
 
-      }
+      };
     $(window).scrollTop(0);
 });
 
@@ -19,5 +19,5 @@ $('#navbarCol-1, #navbarCol-2').on('shown.bs.dropdown', function () {
         .removeClass('navbar-dark');
       } else {
 
-      }
+      };
 });

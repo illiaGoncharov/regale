@@ -16,11 +16,12 @@ plan
 + adresses draft
 + шрифт для заголовка
 + filials animation + devider[dropdown] bug fix + lechenie_z draft + service file structrure
++ fonts update local + dropdown bug [team] + dropdown bug [menu dark]
 
 ---
-[] = fonts update local + dropdown bug [team] + dropdown bug [menu dark]
+[] = index scripts to call [team & carousel] + dropdown script + aos init script + overflow:hidden back
 
-
+- scriptы вынести
 - lechenie_z upd
   - last module
   - mq-s
@@ -38,7 +39,6 @@ plan
   - input
   - шоб работала
 - скрипт дропдаун 4 стр
-- scriptы вынести
 
 - filials upd
   - map bug
