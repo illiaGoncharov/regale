@@ -1,0 +1,9 @@
+.header_filials__map {
+  width: 100%;
+  position: relative;
+  height: 680px;
+}
+
+.header_filials__map iframe {
+  position: absolute;
+}

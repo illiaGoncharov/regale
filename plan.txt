@@ -16,6 +16,7 @@ plan
 ---
 [] =
 
+- adresses draft
 - dentist upds
   - br to css
   - dentist transition
@@ -34,7 +35,6 @@ plan
 	- https://qna.habr.com/q/97795
 	- https://www.avito.ru/moskva/igry_pristavki_i_programmy/igrovye_pristavki-ASgBAgICAUSSAsoJ?q=ps4
 	- https://blog.lisogorsky.ru/ignor-scroll-iframe-maps
-- adresses draft
 - lv2 pages drafts [заглушки]
 	- ?
 - favicon
