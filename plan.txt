@@ -12,23 +12,27 @@ plan
 + team carousel
 + photo feachure draft
 + header[not main] correction + team intro [intro file str] + dentist draft [grid tamplate area]
-
++ adresses draft
 ---
 [] =
 
-- adresses draft
+- шрифт для заголовка
+
+- meta 3 стр
+- форма 3 стр
+- скрипт дропдаун 3 стр
+
+- filials upd
+  - map bug
+  - change text on click
 - dentist upds
   - br to css
   - dentist transition
   - expand + expand js
 - design detist tablet + mobile
-- шрифт для заголовка
-- meta
 - меню
   - design mobile menu + button
   - mobile menu [cool]
-- форма
-- скрипт дропдаун
 - team photos
 - taem design + mq-s
 - map scroll bug
