@@ -1,0 +1,34 @@
+Errors found while checking this document as HTML5:
+
+Line 34: Element “div” not allowed as child of element “ul” in this context. (Suppressing further errors from this subtree.)
+
+Line 320: Element “div” not allowed as child of element “ul” in this context. (Suppressing further errors from this subtree.)
+
+Line 473: Element “div” not allowed as child of element “ul” in this context. (Suppressing further errors from this subtree.)
+
+Line 495: Text run is not in Unicode Normalization Form C.
+
+Line 639: Bad value “” for attribute “action” on element “form”: Must be non-empty.
+
+Line 641: Bad value “username” for attribute “autocomplete” on element “input”: The autofill field name “username” is not allowed in this context.
+
+Line 644: Bad value “username” for attribute “autocomplete” on element “input”: The autofill field name “username” is not allowed in this context.
+
+Line 650: Element “p” not allowed as child of element “label” in this context. (Suppressing further errors from this subtree.)
+
+Line 663: Bad value “100%” for attribute “width” on element “iframe”: Expected a digit but saw “%” instead.
+
+Line 663: The “frameborder” attribute on the “iframe” element is obsolete. Use CSS instead.
+
+Line 662: Section lacks heading. Consider using “h2”-“h6” elements to add identifying headings to all sections.
+
+Line 695: Element “h4” not allowed as child of element “ul” in this context. (Suppressing further errors from this subtree.)
+
+Line 696: Element “div” not allowed as child of element “ul” in this context. (Suppressing further errors from this subtree.)
+
+Line 711: Element “h4” not allowed as child of element “ul” in this context. (Suppressing further errors from this subtree.)
+
+Line 712: Element “div” not allowed as child of element “ul” in this context. (Suppressing further errors from this subtree.)
+
+Line 641: The “aria-describedby” attribute must point to an element in the same document.
+

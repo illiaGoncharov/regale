@@ -1,4 +1,4 @@
- $(document).ready(function(){
+$(document).ready(function(){
   $('.dropdown__link-item:eq(0)').hover(function(){
     $(".dropdown__pic").addClass("ser-1");
   }, function () {

@@ -18,26 +18,24 @@ plan
 + filials animation + devider[dropdown] bug fix + lechenie_z draft + service file structrure
 + fonts update local + dropdown bug [team] + dropdown bug [menu dark]
 + index scripts to call [team & carousel] + dropdown script + aos init script + overflow:hidden back
-
+12.11
++ dropdownphoto script local [all] + added some meta to index
 ---
-[] = dropdownphoto script local [all] + added some meta to index[!]
+[] = overflow-y index + bug fixed unclicked + prices draft
 
-  - елли ок, то переносим форму, футер и карту
-  - можно подумать о скриптах
-2. - на локалку скрипты
+1.
+2.
 3. - шрифт в одно место (фонт фемели на бэм блок)
 4. - team photos + разметка для текста + эффект
 5. - dropdown to footer
 6. - модуль из услуг финальный
 7. - скрипт для фоток
-8.
-- meta 4 стр
-  - https://yandex.ru/q/question/computers/kak_pravilno_zapolniat_metategi_li_teg_6ec772df/
-  - https://yandex.ru/support/webmaster/controlling-robot/html.html
-  - https://css-tricks.com/essential-meta-tags-social-media/
-  - Заголовки
-  - h2-h3 несколько абз
-  - h4-h5 много текста
+8.   - елли ок, то переносим форму, футер и карту
+
+- prices upds
+  - table & class & file str
+- можно подумать о скриптах
+- на локалку скрипты
 - форма 4 стр
   - input
   - шоб работала
@@ -86,6 +84,10 @@ plan
 - 404 page
 - h1 to filial [+ check other]
 - wc3 validate html
+- meta upts
+  - https://yandex.ru/q/question/computers/kak_pravilno_zapolniat_metategi_li_teg_6ec772df/
+  - https://yandex.ru/support/webmaster/controlling-robot/html.html
+  - https://css-tricks.com/essential-meta-tags-social-media/
 
 ---
 - https://medium.com/breadhead-stories/encore-fitness-2ea1deba6f70

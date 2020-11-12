@@ -7,7 +7,7 @@ let cur = 1;
           .next()
             .removeClass('team__imgs-container_hidden')
             .addClass('team__imgs-container active');
-      console.log(cur);
+      /*console.log(cur);*/
       cur = cur + 1;
     } else {
       $('.team__imgs-container.active')
@@ -16,7 +16,7 @@ let cur = 1;
       $('.team__imgs-container_hidden').eq(0)
         .removeClass('team__imgs-container_hidden')
         .addClass('team__imgs-container active');
-      console.log(cur + "!");
+      /*console.log(cur + "!");*/
       cur = 1;
     }
 });
