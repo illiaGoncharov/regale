@@ -109,6 +109,12 @@ body {
   margin: 0 auto;
 }
 
+a, button {
+  font-family: OpenSans;
+  font-size: 15px;
+  line-height: 20px;
+}
+
 .ol, .ul, .dl {
   margin-top: 0;
   margin-bottom: 0;

@@ -20,19 +20,32 @@ plan
 + index scripts to call [team & carousel] + dropdown script + aos init script + overflow:hidden back
 12.11
 + dropdownphoto script local [all] + added some meta to index
++ overflow-y index + bug fixed unclicked + prices draft
++ scroll in team, font size [+intro] to 15 + font one place + img team img correction + texts
+
 ---
-[] = overflow-y index + bug fixed unclicked + prices draft
+[] = font correction
 
-1.
-2.
-3. - шрифт в одно место (фонт фемели на бэм блок)
-4. - team photos + разметка для текста + эффект
-5. - dropdown to footer
-6. - модуль из услуг финальный
-7. - скрипт для фоток
-8.   - елли ок, то переносим форму, футер и карту
+1. Цены
+  - еще 3 цены
+2. Скролы
+  -
+3. Медиа кверис
+  - mq-s prices
+5. Карусель Услуги Главная
+6. Размер фотки
+7. вставить обновленный фото-контент. вышлю часов в 9
 
+
+- шрифт (новая система) + апдейтим
+- шрифт в одно место (фонт фемели на бэм блок)
+- team photos + разметка для текста + эффект
+- dropdown to footer
+- модуль из услуг финальный
+- скрипт для фоток
+- елли ок, то переносим форму, футер и карту
 - prices upds
+  - 3.
   - table & class & file str
 - можно подумать о скриптах
 - на локалку скрипты

@@ -631,103 +631,19 @@
         <img class="main-services__img" src="./blocks/main-services/__img/main-services-img-1.png" alt="details-img-1">
       </section>
       <section class="form" data-aos="fade-up" data-aos-duration="800">
-        <div class="container">
-          <div class="form__title-container">
-            <h2 class="form__title text-left form__header">
-              Запишитесь на консультацию
-            </h2>
-            <p class="form__subtitle">
-              Текст о консультации. Философия нашего Центра – создавать которые дарят своим владельцам уверенность и свободу общения
-            </p>
-          </div>
-          <form action="" class="form__main-container">
-            <div class="col-lg-4 form__group">
-              <input type="email" class="form-control form__input" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Ваш телефон" autocomplete="username">
-            </div>
-            <div class="col-lg-4 form__group">
-              <input type="password" class="form-control form__input" id="exampleInputPassword1" placeholder="Ваше имя" autocomplete="username">
-            </div>
-            <div class="col-lg-12 form-group form__file-field">
-              <div class="form__file-field-container">
-                <label class="button">
-                  <input class="form-control-file form__file-field-input" id="formFileField" name="file[]" type="file">
-                    <p>
-                      Прикрепите выписку +
-                    </p>
-                </label>
-                <!-- https://bootstrap-4.ru/docs/4.5/components/forms/ -->
-                <!-- https://three-sisters.ru/ -->
-              </div>
-            </div>
-            <button type="submit" class="btn btn-primary form__button">Отправить</button>
-          </form>
-        </div>
       </section>
-      <section class="map">
-        <iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3Abca18db7c0eea38875e4dc6b96d33ffacaef3c5931a77a9555fe78e600c2f01d&amp;source=constructor" width="100%" height="400" frameborder="0">
-        </iframe>
-      </section>
-      <footer class="container footer">
-        <div class="row footer__columns">
-          <ul class="col-lg-3 ul footer__column">
-            <li>
-              <img class="logo_place_footer" src="./blocks/footer/logo_place_footer.svg" alt="Логотип Regale">
-              <a class="footer__column-link a-blue" href="mailto:info@regale.clinic.com">info@regale.clinic.com</a>
-              <a class="footer__column-link a-blue" href="tel:+7-495-900-10-39">8 495 900 10 39</a>
-            </li>
-            <li class="">
-              <ul class="ul footer__column-links">
-                <li class="footer__column-link">
-                  <a class="a-blue" href="#">
-                    <img class="footer__social-icon" src="./blocks/footer/facebook_color_blue.svg" alt="Иконка с логотипом Facebook">
-                  </a>
-                </li>
-                <li class="footer__column-link">
-                  <a class="a-blue" href="#">
-                    <img class="footer__social-icon" src="./blocks/footer/vk_color_blue.svg" alt="Иконка с логотипом ВКонтакте">
-                  </a>
-                </li>
-                <li class="footer__column-link">
-                  <a href="https://www.instagram.com/regale_cis/">
-                    <img class="footer__social-icon" src="./blocks/footer/instagram_color_blue.svg" alt="Иконка с логотипом Инстаграм">
-                  </a>
-                </li>
-              </ul>
-            </li>
-          </ul>
-          <ul class="col-lg-2 ul footer__column">
-            <h4 class="footer__column-heading h3-blue">Меню</h4>
-            <div class="rectangle footer__rectangle mb-25"></div>
-            <li class="footer__column-link">
-              <a class="a-blue" href="./services.html">Виды лечения</a>
-            </li>
-            <li class="footer__column-link">
-              <a class="a-blue" href="./prives.html">Цены</a>
-            </li>
-            <li class="footer__column-link">
-              <a class="a-blue" href="./filials.html">Наши клиники</a>
-            </li>
-            <li class="footer__column-link">
-              <a class="a-blue" href="./team.html">Специалисты</a>
-            </li>
-          </ul>
-          <ul class="col-lg-2 ul footer__column">
-            <h4 class="footer__column-heading h3-blue">Поддержка</h4>
-            <div class="rectangle footer__rectangle mb-25"></div>
-              <li class="footer__column-link">
-                <a class="a-blue" href="./terms.html">Условия</a>
-              </li>
-              <li class="footer__column-link">
-                <a class="a-blue" href="./faqs.html">FAQ</a>
-              </li>
-          </ul>
-        </div>
-      </footer>
+      <section class="map"></section>
+      <footer class="container footer"></footer>
     </main>
   </div>
   <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
 	<script src="./assets/scripts/vendor/bootstrap.js"></script>
   <script src="./assets/scripts/vendor/aos.js"></script>
+  <script>
+    $( ".form" ).load( "./form.html" );
+    $( ".map" ).load( "./map.html" );
+    $( ".footer" ).load( "./footer.html" );
+  </script>
   <script src="./assets/scripts/app/aosinit.js"></script>
   <script src="./assets/scripts/app/dropdown.js"></script>
   <script src="./assets/scripts/app/dropdownphoto.js"></script>
