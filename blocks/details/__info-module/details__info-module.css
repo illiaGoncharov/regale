@@ -4,6 +4,7 @@
 	padding: 40px;
 	height: auto;
 	max-height: 250px;
+  max-width: 476px;
 	z-index: 1;
 	background-color: rgba(255, 255, 255, 0.9);
 	border-radius: 5px;

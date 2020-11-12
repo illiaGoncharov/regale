@@ -529,25 +529,12 @@
   <script src="./../../assets/scripts/vendor/aos.js" type="text/javascript"></script>
   <script src="./../../assets/scripts/app/aosinit.js" type="text/javascript"></script>
   <script src="./../../assets/scripts/app/dropdown.js" type="text/javascript"></script>
+  <script src="./../../assets/scripts/app/dropdownphoto.js" type="text/javascript"></script>
   <script>
     $(document).ready(function() {
       $(window).scrollTop(0);
       $('.dropdown__column').click(function(e) {
           e.stopPropagation();
-      });
-    });
-  </script>
-  <script>
-    $(document).ready(function(){
-      $('.dropdown__link-item:eq(0)').hover(function(){
-          $(".dropdown__pic").addClass("ser-1");
-      }, function () {
-          $(".dropdown__pic").removeClass("ser-1");
-      });
-      $('.dropdown__link-item:eq(1)').hover(function(){
-          $(".dropdown__pic").addClass("ser-2");
-      }, function () {
-          $(".dropdown__pic").removeClass("ser-2");
       });
     });
   </script>

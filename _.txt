@@ -16,6 +16,11 @@
 
 
 ---
+
+<!-- <script>
+    $( "head" ).load( "./head.html" );
+  </script> -->
+
 <section id="smallRadiusTab" class="tabs-panel-4MeCg" role="tabpanel" aria-labelledby="smallRadiusTab-tab" tabindex="-1" data-marker="tab-marker(smallRadiusTab)/tabpanel"><div class="tabs-content-1aASJ tabs-fullHeight-1IZyX tabs-content_smallRadius-1W7lI"><div class="geo-map-root-BYvSp" data-marker="popup-geofilters/content-geo-map"><div class="fieldset-fieldset-3kbZz fieldset-size-m-2ZQmV fieldset-root_layout_narrow-2jcgf"><div class="column-root-N_0Ue column-no_width-2PTFn"><div class="fieldset-field-25Lrl" data-marker="field"><div class="column-root-N_0Ue address-suggestContainer-Ez8zi width-width-flex-12-Xolf5 column-has_width-lyA4x"><span class="tooltip-tooltip-box-2rApK"><span class="tooltip-target-wrapper-XcPdv"><div class="address-suggest-2lyJq suggest-root-b6uND suggest-size-m-3Bsj8 width-width-12-2VZLz" data-marker="geo"><input id="" name="" placeholder="Улица и номер дома" maxlength="150" autocomplete="none" class="suggest-input-3p8yi" data-marker="geo/input" value="Москва, Юго-Западный административный округ, район Ясенево"><div class="suggest-icon-32BXg" data-marker="clear-icon"><svg width="1em" height="1em" viewBox="0 0 28 28" class="icon-icon-2HGyI icon-variant-default-1eXXW" aria-hidden="false" role="button" tabindex="0" style="font-size: 1.4em;"><path d="M14,12.9393398 L20.4696699,6.46966991 C20.7625631,6.1767767 21.2374369,6.1767767 21.5303301,6.46966991 C21.8232233,6.76256313 21.8232233,7.23743687 21.5303301,7.53033009 L15.0606602,14 L21.5303301,20.4696699 C21.8232233,20.7625631 21.8232233,21.2374369 21.5303301,21.5303301 C21.2374369,21.8232233 20.7625631,21.8232233 20.4696699,21.5303301 L14,15.0606602 L7.53033009,21.5303301 C7.23743687,21.8232233 6.76256313,21.8232233 6.46966991,21.5303301 C6.1767767,21.2374369 6.1767767,20.7625631 6.46966991,20.4696699 L12.9393398,14 L6.46966991,7.53033009 C6.1767767,7.23743687 6.1767767,6.76256313 6.46966991,6.46966991 C6.76256313,6.1767767 7.23743687,6.1767767 7.53033009,6.46966991 L14,12.9393398 Z"></path></svg></div></div></span></span></div></div></div></div><div class="address-map-HCrQP fieldset-fieldset-3kbZz fieldset-size-s-2Ch_E fieldset-root_layout_narrow-2jcgf"><div class="column-root-N_0Ue column-no_width-2PTFn"><div class="fieldset-field-25Lrl" data-marker="field"><div class="map-root-8A2tb map-fullHeight-U_dAN width-width-12-2VZLz"><div class="map-container-1huiE" style=""><ymaps class="ymaps-2-1-77-map" style="width: 834px; height: 115px;"><ymaps class="ymaps-2-1-77-map ymaps-2-1-77-i-ua_js_yes ymaps-2-1-77-map-bg ymaps-2-1-77-islets_map-lang-ru" style="width: 834px; height: 115px; z-index: 0;"><ymaps class="ymaps-2-1-77-inner-panes"><ymaps class="ymaps-2-1-77-events-pane ymaps-2-1-77-user-selection-none" unselectable="on" style="height: 100%; width: 100%; top: 0px; left: 0px; position: absolute; z-index: 2000; cursor: url(&quot;https://enterprise.api-maps.yandex.ru/2.1.77/build/release/images/cursor/grab.cur&quot;) 16 16, url(&quot;https://enterprise.api-maps.yandex.ru/2.1.77/build/release/images/cursor/grab.cur&quot;), move;"></ymaps><ymaps class="ymaps-2-1-77-ground-pane" style="top: 0px; left: 0px; position: absolute; transform: translate3d(0px, 0px, 0px) scale(1, 1); z-index: 401;"><ymaps style="z-index: 150; position: absolute;"><canvas height="742" width="2180" style="position: absolute; width: 1090px; height: 371px; left: -128px; top: -128px;"></canvas></ymaps></ymaps><ymaps class="ymaps-2-1-77-copyrights-pane" style="height: 0px; bottom: 0px; right: 0px; top: auto; left: 0px; position: absolute; z-index: 4002;"><ymaps><ymaps class="ymaps-2-1-77-copyright" style=""><ymaps class="ymaps-2-1-77-copyright__fog">…</ymaps><ymaps class="ymaps-2-1-77-copyright__wrap"><ymaps class="ymaps-2-1-77-copyright__layout"><ymaps class="ymaps-2-1-77-copyright__content-cell"><ymaps class="ymaps-2-1-77-copyright__content"><ymaps class="ymaps-2-1-77-copyright__text">© Яндекс</ymaps><ymaps class="ymaps-2-1-77-copyright__agreement">&nbsp;<a class="ymaps-2-1-77-copyright__link" target="_blank" href="https://yandex.ru/legal/maps_termsofuse/?lang=ru" rel="noopener">Условия использования</a></ymaps></ymaps></ymaps><ymaps class="ymaps-2-1-77-copyright__logo-cell"><a class="ymaps-2-1-77-copyright__logo" href="" target="_blank"></a></ymaps></ymaps></ymaps></ymaps></ymaps></ymaps><ymaps class="ymaps-2-1-77-controls-pane" style="width: 100%; top: 0px; left: 0px; position: absolute; z-index: 3603;"><ymaps class="ymaps-2-1-77-controls__toolbar" style="margin-top: 10px;"><ymaps class="ymaps-2-1-77-controls__toolbar_left"></ymaps><ymaps class="ymaps-2-1-77-controls__toolbar_right"></ymaps></ymaps><ymaps class="ymaps-2-1-77-controls__bottom" style="top: 115px;"></ymaps></ymaps></ymaps></ymaps></ymaps></div><div class="map-placemark-8WX0Y"></div><div class="control-buttons-root-3MQBN"><div class="control-buttons-controls-15QLU"><div class="control-buttons-zoom-buttons-_RU0s"><button class="control-buttons-control-button-ukLHD control-buttons-zoom-button_in-1W229" type="button" data-marker="map-zoom-button_in"></button><button class="control-buttons-control-button-ukLHD control-buttons-zoom-button_out-3Uc97" type="button" data-marker="map-zoom-button_out"></button></div><span class="tooltip-tooltip-box-2rApK"><span class="tooltip-target-wrapper-XcPdv"><button class="control-buttons-control-button-ukLHD control-buttons-geolocation-1h881 control-buttons-geolocation_background-BfSoh" type="button" data-marker="map-my-geolocation"></button></span></span></div></div></div></div></div></div></div></div></section>
 ---
 <!-- <div class="container">
@@ -68,8 +73,8 @@
         </section>
 
       </section>
-  
-  
+
+
  <!-- <div class="carousel-item header_carousel__carousel-item active" data-interval="2500" >
               <img class="first-slide" src="./blocks/header/_carousel/overlay-1.png" alt="">
               <div class="container">
@@ -79,7 +84,7 @@
                   <a class="btn btn-lg btn-primary header_carousel__main_button" href="#" role="button">Записаться</a>
                 </div>
               </div>
-            </div> --> 
+            </div> -->
 
 <div class="container">
       <div class="row">
@@ -161,7 +166,7 @@
     /*function closeNav() {
       document.getElementById("overlay").style.display = "none";
     }*/
-  </script>  
+  </script>
 
   <!-- <div id="overlay" class="overlay">
       <div class="container overlay-menu__container">
@@ -179,56 +184,56 @@
                 <li class="overlay-menu__submenu-list-item">
                   <a id="overlay-menu__submenu-item-3" class="overlay-menu__submenu-item" href="#">Протезирование зубов</a>
                 </li>
-                <li class="overlay-menu__submenu-list-item">    
+                <li class="overlay-menu__submenu-list-item">
                   <a id="overlay-menu__submenu-item-4" class="overlay-menu__submenu-item" href="#">Имплантация и хирургия</a>
                 </li>
                 <li class="overlay-menu__submenu-list-item">
                   <a id="overlay-menu__submenu-item-5" class="overlay-menu__submenu-item" href="#">Исправление прикуса</a>
                 </li>
-                <li class="overlay-menu__submenu-list-item"> 
+                <li class="overlay-menu__submenu-list-item">
                   <a id="overlay-menu__submenu-item-6" class="overlay-menu__submenu-item" href="#">Гнатология</a>
                 </li>
-                <li class="overlay-menu__submenu-list-item"> 
+                <li class="overlay-menu__submenu-list-item">
                   <a id="overlay-menu__submenu-item-7" class="overlay-menu__submenu-item" href="#">Гигиена и профилактика</a>
                 </li>
-              </ul>   
+              </ul>
             </li>
             <li id="overlay-menu__list-item-2">
               <a id="overlay-menu__item-2" class="overlay-menu__item" href="#">Детская стоматология</a>
               <ul id="overlay-menu__submenu-2" class="overlay-menu__submenu">
-                <li class="overlay-menu__submenu-list-item">    
+                <li class="overlay-menu__submenu-list-item">
                   <a id="overlay-menu__submenu-item-4" class="overlay-menu__submenu-item" href="#">Имплантация и хирургия</a>
                 </li>
                 <li class="overlay-menu__submenu-list-item">
                   <a id="overlay-menu__submenu-item-5" class="overlay-menu__submenu-item" href="#">Исправление прикуса</a>
                 </li>
-                <li class="overlay-menu__submenu-list-item"> 
+                <li class="overlay-menu__submenu-list-item">
                   <a id="overlay-menu__submenu-item-6" class="overlay-menu__submenu-item" href="#">Гнатология</a>
                 </li>
-                <li class="overlay-menu__submenu-list-item"> 
+                <li class="overlay-menu__submenu-list-item">
                   <a id="overlay-menu__submenu-item-7" class="overlay-menu__submenu-item" href="#">Гигиена и профилактика</a>
                 </li>
-              </ul>   
+              </ul>
             </li>
             <li class="overlay-menu__list-item">
               <a id="overlay-menu__item-3" class="overlay-menu__item" href="#">Протезирование зубов</a>
             </li>
-            <li class="overlay-menu__list-item">    
+            <li class="overlay-menu__list-item">
               <a id="overlay-menu__item-4" class="overlay-menu__item" href="#">Имплантация и хирургия</a>
             </li>
             <li class="overlay-menu__list-item">
               <a id="overlay-menu__item-5" class="overlay-menu__item" href="#">Исправление прикуса</a>
             </li>
-            <li class="overlay-menu__list-item"> 
+            <li class="overlay-menu__list-item">
               <a id="overlay-menu__item-6" class="overlay-menu__item" href="#">Гнатология</a>
             </li>
-            <li class="overlay-menu__list-item"> 
+            <li class="overlay-menu__list-item">
               <a id="overlay-menu__item-7" class="overlay-menu__item" href="#">Гигиена и профилактика</a>
             </li>
-          </ul>   
+          </ul>
         </div>
         <div class="col-lg-3">
-          
+
           <div class="service-overlay__submenu service-overlay__submenu-2"></div>
           <div class="service-overlay__submenu service-overlay__submenu-3"></div>
           <div class="service-overlay__submenu service-overlay__submenu-4"></div>
@@ -314,7 +319,7 @@
       </div>
 <!-- <script src="../assets/scripts/vendor/jquery-slim.min.js"></script> -->
 <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
- 
+
   <!-- <script src="../assets/scripts/vendor/parallax.js"></script>
  -->  <script type="text/javascript">
       $(document).on('ready', function() {
