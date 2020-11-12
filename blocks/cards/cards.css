@@ -6,7 +6,7 @@
   margin-right: 0;
   display: grid;
   grid-template-columns: repeat(4, 1fr );
-  column-gap: 16px;
+  column-gap: 24px;
   width: 100%;
 }
 

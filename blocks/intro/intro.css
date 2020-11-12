@@ -1,9 +1,5 @@
 .intro {
   color: #171717;
-  font-family: OpenSans;
-  font-size: 16px;
-  line-height: 19px;
   padding-top: 40px;
   position: relative;
-  z-index: -1;
 }

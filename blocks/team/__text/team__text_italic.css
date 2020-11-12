@@ -4,7 +4,9 @@
 	font-size: 20px;
 	line-height: 27px;
 	font-style: italic;
-	padding-left: 100px;
+  padding-top: 30px;
+  opacity: .7;
+	padding-left: 200px;
 }
 
 @media (max-width: 1200px) {

@@ -1,8 +1,10 @@
 .team__imgs-name {
-	position: absolute;
+	/*position: absolute;
 	bottom: 90px;
 	right: 500px;
-	text-align: right;
+	text-align: right;*/
+  padding-top: 40px;
+  padding-left: 200px;
 }
 
 @media (max-width: 576px) {
@@ -13,7 +15,7 @@
 
 @media (max-width: 992px) {
 	.team__imgs-name {
-		display: none; 
+		display: none;
 	}
 }
 
