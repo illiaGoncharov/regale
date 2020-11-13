@@ -26,8 +26,9 @@ plan
 13.11
 + [index] team correction mq-s + [index] team imgs
 + [index] header photos
++ dropdown 1lv link upd + filials addresses cor + filials & team .load form & footer + yan map upd
 ---
-[] = git commit -m "dropdown 1lv link upd + filials addresses cor + filials & team .load form & footer + yan map upd"
+[] = git commit -m ""
 
 - dentists imgs
   - фотграфии размеры

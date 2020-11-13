@@ -1,0 +1,4 @@
+.dentist__name {
+  grid-area: dentist__name;
+  width: inherit;
+}

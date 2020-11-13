@@ -1,5 +1,5 @@
 .dentist__main-text {
-  min-height: 470px;
+  max-height: 470px;
   overflow: auto;
 }
 

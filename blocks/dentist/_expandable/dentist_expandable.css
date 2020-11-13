@@ -1,5 +1,6 @@
 .dentist_expandable {
   grid-area: expandable;
+  /*background-color: #F7F7FA;*/
 }
 
 .dentist_expandable__text {

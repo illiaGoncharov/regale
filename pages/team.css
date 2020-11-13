@@ -43,6 +43,7 @@
 @import url("../blocks/dentist/__photo/dentist__photo.css");
 @import url("../blocks/dentist/__main-text/dentist__main-text.css");
 @import url("../blocks/dentist/__add-text/dentist__add-text.css");
+@import url("../blocks/dentist/__name/dentist__name.css");
 @import url("../blocks/dentist/_expandable/dentist_expandable.css");
 @import url("../blocks/dentist/_expandable/__button/dentist_expandable__button.css");
 

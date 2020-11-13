@@ -1,5 +1,23 @@
 .dentist__add-text {
-    margin-top: 50px;
     max-height: 470px;
     overflow: auto;
+}
+
+@media (max-width: 1200px) {
+
+}
+
+@media (max-width: 992px) {
+  .dentist__add-text {
+    display: none;
+  }
+}
+
+
+@media (max-width: 768px) {
+
+}
+
+@media (max-width: 576px) {
+
 }
