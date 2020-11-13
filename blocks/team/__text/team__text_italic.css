@@ -14,6 +14,9 @@
 }
 
 @media (max-width: 992px) {
+  .team__text_italic {
+    display: none;
+  }
 }
 
 @media (max-width: 768px) {
