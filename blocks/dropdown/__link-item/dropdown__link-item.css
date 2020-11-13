@@ -2,11 +2,13 @@
 .dropdown__link-item a {
   color: #fff !important;
 	padding: 0;
-	padding-bottom: 6px;
+	padding-bottom: 10px;
 }
 
 .dropdown__link-item:hover,
-.dropdown__link-item:focus {
+.dropdown__link-item:focus,
+.dropdown__link-item:hover a,
+.dropdown__link-item:focus a {
 	color: #fff;
   text-decoration: none;
   background-color: transparent;

@@ -25,22 +25,18 @@ plan
 + font correction + team layout upd
 13.11
 + [index] team correction mq-s + [index] team imgs
-
++ [index] header photos
 ---
-[] = git commit -m "[index] header photos"
+[] = git commit -m "dropdown 1lv link upd + filials addresses cor + filials & team .load form & footer + yan map upd"
 
-- [index] main carousel layout
 - dentists imgs
   - фотграфии размеры
   - добавляем на сайт
+- [index] main carousel layout
 - mq-s
   - lechenie_z m
   - mq-s prices
   - form footer & map
-- contacts [drop & footer & filials & два адреса]
-  - Центр инновационной стоматологии Люсиновская 72.
-  Адрес второй клиники  Шереметьевская 27
-  Режим работы обеих клиник с 9 до 21
 - menu [десткая стоматология отдельно]
 - 2*nav вынести в отдельный
 - подгрузка модулей как на галвной [map, price, глбокая услуга]
@@ -48,7 +44,7 @@ plan
 - модуль из услуг финальный
 - dropdown to footer
 - стили формы
-- dropdown links 1lv убрать
+- из header все нахуй и navs в отдельный файл [4 pg.]
 
 - [index] carousel bug fix
 - prices upds
