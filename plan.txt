@@ -22,44 +22,42 @@ plan
 + dropdownphoto script local [all] + added some meta to index
 + overflow-y index + bug fixed unclicked + prices draft
 + scroll in team, font size [+intro] to 15 + font one place + img team img correction + texts
++ font correction + team layout upd
+13.11
++ [index] team correction mq-s + [index] team imgs
 
 ---
-[] = font correction
+[] = git commit -m "[index] header photos"
 
-1. Цены
-  - еще 3 цены
-2. Скролы
-  -
-3. Медиа кверис
+- [index] main carousel layout
+- dentists imgs
+  - фотграфии размеры
+  - добавляем на сайт
+- mq-s
+  - lechenie_z m
   - mq-s prices
-5. Карусель Услуги Главная
-6. Размер фотки
-7. вставить обновленный фото-контент. вышлю часов в 9
-
-
-- шрифт (новая система) + апдейтим
-- шрифт в одно место (фонт фемели на бэм блок)
-- team photos + разметка для текста + эффект
-- dropdown to footer
+  - form footer & map
+- contacts [drop & footer & filials & два адреса]
+  - Центр инновационной стоматологии Люсиновская 72.
+  Адрес второй клиники  Шереметьевская 27
+  Режим работы обеих клиник с 9 до 21
+- menu [десткая стоматология отдельно]
+- 2*nav вынести в отдельный
+- подгрузка модулей как на галвной [map, price, глбокая услуга]
+- скрипт добродаун
 - модуль из услуг финальный
-- скрипт для фоток
-- елли ок, то переносим форму, футер и карту
+- dropdown to footer
+- стили формы
+- dropdown links 1lv убрать
+
+- [index] carousel bug fix
 - prices upds
-  - 3.
   - table & class & file str
 - можно подумать о скриптах
 - на локалку скрипты
-- форма 4 стр
-  - input
-  - шоб работала
-- скрипт дропдаун 4 стр
-- относительные единицы для экрана
-- lechenie_z upd
-  - last module
-  - mq-s
 - filials upd
   - map bug
-  - change text on click
+  - change text on click map
   - button add
 - dentist upds
   - br to css
@@ -74,11 +72,7 @@ plan
 	- https://qna.habr.com/q/97795
 	- https://www.avito.ru/moskva/igry_pristavki_i_programmy/igrovye_pristavki-ASgBAgICAUSSAsoJ?q=ps4
 	- https://blog.lisogorsky.ru/ignor-scroll-iframe-maps
-- lv2 pages drafts [заглушки]
-	- ?
 - favicon
-- carousel main services
-	- texts
 - design team
 - animation correctons
 - form engine
@@ -88,12 +82,9 @@ plan
 	- styles
 	- pix-perf
 	- border-right
-- scroll back button
-- details carousel finish
 - services finish
 	- pointers
 	- controler
-- mq-s for details, ms-s, form
 - 404 page
 - h1 to filial [+ check other]
 - wc3 validate html
