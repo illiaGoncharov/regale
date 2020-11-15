@@ -12,6 +12,7 @@
 @import url("../blocks/header/__link-item/header__link-item.css");
 @import url("../blocks/header/__list-item/header__list-item.css");
 
+@import url("../blocks/header/_filials/header_filials.css");
 @import url("../blocks/header/_filials/__map/header_filials__map.css");
 @import url("../blocks/header/_filials/__map-info-container/header_filials__map-info-container.css");
 @import url("../blocks/header/_filials/__map-info-module/header_filials__map-info-module.css");

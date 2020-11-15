@@ -1,10 +1,11 @@
-.addresses {
-    padding-top: 60px;
-    padding-bottom: 80px;
+.header_filials {
+
 }
 
 @media (max-width: 1200px) {
-
+  .header_filials {
+    background: #515066;
+  }
 }
 
 @media (max-width: 992px) {
@@ -16,6 +17,5 @@
 }
 
 @media (max-width: 576px) {
-  .addresses {
-  }
+
 }

@@ -7,3 +7,22 @@
 .header_filials__map iframe {
   position: absolute;
 }
+
+@media (max-width: 1200px) {
+  .header_filials__map {
+    position: relative;
+    top: 90px;
+  }
+}
+
+@media (max-width: 992px) {
+
+}
+
+@media (max-width: 768px) {
+
+}
+
+@media (max-width: 576px) {
+
+}

@@ -2,3 +2,22 @@
     position: relative;
     top: 300px
 }
+
+@media (max-width: 1200px) {
+
+}
+
+@media (max-width: 992px) {
+
+}
+
+@media (max-width: 768px) {
+
+}
+
+@media (max-width: 576px) {
+  .header_filials__map-info-container {
+    padding: 15px;
+    /*display: none;*/
+  }
+}

@@ -6,5 +6,8 @@
 }
 
 .logo_place_footer {
+  height: 38px;
+  width: 98px;
 	margin-bottom: 20px;
+  background-image: url('./logo_place_footer.svg');
 }

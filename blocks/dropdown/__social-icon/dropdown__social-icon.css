@@ -2,3 +2,11 @@
 	width: 16px;
 	height: 16px;
 }
+
+.dropdown__social-icon_vk {
+  background-image: url('./../vk_color_white.svg');
+}
+
+.dropdown__social-icon_ins {
+  background-image: url('./../instagram_color_white.svg');
+}

@@ -6,6 +6,10 @@
   padding: 40px;
 }
 
+.p_service__article_four-blue div {
+  padding: 0;
+}
+
 .p_service__article_four-blue:hover {
   box-shadow: 0 25px 65px 0 rgba(0, 0, 0, 0.2), 0 5px 10px 0 rgba(0, 0, 0, 0.2);
 }

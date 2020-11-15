@@ -27,6 +27,15 @@
 	text-decoration: underline;
 }
 
+.logo_place_dropdown {
+  height: 38px;
+  width: 98px;
+  background-image: url('./logo_place_dropdown.svg');
+}
+
+@media (max-width: 1200px) {
+}
+
 @media (max-width: 576px) {
 }
 
@@ -42,6 +51,3 @@
 	}
 }
 
-@media (max-width: 1200px) {
-
-}

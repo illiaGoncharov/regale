@@ -5,3 +5,23 @@
 .address__info-container {
     padding-top: 40px;
 }
+
+@media (max-width: 1200px) {
+
+}
+
+@media (max-width: 992px) {
+
+}
+
+@media (max-width: 768px) {
+
+}
+
+@media (max-width: 576px) {
+  .address__info-container {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+}
+

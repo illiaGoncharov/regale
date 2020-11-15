@@ -7,5 +7,29 @@
 	line-height: 17px;
 	text-align: left;
 	margin-bottom: 8px;
-	display: inline-flex;
+  justify-content: flex-start !important;
 }
+
+@media (max-width: 1200px) {
+}
+
+@media (max-width: 576px) {
+}
+
+@media (max-width: 768px) {
+}
+
+@media (max-width: 992px) {
+
+}
+
+@media (min-width: 1440px) {
+  .dropdown__footer {
+    position: fixed;
+    bottom: 0;
+  }
+}
+
+
+
+

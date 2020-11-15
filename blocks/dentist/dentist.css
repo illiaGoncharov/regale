@@ -42,5 +42,9 @@
 }
 
 @media (max-width: 576px) {
-
+  .dentist {
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
 }

@@ -2,3 +2,11 @@
 	width: 16px;
 	height: 16px;
 }
+
+.footer__social-icon_vk {
+  background: url('./../vk_color_blue.svg');
+}
+
+.footer__social-icon_ins {
+  background: url('./../instagram_color_blue.svg');
+}

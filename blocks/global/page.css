@@ -1,17 +1,16 @@
 * {
 	padding: 0;
 	margin: 0;
-  -webkit-box-sizing: border-box;
   box-sizing: border-box;
+  -webkit-box-sizing: border-box;
   -webkit-tap-highlight-color: #0000;
 }
 
 /*Значение optimizeLegibility (от англ. optimize legibility, в значении «оптимизировать читаемость») говорит браузеру, что кёрнинг и лигатуры должны быть отрисованы. Учтите, что такая настройка сильно замедлит рендеринг страницы в целом.*/
 
-
 *, *:before, *:after {
-  text-rendering: optimizeLegibility;
-  /*-webkit-font-smoothing: antialiased;*/
+  /*text-rendering: optimizeLegibility;*/
+  -webkit-font-smoothing: antialiased;
   -webkit-text-size-adjust: 100%;
   -ms-text-size-adjust: 100%;
   -moz-text-size-adjust: 100%;
@@ -23,6 +22,14 @@ html {
 
 body {
   /*overflow-x: hidden;*/
+}
+
+.root {
+  font-family: OpenSans;
+  font-size: 15px;
+  line-height: 20px;
+  margin: 0 auto;
+  overflow: hidden;
 }
 
 .row {
@@ -100,13 +107,6 @@ body {
 
 .body_state_off {
   overflow-y: hidden;
-}
-
-.root {
-  font-family: OpenSans;
-  font-size: 15px;
-  line-height: 20px;
-  margin: 0 auto;
 }
 
 a, button {

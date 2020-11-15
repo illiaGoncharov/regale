@@ -1,8 +1,15 @@
 .p_service__text {
 }
 
-@media (max-width: 1200px) {
+.p_service__text:nth-child(even) {
+  padding-left: 40px;
+}
 
+.p_service__text:nth-child(odd) {
+  padding-left: 0;
+}
+
+@media (max-width: 1200px) {
 }
 
 @media (max-width: 768px) {
@@ -16,4 +23,13 @@
     margin-top: 30px;
     padding: 0;
   }
+
+  .p_service__text:nth-child(even) {
+    padding-left: 0px;
+  }
+
+  .p_service__text:nth-child(odd) {
+    padding-left: 0;
+  }
 }
+
