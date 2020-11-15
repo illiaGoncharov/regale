@@ -1,0 +1,35 @@
+.price__toggler {
+  padding: 0;
+  text-align: right;
+  width: 20px;
+  font-size: 28px;
+  line-height: 24px;
+  background: transparent;
+  border: none;
+}
+
+.price__toggler:hover,
+.price__toggler:focus {
+  text-align: right;
+  width: 20px;
+  font-size: 28px;
+  line-height: 24px;
+  text-decoration: none;
+}
+
+@media (max-width: 1200px) {
+}
+
+@media (max-width: 992px) {
+
+}
+
+@media (max-width: 768px) {
+  .price__toggler {
+    margin: 0 auto;
+  }
+}
+
+@media (max-width: 576px) {
+
+}

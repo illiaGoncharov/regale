@@ -22,6 +22,7 @@
 @import url("./../../blocks/header/_not-main/header_not-main.css");
 @import url("./../../blocks/header/_not-main/__title/header_not-main__title.css");
 @import url("./../../blocks/header/_not-main/__subtitle/header_not-main__subtitle.css");
+@import url("./../../blocks/header/_not-main/__container/header_not-main__container.css");
 
 @import url("./../../blocks/dropdown/dropdown.css");
 @import url("./../../blocks/dropdown/__container/dropdown__container.css");

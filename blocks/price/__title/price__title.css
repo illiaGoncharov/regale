@@ -1,5 +1,5 @@
-.prices {
-  padding-bottom: 60px;
+.price__title {
+  padding: 0;
 }
 
 @media (max-width: 1200px) {
@@ -10,8 +10,10 @@
 }
 
 @media (max-width: 768px) {
-  .prices  {
-    padding: 60px 15px 90px 15px;
+  .price__title {
+    font-size: 16px;
+    text-align: center;
+    margin-bottom: 10px;
   }
 }
 

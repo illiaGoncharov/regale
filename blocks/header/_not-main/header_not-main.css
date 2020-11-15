@@ -1,6 +1,4 @@
 .header_not-main {
-	/*background-color: rgba(20, 60, 125, 0.6);
-	background-size: cover;*/
 	height: 300px;
 }
 
@@ -30,5 +28,6 @@
 }
 
 @media (max-width: 576px) {
+
 
 }

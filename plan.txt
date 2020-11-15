@@ -1,50 +1,32 @@
 plan
-
-+ media querries works + carousel media q + team basic media q + form styles
-+ form final styles + footer responsive layout
-+ dropdown basics
-+ menu file structure + overflow-y on body + elements file structure + header upload speed
-+ mobile menu draft + links & social (inst) + service-link + dropdown footer prevent default + mobile menu links + header media q basics + footer links & phone
-+ pointers on carousel + appear animation + footer rects + updated icons + драфт второй карусели
-09.11
-+ texts upd + team mq upds + cards to grid
-+ white border [header + form] + photo upd + controller main
-+ team carousel
-+ photo feachure draft
-10.11
-+ header[not main] correction + team intro [intro file str] + dentist draft [grid tamplate area]
-+ adresses draft
-+ шрифт для заголовка
-+ filials animation + devider[dropdown] bug fix + lechenie_z draft + service file structrure
-+ fonts update local + dropdown bug [team] + dropdown bug [menu dark]
-+ index scripts to call [team & carousel] + dropdown script + aos init script + overflow:hidden back
-12.11
-+ dropdownphoto script local [all] + added some meta to index
-+ overflow-y index + bug fixed unclicked + prices draft
-+ scroll in team, font size [+intro] to 15 + font one place + img team img correction + texts
-+ font correction + team layout upd
-13.11
-+ [index] team correction mq-s + [index] team imgs
-+ [index] header photos
-+ dropdown 1lv link upd + filials addresses cor + filials & team .load form & footer + yan map upd
-+ dentists imgs + content + dentist layout updates
 ---
-[] = git commit -m "[index] mq-s + price .load footer, map, form + lots of minor mq updates + mobile menu open []"
+- https://medium.com/breadhead-stories/encore-fitness-2ea1deba6f70
 
-- mq-s
+* https://marvelapp.com/prototype/12jeei2e/screen/73341517/handoff
+* https://developers.google.com/web/tools/chrome-devtools/speed/get-started
+* https://glidejs.com/docs/setup/
 
-  - lechenie_z m
-  - mq-s prices
-  - form footer & map
+- https://www.google.com/search?q=html+to+wordpress&rlz=1C5CHFA_enRU827RU827&oq=html+to+w&aqs=chrome.3.69i57j0i457j0l3j69i60l3.4367j0j7&sourceid=chrome&ie=UTF-8
+- https://websitesetup.org/html-to-wordpress/
+- https://www.highervisibility.com/blog/converting-html-to-wordpress-step-by-step-tutorial/
+- https://hostenko.com/wpcafe/tutorials/kak-perenesti-sayt-na-wordpress-s-html-joomla-i-drupal/
+- https://wordpress.org/plugins/import-html-pages/
+- https://wpcustom.ru/kak-perenesti-html-site-na-wordpress/
+---
+
+[] = git commit -m "mq-s prices + + lechenie_z mq-s [десткая стоматология отдельно]"
+
+- services/ footer & dropdown img to css
 - [index] main carousel layout
-- menu [десткая стоматология отдельно]
-- подгрузка модулей как на галвной [map, , глбокая услуга]
 - скрипт добродаун
 - модуль из услуг финальный
 - dropdown to footer
 - mobile drowpdown
 
-- navs to one to outer
+- design mobile menu
+  - меню сейчас на мобиле выдает список из категорий, нужно сдлеать, чтобы с подкатегориями
+  - navs to one to outer
+- design main serv index
 - advantages animation
 - navs to external [scripts workin wrong bug fixed]
 - [index] carousel bug fix
@@ -92,15 +74,34 @@ plan
 - попап на "подписаться"
 
 ---
-- https://medium.com/breadhead-stories/encore-fitness-2ea1deba6f70
 
-* https://marvelapp.com/prototype/12jeei2e/screen/73341517/handoff
-* https://developers.google.com/web/tools/chrome-devtools/speed/get-started
-* https://glidejs.com/docs/setup/
-
-- https://www.google.com/search?q=html+to+wordpress&rlz=1C5CHFA_enRU827RU827&oq=html+to+w&aqs=chrome.3.69i57j0i457j0l3j69i60l3.4367j0j7&sourceid=chrome&ie=UTF-8
-- https://websitesetup.org/html-to-wordpress/
-- https://www.highervisibility.com/blog/converting-html-to-wordpress-step-by-step-tutorial/
-- https://hostenko.com/wpcafe/tutorials/kak-perenesti-sayt-na-wordpress-s-html-joomla-i-drupal/
-- https://wordpress.org/plugins/import-html-pages/
-- https://wpcustom.ru/kak-perenesti-html-site-na-wordpress/
++ media querries works + carousel media q + team basic media q + form styles
++ form final styles + footer responsive layout
++ dropdown basics
++ menu file structure + overflow-y on body + elements file structure + header upload speed
++ mobile menu draft + links & social (inst) + service-link + dropdown footer prevent default + mobile menu links + header media q basics + footer links & phone
++ pointers on carousel + appear animation + footer rects + updated icons + драфт второй карусели
+09.11
++ texts upd + team mq upds + cards to grid
++ white border [header + form] + photo upd + controller main
++ team carousel
++ photo feachure draft
+10.11
++ header[not main] correction + team intro [intro file str] + dentist draft [grid tamplate area]
++ adresses draft
++ шрифт для заголовка
++ filials animation + devider[dropdown] bug fix + lechenie_z draft + service file structrure
++ fonts update local + dropdown bug [team] + dropdown bug [menu dark]
++ index scripts to call [team & carousel] + dropdown script + aos init script + overflow:hidden back
+12.11
++ dropdownphoto script local [all] + added some meta to index
++ overflow-y index + bug fixed unclicked + prices draft
++ scroll in team, font size [+intro] to 15 + font one place + img team img correction + texts
++ font correction + team layout upd
+13.11
++ [index] team correction mq-s + [index] team imgs
++ [index] header photos
++ dropdown 1lv link upd + filials addresses cor + filials & team .load form & footer + yan map upd
++ dentists imgs + content + dentist layout updates
+15.11
++ [index] mq-s + price .load footer, map, form + lots of minor mq updates + mobile menu  bug fixed

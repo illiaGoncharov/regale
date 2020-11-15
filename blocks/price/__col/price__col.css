@@ -1,0 +1,12 @@
+.price__col {
+  padding: 20px 0 0 0;
+}
+
+.first-column {
+  padding-right: 40px;
+}
+
+.other-column {
+  font-weight: bold;
+  vertical-align: baseline;
+}

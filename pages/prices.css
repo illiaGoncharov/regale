@@ -40,6 +40,11 @@
 
 @import url("../blocks/prices/prices.css");
 @import url("../blocks/price/price.css");
+@import url("../blocks/price/__main/price__main.css");
+@import url("../blocks/price/__title/price__title.css");
+@import url("../blocks/price/__toggler/price__toggler.css");
+@import url("../blocks/price/__expandable/price__expandable.css");
+@import url("../blocks/price/__col/price__col.css");
 
 @import url("../blocks/form/form.css");
 @import url("../blocks/form/__title/form__title.css");

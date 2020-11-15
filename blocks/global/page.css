@@ -91,11 +91,11 @@ body {
 }
 
 .pr-40 {
-  padding-right: 40px !important;
+  padding-right: 40px;
 }
 
 .pl-40 {
-  padding-left: 40px !important;
+  padding-left: 40px;
 }
 
 .body_state_off {

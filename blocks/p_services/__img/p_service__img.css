@@ -1,6 +1,27 @@
 .p_service__img {
   padding: 0;
   width: inherit;
-  max-height: 390px;
+  height: 390px;
+  max-height: 420px;
+
   object-fit: cover;
 }
+
+
+@media (max-width: 1200px) {
+
+}
+
+@media (max-width: 768px) {
+}
+
+@media (max-width: 992px) {
+}
+
+@media (max-width: 576px) {
+  .p_service__img {
+    max-height: 200px;
+    max-width: 100%;
+  }
+}
+
