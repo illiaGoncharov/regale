@@ -2,5 +2,5 @@
   overflow-y: hidden;
 	position: relative;
   padding-top: 90px;
-	height: 880px;
+	min-height: 880px;
 }

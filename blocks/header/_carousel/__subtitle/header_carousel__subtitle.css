@@ -2,13 +2,12 @@
 	color: #fff;
 	position: relative;
 	left: 0;
-	max-width: 500px;
+	max-width: 600px;
 	border-left: 2px solid #fff;
 	padding-left: 20px;
 }
 
 @media (max-width: 576px) {
-
 }
 
 @media (max-width: 768px) {

@@ -2,17 +2,20 @@
 	padding-left: 24px;
 }
 
-@media (max-width: 576px) {
-}
-
-@media (max-width: 768px) {
-	.section__title {
-		padding-left: 15px;
-	}
+@media (min-width: 1200px) {
 }
 
 @media (max-width: 992px) {
 }
 
-@media (min-width: 1200px) {
+@media (max-width: 768px) {
+  .section__title {
+    padding-left: 0;
+  }
+}
+
+@media (max-width: 576px) {
+  .section__title {
+    padding-left: 15px;
+  }
 }

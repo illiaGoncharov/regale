@@ -14,3 +14,21 @@
 .header_team {
 
 }
+
+@media (max-width: 1200px) {
+
+}
+
+@media (max-width: 992px) {
+  .header_not-main {
+    height: 210px;
+  }
+}
+
+@media (max-width: 768px) {
+
+}
+
+@media (max-width: 576px) {
+
+}

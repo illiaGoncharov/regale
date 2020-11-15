@@ -3,7 +3,8 @@
 	width: inherit;
 	height: 20px;
 	box-sizing: border-box;
-	padding-top: 20px;
+	padding-top: 10px;
 	padding-bottom: 10px;
 	cursor: pointer;
+  font-weight: bold;
 }

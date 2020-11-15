@@ -9,18 +9,22 @@
 }
 
 
-@media (max-width: 576px) {
-}
+@media (max-width: 1200px) {
 
-@media (max-width: 768px) {
-	.team__text_basic {
-		padding-left: 15px;
-	}
 }
 
 @media (max-width: 992px) {
 }
 
-@media (max-width: 1200px) {
 
+@media (max-width: 768px) {
+	.team__text_basic {
+		padding-left: 0;
+	}
+}
+
+@media (max-width: 576px) {
+  .team__text_basic {
+    padding-left: 15px;
+  }
 }

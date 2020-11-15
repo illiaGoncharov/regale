@@ -12,14 +12,15 @@
 }
 
 @media (max-width: 992px) {
-	.header_carousel__title {
-		font-size: xx-large;
-    	line-height: normal;
-	}
+
 }
 
 @media (max-width: 768px) {
 }
 
 @media (max-width: 576px) {
+  .header_carousel__title {
+    font-size: 36px;
+    line-height: initial;
+  }
 }

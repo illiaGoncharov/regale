@@ -1,5 +1,24 @@
 .form {
 	background-color: #515066;
-  	height: auto;
-    padding-bottom: 90px;
+	height: auto;
+  padding-bottom: 90px;
+}
+
+@media (max-width: 1200px) {
+
+}
+
+@media (max-width: 992px) {
+
+}
+
+
+@media (max-width: 768px) {
+
+}
+
+@media (max-width: 576px) {
+  .form {
+    padding: 0px 15px 90px 25px;
+  }
 }

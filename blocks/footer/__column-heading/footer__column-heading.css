@@ -1,8 +1,6 @@
-.dentist__photo {
-  grid-area: dentist__photo;
-  width: inherit;
-}
+.footer__column-heading {
 
+}
 
 @media (max-width: 1200px) {
 
@@ -11,14 +9,12 @@
 @media (max-width: 992px) {
 }
 
-
 @media (max-width: 768px) {
 
 }
 
 @media (max-width: 576px) {
-  .dentist__photo {
-
+  .footer__column-heading {
+    margin-bottom: 15px;
   }
-
 }

@@ -38,14 +38,6 @@
 @import url("../blocks/intro/__texts/intro__texts.css");
 @import url("../blocks/intro/__text/intro__text.css");
 
-/*@import url("../blocks/dentists/dentists.css");
-@import url("../blocks/dentist/dentist.css");
-@import url("../blocks/dentist/__photo/dentist__photo.css");
-@import url("../blocks/dentist/__main-text/dentist__main-text.css");
-@import url("../blocks/dentist/__add-text/dentist__add-text.css");
-@import url("../blocks/dentist/_expandable/dentist_expandable.css");
-@import url("../blocks/dentist/_expandable/__button/dentist_expandable__button.css");*/
-
 @import url("../blocks/prices/prices.css");
 @import url("../blocks/price/price.css");
 

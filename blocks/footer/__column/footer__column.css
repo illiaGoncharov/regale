@@ -4,19 +4,26 @@
   padding-right: 0px;
 }
 
-@media (max-width: 576px) {
- .footer__column {
- 	padding-left: 15px;
- }
-}
-
-@media (max-width: 768px) {
+@media (max-width: 1200px) {
 
 }
 
 @media (max-width: 992px) {
 }
 
-@media (max-width: 1200px) {
+@media (max-width: 768px) {
+  .footer__column {
+    margin-top: 25px;
+    padding-left: 0;
+  }
 
 }
+
+@media (max-width: 576px) {
+  .footer__column {
+    padding-left: 15px;
+  }
+}
+
+
+

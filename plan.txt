@@ -27,26 +27,26 @@ plan
 + [index] team correction mq-s + [index] team imgs
 + [index] header photos
 + dropdown 1lv link upd + filials addresses cor + filials & team .load form & footer + yan map upd
++ dentists imgs + content + dentist layout updates
 ---
-[] = git commit -m ""
+[] = git commit -m "[index] mq-s + price .load footer, map, form + lots of minor mq updates + mobile menu open []"
 
-- dentists imgs
-  - фотграфии размеры
-  - добавляем на сайт
-- [index] main carousel layout
 - mq-s
+
   - lechenie_z m
   - mq-s prices
   - form footer & map
+- [index] main carousel layout
 - menu [десткая стоматология отдельно]
-- 2*nav вынести в отдельный
-- подгрузка модулей как на галвной [map, price, глбокая услуга]
+- подгрузка модулей как на галвной [map, , глбокая услуга]
 - скрипт добродаун
 - модуль из услуг финальный
 - dropdown to footer
-- стили формы
-- из header все нахуй и navs в отдельный файл [4 pg.]
+- mobile drowpdown
 
+- navs to one to outer
+- advantages animation
+- navs to external [scripts workin wrong bug fixed]
 - [index] carousel bug fix
 - prices upds
   - table & class & file str
@@ -89,6 +89,7 @@ plan
   - https://yandex.ru/q/question/computers/kak_pravilno_zapolniat_metategi_li_teg_6ec772df/
   - https://yandex.ru/support/webmaster/controlling-robot/html.html
   - https://css-tricks.com/essential-meta-tags-social-media/
+- попап на "подписаться"
 
 ---
 - https://medium.com/breadhead-stories/encore-fitness-2ea1deba6f70

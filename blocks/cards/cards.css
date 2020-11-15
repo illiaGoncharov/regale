@@ -22,14 +22,12 @@
 }
 
 @media (max-width: 768px) {
-  .cards {
-    padding-left: 15px;
-    padding-right: 15px;
-  }
 }
 
 @media (max-width: 576px) {
   .cards {
     grid-template-columns: repeat(1, 1fr );
+    padding-left: 15px;
+    padding-right: 15px;
   }
 }

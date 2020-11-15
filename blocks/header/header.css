@@ -15,14 +15,14 @@
 }
 
 @media (max-width: 992px) {
-	.header__menu { 
+	.header__menu {
 		display: none;
 	}
 
 	.header_user_Mobile {
 		display: block;
-    	z-index: 100;
-    	position: absolute;
+    z-index: 100;
+    position: absolute;
 		left: 0;
 		top: 0;
 		padding: 0;
@@ -35,18 +35,23 @@
 		top: 0;
 		z-index: 2;
 		color: #0000 !important;
-    	border-color: #0000 !important;
-    	width: inherit;
-    	height: auto;
+  	border-color: #0000 !important;
+  	width: inherit;
+  	height: auto;
+    position: absolute;
+    top: 30px;
+    text-align: right;
+    padding-right: 60px;
+    z-index: 2;
 	}
 
-	.navbar-toggler_user_Mobile span {
+/*	.navbar-toggler_user_Mobile span {
 		position: absolute;
 		right: 60px;
 		top: 30px;
 		z-index: 2;
-	}
-	
+	}*/
+
 	#navbarSupportedContent {
 		background: #515066;
 		width: 100vw;
@@ -62,5 +67,5 @@
 }
 
 @media (max-width: 576px) {
-  	
+
 }
