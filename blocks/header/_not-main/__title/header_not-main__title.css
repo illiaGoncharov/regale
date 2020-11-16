@@ -1,6 +1,6 @@
 .header_not-main__title {
 	margin: 0;
-	padding-top: 90px;
+	padding-top: 120px;
 	color: #fff;
 	font-family: Lora;
 	font-size: 43px;
@@ -21,7 +21,8 @@
 
 @media (max-width: 576px) {
   .header_not-main__title {
-    padding-top: 70px;
+    position: absolute;
+    bottom: 30px;
     font-size: 26px;
     line-height: initial;
     padding-left: 15px;

@@ -34,7 +34,7 @@
                 <a class="nav-link dropdown-toggle header__link-item" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" onclick="">
                   Виды лечения
                 </a>
-                <ul class="col-lg-12 dropdown-menu dropdown" aria-labelledby="navbarDropdown" id="servicesDropdown">
+                <ul class="col-lg-12 dropdown dropdown__root dropdown-menu" aria-labelledby="navbarDropdown" id="servicesDropdown">
                 </ul>
               </li>
               <li class="nav-item header__list-item">
@@ -46,9 +46,6 @@
               <li class="nav-item header__list-item">
                 <a class="nav-link header__link-item" href="./team.html">Специалисты</a>
               </li>
-              <!-- <li class="nav-item header__list-item">
-                <a class="nav-link header__link-item" href="./faqs.html">FAQ</a>
-              </li> -->
             </ul>
             <ul class="navbar-nav">
               <li class="nav-item header__list-item">
@@ -65,18 +62,204 @@
           </div>
         </nav>
         <nav class="container navbar navbar-expand-lg navbar-dark header_user_Mobile" id="navbarCol-2">
-          <button class="navbar-toggler navbar-toggler_user_Mobile" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarCol-2" aria-expanded="false" aria-label="Toggle Navigation"><span class="navbar-toggler-icon"></span></button>
+          <div class="header_mobile__logo"></div>
+          <button class="navbar-toggler navbar-toggler_user_Mobile" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarCol-2" aria-expanded="false" aria-label="Toggle Navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav">
               <li class="nav-item header__list-item header_user_Mobile__list-item">
-                <a class="nav-link header_user_Mobile__link-item" href="https://www.instagram.com/regale_cis/">Написать в Instagram</a>
+                <a class="nav-link dropdown-toggle" href="#" id="nDropdown-1" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Виды лечения
+                </a>
+                <ul class="dropdown-menu dropdown_user_Mobile" aria-labelledby="nDropdown-1">
+                  <div class="container dropdown__container dropdown_user_Mobile__container">
+                    <ul class=" dropdown__link-column dropdown_user_Mobile__link-column">
+
+                      <li class="dropdown_user_Mobile__link-item">
+                        <a class="dropdown-toggle a-white" tabindex="-1" href="#">
+                          Лечение зубов и десен</span>
+                        </a>
+                        <ul class="dropdown-menu dropdown_user_Mobile__link-submenu">
+                          <li tabindex="-1" class="dropdown__link-submenu-item dropdown_user_Mobile__link-submenu-item">
+                            <a href="./services/lechenie_z/lechenie_z_1.html">
+                              Лечение зубов под микроскопом
+                            </a>
+                          </li>
+                          <li tabindex="-1" class="dropdown__link-submenu-item dropdown_user_Mobile__link-submenu-item">
+                            <a href="./services/lechenie_z/lechenie_z_2.html">
+                              Лечение кариеса
+                            </a>
+                          </li>
+                          <li tabindex="-1" class="dropdown__link-submenu-item dropdown_user_Mobile__link-submenu-item">
+                            <a href="./services/lechenie_z/lechenie_z_3.html">
+                              Лечение пульпита и периодонтита
+                            </a>
+                          </li>
+                          <li tabindex="-1" class="dropdown__link-submenu-item dropdown_user_Mobile__link-submenu-item">
+                            <a href="./services/lechenie_z/lechenie_z_4.html">
+                              Пародонтология
+                            </a>
+                          </li>
+                          <li tabindex="-1" class="dropdown__link-submenu-item dropdown_user_Mobile__link-submenu-item">
+                            <a href="./services/lechenie_z/lechenie_z_5.html">
+                              Лечение зубов за 1 день
+                            </a>
+                          </li>
+                          <li tabindex="-1" class="dropdown__link-submenu-item dropdown_user_Mobile__link-submenu-item">
+                            <a href="./services/lechenie_z/lechenie_z_6.html">
+                              Лечение зубов при беременности
+                            </a>
+                          </li>
+                        </ul>
+                      </li>
+                      <li class="dropdown_user_Mobile__link-item">
+                        <a class="dropdown-toggle a-white" tabindex="-1" href="#">
+                          Эстетическая стоматология
+                        </a>
+                        <ul class="dropdown-menu dropdown_user_Mobile__link-submenu">
+                          <li tabindex="-1" class="dropdown__link-submenu-item dropdown_user_Mobile__link-submenu-item">
+                            <a href="./services/esteticheskaya_s/esteticheskaya_s_1.html">
+                              Виниры и ультратонкие виниры
+                            </a>
+                          </li>
+                          <li tabindex="-1" class="dropdown__link-submenu-item dropdown_user_Mobile__link-submenu-item">
+                            <a href="./services/esteticheskaya_s/esteticheskaya_s_2.html">
+                              Художественная реставрация зубов
+                            </a>
+                          </li>
+                          <li tabindex="-1" class="dropdown__link-submenu-item dropdown_user_Mobile__link-submenu-item">
+                            <a href="./services/esteticheskaya_s/esteticheskaya_s_3.html">
+                              Отбеливание зубов
+                            </a>
+                          </li>
+                        </ul>
+                      </li>
+                      <li class="dropdown_user_Mobile__link-item">
+                        <a class="dropdown-toggle a-white" href="#">Протезирование зубов
+                        </a>
+                        <ul class="dropdown-menu dropdown_user_Mobile__link-submenu">
+                          <li tabindex="-1" class="dropdown__link-submenu-item dropdown_user_Mobile__link-submenu-item">
+                            <a href="./services/protezirovanie_z/protezirovanie_z_1.html">
+                              Коронки на основе диоксида циркония и цельнокерамические коронки
+                            </a>
+                          </li>
+                          <li tabindex="-1" class="dropdown__link-submenu-item dropdown_user_Mobile__link-submenu-item">
+                            <a href="./services/protezirovanie_z/protezirovanie_z_2.html">
+                              Микропротезирование вкладками
+                            </a>
+                          </li>
+                          <li tabindex="-1" class="dropdown__link-submenu-item dropdown_user_Mobile__link-submenu-item">
+                            <a href="./services/protezirovanie_z/protezirovanie_z_3.html">
+                              Протезирование на имплантах
+                            </a>
+                          </li>
+                          <li tabindex="-1" class="dropdown__link-submenu-item dropdown_user_Mobile__link-submenu-item">
+                            <a href="./services/protezirovanie_z/protezirovanie_z_4.html">
+                              Протезирование All-on-4 и All-on-6
+                            </a>
+                          </li>
+                        </ul>
+                      </li>
+                      <li class="dropdown_user_Mobile__link-item">
+                        <a class="dropdown-toggle a-white" href="#">Имплантация и хирургия
+                        </a>
+                        <ul class="dropdown-menu dropdown_user_Mobile__link-submenu">
+                          <li tabindex="-1" class="dropdown__link-submenu-item dropdown_user_Mobile__link-submenu-item">
+                            <a href="./services/implantacia_i/implantacia_i_1.html">
+                              Удаление зубов любой сложности
+                            </a>
+                          </li>
+                          <li tabindex="-1" class="dropdown__link-submenu-item dropdown_user_Mobile__link-submenu-item">
+                            <a href="./services/implantacia_i/implantacia_i_2.html">
+                              Имплантация с отсроченной нагрузкой
+                            </a>
+                          </li>
+                          <li tabindex="-1" class="dropdown__link-submenu-item dropdown_user_Mobile__link-submenu-item">
+                            <a href="./services/implantacia_i/implantacia_i_3.html">
+                              Имплантация с немедленной нагрузкой
+                            </a>
+                          </li>
+                          <li tabindex="-1" class="dropdown__link-submenu-item dropdown_user_Mobile__link-submenu-item">
+                            <a href="./services/implantacia_i/implantacia_i_4.html">
+                              Имплантация во сне
+                            </a>
+                          </li>
+                          <li tabindex="-1" class="dropdown__link-submenu-item dropdown_user_Mobile__link-submenu-item">
+                            <a href="./services/implantacia_i/implantacia_i_5.html">
+                              Условно-съемное протезирование на имплантах
+                            </a>
+                          </li>
+                          <li tabindex="-1" class="dropdown__link-submenu-item dropdown_user_Mobile__link-submenu-item">
+                            <a href="./services/implantacia_i/implantacia_i_6.html">
+                              Синус-лифтинг и костная пластика
+                            </a>
+                          </li>
+                          <li tabindex="-1" class="dropdown__link-submenu-item dropdown_user_Mobile__link-submenu-item">
+                            <a href="./services/implantacia_i/implantacia_i_6.html">
+                              Имплантация All-on-4 и All-on-6
+                            </a>
+                          </li>
+                        </ul>
+                      </li>
+                      <li class="dropdown_user_Mobile__link-item">
+                        <a class="dropdown-toggle a-white" href="#">Исправление прикуса
+                        </a>
+                        <ul class="dropdown-menu dropdown_user_Mobile__link-submenu">
+                          <li tabindex="-1" class="dropdown__link-submenu-item dropdown_user_Mobile__link-submenu-item">
+                            <a href="./services/ispravlenie_p/ispravlenie_p_1.html">
+                              Брекеты (многопетлевая техника и техника прямой дуги)
+                            </a>
+                          </li>
+                          <li tabindex="-1" class="dropdown__link-submenu-item dropdown_user_Mobile__link-submenu-item">
+                            <a href="./services/ispravlenie_p/ispravlenie_p_2.html">
+                              Элайнеры, пластинки, каппы
+                            </a>
+                          </li>
+                        </ul>
+                      </li>
+                      <li class="dropdown_user_Mobile__link-item">
+                        <a class="dropdown-toggle a-white" href="#">Гнатология
+                        </a>
+                        <ul class="dropdown-menu dropdown_user_Mobile__link-submenu">
+                          <li tabindex="-1" class="dropdown__link-submenu-item dropdown_user_Mobile__link-submenu-item">
+                            <a href="./services/gnatologia/gnatologia_1.html">
+                              Комплексная гнатологическая диагностика
+                            </a>
+                          </li>
+                          <li tabindex="-1" class="dropdown__link-submenu-item dropdown_user_Mobile__link-submenu-item">
+                            <a href="./services/gnatologia/gnatologia_2.html">
+                              Методики гнатологической реабилитации
+                            </a>
+                          </li>
+                        </ul>
+                      </li>
+                      <li class="dropdown_user_Mobile__link-item">
+                        <a class="dropdown-toggle a-white" href="#">Гигиена  и профилактика
+                        </a>
+                        <ul class="dropdown-menu dropdown_user_Mobile__link-submenu">
+                          <li tabindex="-1" class="dropdown__link-submenu-item dropdown_user_Mobile__link-submenu-item">
+                            <a href="./services/gigiena_i/gigiena_i_1.html">
+                              Профессиональная гигиена Air Flow и ультразвуковая чистка
+                            </a>
+                          </li>
+                          <li tabindex="-1" class="dropdown__link-submenu-item dropdown_user_Mobile__link-submenu-item">
+                            <a href="./services/gigiena_i/gigiena_i_2.html">
+                              Глубокое профилактическое фторирование и ремотерапия
+                            </a>
+                          </li>
+                        </ul>
+                      </li>
+                      <li class="dropdown_user_Mobile__link-item">
+                        <a class="a-white" href="./services/detskaya/detskaya.html">
+                          Детская стоматология
+                        </a>
+                      </li>
+                    </ul>
+                  </div>
+                </ul>
               </li>
-              <li class="nav-item header__list-item header_user_Mobile__list-item">
-                <a class="nav-link header_user_Mobile__link-item" href="tel:+7-495-900-10-39">+7-495-900-10-39</a>
-              </li>
-            </ul>
-            <ul class="navbar-nav">
-              <li class="nav-item header__list-item header_user_Mobile__list-item ">
+              <li class="nav-item header__list-item header_user_Mobile__list-item active">
                 <a class="nav-link header_user_Mobile__link-item" href="./index.html">Главная</a>
               </li>
               <li class="nav-item header__list-item header_user_Mobile__list-item">
@@ -88,47 +271,6 @@
               <li class="nav-item header__list-item header_user_Mobile__list-item">
                 <a class="nav-link header_user_Mobile__link-item" href="./team.html">Специалисты</a>
               </li>
-              <!-- <li class="nav-item header__list-item header_user_Mobile__list-item">
-                <a class="nav-link header_user_Mobile__link-item" href="./faqs.html">FAQ</a>
-              </li> -->
-              <li class="nav-item header__list-item header_user_Mobile__list-item">
-                <a class="nav-link dropdown-toggle dropdown_user_Mobile__link-item" href="#" id="nDropdown-1" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                  Виды лечения
-                </a>
-                <ul class="dropdown-menu dropdown_user_Mobile" aria-labelledby="nDropdown-1">
-                  <div class="dropdown__container dropdown_user_Mobile__container">
-                    <ul class="dropdown__link-column dropdown_user_Mobile__link-column">
-                      <li class="dropdown_user_Mobilewn__link-item">
-                        <a class="a-white" href="./services/lechenie_z/lechenie_z.html">Лечение зубов и десен
-                        </a>
-                      <li class="dropdown_user_Mobilewn__link-item">
-                        <a class="a-white" href="./services/esteticheskaya_s/esteticheskaya_s.html">Эстетическая стоматология
-                        </a>
-                      </li>
-                      <li class="dropdown_user_Mobilewn__link-item">
-                        <a class="a-white" href="./services/protezirovanie_z/protezirovanie_z.html">Протезирование зубов
-                        </a>
-                      </li>
-                      <li class="dropdown_user_Mobilewn__link-item">
-                        <a class="a-white" href="./services/implantacia_i/implantacia_i.html">Имплантация и хирургия
-                        </a>
-                      </li>
-                      <li class="dropdown_user_Mobilewn__link-item">
-                        <a class="a-white" href="./services/ispravlenie_p/ispravlenie_p.html">Исправление прикуса
-                        </a>
-                      </li>
-                      <li class="dropdown_user_Mobilewn__link-item">
-                        <a class="a-white" href="./services/gnatologia/gnatologia.html">Гнатология
-                        </a>
-                      </li>
-                      <li class="dropdown_user_Mobilewn__link-item">
-                        <a class="a-white" href="./services/gigiena_i/gigiena_i.html">Гигиена  и профилактика
-                        </a>
-                      </li>
-                    </ul>
-                  </div>
-                </ul>
-              </li>
             </ul>
           </div>
         </nav>
@@ -138,9 +280,6 @@
           <h1 class="header_not-main__title">
             Специалисты
           </h1>
-          <p class="header_not-main__subtitle">
-            Главная > Специалисты
-          </p>
         </div>
       </section>
     </header>
@@ -479,7 +618,7 @@
           </div>
         </article>
       </section>
-      <section class="form" data-aos="fade-up" data-aos-duration="800"></section>
+      <section class="form"></section>
       <section class="map"></section>
       <footer class="container footer"></footer>
     </main>

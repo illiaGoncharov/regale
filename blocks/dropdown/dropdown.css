@@ -1,4 +1,4 @@
-.dropdown {
+.dropdown__root {
 	position: fixed !important;
 	min-width: 100vw;
 	top: 0;
@@ -15,7 +15,7 @@
 	transition: .5s ease all;
 }
 
-.dropdown.show {
+.dropdown__root.show {
 	visibility: visible;
 	display: block;
 	opacity: 1;
@@ -43,12 +43,7 @@
 		border: none;
  		border-radius: 0rem;
     height: auto;
-
 	}
-
-  /*.dropdown_user_Mobilewn__link-item {
-    overflow-y: scroll;
-  }*/
 }
 
 @media (max-width: 768px) {

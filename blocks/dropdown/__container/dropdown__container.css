@@ -1,6 +1,6 @@
 .dropdown__container {
 	padding-top: 100px;
-	position: relative !important;
+	/*position: relative !important;*/
 	align-items: flex-start !important;
 	overflow: hidden;
 }
@@ -13,6 +13,7 @@
 	.dropdown_user_Mobile__container {
 		background: #515066;
 		padding-top: 0px;
+    padding-bottom: 15px;
 	}
 }
 
@@ -21,7 +22,7 @@
 }
 
 @media (max-width: 576px) {
-  	
+
 }
 
 

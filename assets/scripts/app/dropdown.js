@@ -33,3 +33,13 @@ $('.navbar-toggler_user_Mobile').on('click', function() {
     $(".content").addClass('zindexminus');
   }
 });
+
+$(document).ready(function(){
+  $('.dropdown_user_Mobile__link-item a').on("click", function(e){
+    $(this).next('ul').toggle();
+    e.stopPropagation();
+    /*e.preventDefault();*/
+  });
+});
+
+

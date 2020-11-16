@@ -12,58 +12,60 @@ plan
 - https://hostenko.com/wpcafe/tutorials/kak-perenesti-sayt-na-wordpress-s-html-joomla-i-drupal/
 - https://wordpress.org/plugins/import-html-pages/
 - https://wpcustom.ru/kak-perenesti-html-site-na-wordpress/
+
+<!-- https://bootstrap-4.ru/docs/4.5/components/forms/ -->
+<!-- https://three-sisters.ru/ -->
 ---
 
-[] = git commit -m "map pointer events none + faq deleted"
+[] = git commit -m "хлебные крошки убираем + [index] горизонтальный 1290+ main + togglers mobile ok + lechenie link sustem upd"
 
-: mobile drowpdown
+- хостинг
+: - mobile drowpdown
+    - dropdown styles [dropdown__root .load & srvices]
+    - one nav [bootstrap navbar]
+      - [index] [service] [.load]
+    - logo mobile menu
+- [index] carusel layout
+- logo upd [dropdown + footer]
+- [index] нумератор странный
 
-- [index] main carousel layout
-- модуль из услуг финальный
+- navs to one to outer
+- dropdown footer 1280+ fixed
+- h1 c инновационyая стоматология
+- дропдаун наведение фотка
 -
-
+- [services] модуль из услуг финальный
+- [index] p-blue должность на главной
+- [index] фейд team + нумератор team
+- застравка
 - footer to 100% (lechenie)
-- design mobile menu
-  - меню сейчас на мобиле выдает список из категорий, нужно сдлеать, чтобы с подкатегориями
-  - navs to one to outer
-- design main serv index
+- design main serv [index]
 - animation steps
   - advantages
   - addresses
 - navs to external [scripts workin wrong bug fixed]
 - [index] carousel bug fix
-- prices upds
+- [prices] upds
   - table & class & file str
 - можно подумать о скриптах
 - на локалку скрипты
-- filials upd
+- [filials] upd
   - map bug
+    - https://qna.habr.com/q/97795
+    - https://www.avito.ru/moskva/igry_pristavki_i_programmy/igrovye_pristavki-ASgBAgICAUSSAsoJ?q=ps4
+    - https://blog.lisogorsky.ru/ignor-scroll-iframe-maps
   - change text on click map
   - button add
-- dentist upds
+- [dentist] upds
   - br to css
   - dentist transition
   - expand + expand js
-- design detist tablet + mobile
-- меню
-  - design mobile menu + button
-  - mobile menu [cool]
-- taem design + mq-s
-- map scroll bug
-	- https://qna.habr.com/q/97795
-	- https://www.avito.ru/moskva/igry_pristavki_i_programmy/igrovye_pristavki-ASgBAgICAUSSAsoJ?q=ps4
-	- https://blog.lisogorsky.ru/ignor-scroll-iframe-maps
+- design [detnist] tablet + mobile
 - favicon
-- design team
-- animation correctons
 - form engine
 	- дока
 	- бутстрап
-- form fix
-	- styles
-	- pix-perf
-	- border-right
-- services finish
+- [index] services finish
 	- pointers
 	- controler
 - 404 page
@@ -73,10 +75,9 @@ plan
   - https://yandex.ru/q/question/computers/kak_pravilno_zapolniat_metategi_li_teg_6ec772df/
   - https://yandex.ru/support/webmaster/controlling-robot/html.html
   - https://css-tricks.com/essential-meta-tags-social-media/
-- попап на "подписаться"
+- попап на ""
 
 ---
-+ filials menu bug + dentists mobile layout + services/ footer & dropdown img to css + dropdown to footer
 + media querries works + carousel media q + team basic media q + form styles
 + form final styles + footer responsive layout
 + dropdown basics
@@ -108,3 +109,8 @@ plan
 15.11
 + [index] mq-s + price .load footer, map, form + lots of minor mq updates + mobile menu  bug fixed
 + mq-s prices + + lechenie_z mq-s + десткая стоматология отдельно
++ filials menu bug + dentists mobile layout + services/ footer & dropdown img to css + dropdown to footer
+16.11
++ .com на .clinic [dropdown + footer]
++ map pointer events none + faq deleted + mail update + [index] modal for main carousel
++
