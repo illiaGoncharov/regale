@@ -8,6 +8,8 @@
 	text-align: left;
 	margin-bottom: 8px;
   justify-content: flex-start !important;
+  position: fixed;
+  bottom: 0;
 }
 
 @media (max-width: 1200px) {
@@ -23,13 +25,10 @@
 
 }
 
-@media (min-width: 1440px) {
-  .dropdown__footer {
-    position: fixed;
-    bottom: 0;
-  }
-}
+/*@media (min-width: 1440px) {
 
+}
+*/
 
 
 

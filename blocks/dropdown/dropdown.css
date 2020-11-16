@@ -36,18 +36,25 @@
 @media (max-width: 1200px) {
 }
 
-@media (max-width: 576px) {
-}
-
-@media (max-width: 768px) {
-}
-
 @media (max-width: 992px) {
 	.dropdown_user_Mobile {
 		padding: 0;
 		margin: 0;
 		border: none;
  		border-radius: 0rem;
+    height: auto;
+
 	}
+
+  /*.dropdown_user_Mobilewn__link-item {
+    overflow-y: scroll;
+  }*/
+}
+
+@media (max-width: 768px) {
+}
+
+
+@media (max-width: 576px) {
 }
 

@@ -14,15 +14,15 @@ plan
 - https://wpcustom.ru/kak-perenesti-html-site-na-wordpress/
 ---
 
-[] = git commit -m "filials menu bug + dentists mobile layout"
+[] = git commit -m "map pointer events none + faq deleted"
 
--
-- services/ footer & dropdown img to css
+: mobile drowpdown
+
 - [index] main carousel layout
 - модуль из услуг финальный
-- dropdown to footer
-- mobile drowpdown
+-
 
+- footer to 100% (lechenie)
 - design mobile menu
   - меню сейчас на мобиле выдает список из категорий, нужно сдлеать, чтобы с подкатегориями
   - navs to one to outer
@@ -76,7 +76,7 @@ plan
 - попап на "подписаться"
 
 ---
-
++ filials menu bug + dentists mobile layout + services/ footer & dropdown img to css + dropdown to footer
 + media querries works + carousel media q + team basic media q + form styles
 + form final styles + footer responsive layout
 + dropdown basics
