@@ -17,18 +17,15 @@ plan
 <!-- https://three-sisters.ru/ -->
 ---
 
-[] = git commit -m "хлебные крошки убираем + [index] горизонтальный 1290+ main + togglers mobile ok + lechenie link sustem upd"
+[] = git commit -m ""
 
 - хостинг
 : - mobile drowpdown
-    - dropdown styles [dropdown__root .load & srvices]
     - one nav [bootstrap navbar]
       - [index] [service] [.load]
-    - logo mobile menu
 - [index] carusel layout
 - logo upd [dropdown + footer]
 - [index] нумератор странный
-
 - navs to one to outer
 - dropdown footer 1280+ fixed
 - h1 c инновационyая стоматология
@@ -113,4 +110,4 @@ plan
 16.11
 + .com на .clinic [dropdown + footer]
 + map pointer events none + faq deleted + mail update + [index] modal for main carousel
-+
++ хлебные крошки убираем + [index] горизонтальный 1290+ main + togglers mobile ok [index + .load] + lechenie link sustem upd + dropdown styles [dropdown__root .load & services] + logo mobile menu

@@ -35,7 +35,7 @@
                 <a class="nav-link dropdown-toggle header__link-item" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" onclick="">
                   Виды лечения
                 </a>
-                <ul class="col-lg-12 dropdown dropdown__root dropdown-menu" aria-labelledby="navbarDropdown" >
+                <!-- <ul class="col-lg-12 dropdown dropdown__root dropdown-menu" aria-labelledby="navbarDropdown" >
                   <div class="container dropdown__container">
                     <ul class="col-lg-3 dropdown__link-column">
                       <li class="dropdown-item dropdown__link-item">
@@ -254,6 +254,8 @@
                       </ul>
                     </div>
                   </div>
+                </ul> -->
+                <ul class="col-lg-12 dropdown dropdown__root dropdown-menu" aria-labelledby="navbarDropdown" id="servicesDropdown">
                 </ul>
               </li>
               <li class="nav-item header__list-item">
@@ -669,7 +671,7 @@
         <div class="container">
           <div class="row section__header">
             <div class="rectangle align-self-center"></div>
-            <h2 class="section__title h2-black">Клиника в деталях</h2>
+            <h2 class="section__title h2-black">Regale в деталях</h2>
           </div>
         </div>
         <section class="container-fluid details_carousel">
@@ -838,11 +840,12 @@
 	<script src="./assets/scripts/vendor/bootstrap.js"></script>
   <script src="./assets/scripts/vendor/aos.js"></script>
   <script src="./assets/scripts/app/aosinit.js"></script>
-  <script src="./assets/scripts/app/dropdown.js"></script>
-  <script src="./assets/scripts/app/dropdownphoto.js"></script>
   <script src="./assets/scripts/app/teamhome.js"></script>
   <script src="./assets/scripts/app/carouselhome.js"></script>
   <script>
+    $( "#servicesDropdown" ).load( "./dropdown__container.html", function() {
+      $.getScript("./assets/scripts/app/dropdown.js");
+    });
     $( ".form" ).load( "./form.html" );
     $( ".map" ).load( "./map.html" );
     $( ".footer" ).load( "./footer.html" );

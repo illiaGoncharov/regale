@@ -1,5 +1,5 @@
 .dropdown__pic {
-	background-image: url('../../../../images/img-1.jpg');
+	background-image: url('./1toothtreat.jpg');
 	background-size: cover;
   background-position: center;
   border-radius: 5px;
@@ -7,9 +7,34 @@
 }
 
 .dropdown__pic.ser-1 {
-	background-image: url('../../../../images/img-2.jpg');
+	background-image: url('./1toothtreat.jpg');
 }
 
 .dropdown__pic.ser-2 {
-	background-image: url('../../../../images/img-3.jpg');
+	background-image: url('./2aesthetics.jpg');
 }
+
+.dropdown__pic.ser-3 {
+  background-image: url('./3implant.jpg');
+}
+
+.dropdown__pic.ser-4 {
+  background-image: url('./4surgeon.jpg');
+}
+
+.dropdown__pic.ser-5 {
+  background-image: url('./5bite.jpg');
+}
+
+.dropdown__pic.ser-6 {
+  background-image: url('./6gnathology.jpg');
+}
+
+.dropdown__pic.ser-6 {
+  background-image: url('./7hygiene.jpg');
+}
+
+.dropdown__pic.ser-7 {
+  background-image: url('./8children.jpg');
+}
+

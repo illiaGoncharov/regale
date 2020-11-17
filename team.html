@@ -287,19 +287,17 @@
       <section class="container intro" data-aos="fade-up" data-aos-duration="800">
         <div class="row section__header">
           <div class="rectangle align-self-center"></div>
-          <h2 class="section__title h2-black">Текст о специалистах</h2>
+          <h2 class="section__title h2-black">Уникальный коллектив Regale</h2>
         </div>
         <div class="row intro__texts">
           <div class="col-lg-6 intro__text">
             <p>
-              Все наши доктора влюблены  в свою работу и постоянно в ней совершенствуются. Современным и лечебным и оборудованием. При составлении плана лечения.
-              <br><br>
-              Современным и лечебным и оборудованием. При составлении плана лечения. Все наши доктора влюблены  в свою работу и постоянно в ней совершенствуются.
+              Наша команда – это, в первую очередь, коллектив единомышленников, объединенных общим пониманием того, что доктор должен являться олицетворением добра, чистоты, сострадания и благородства. Поэтому важными критериями при приеме новых сотрудников, помимо высокой квалификации и большого опыта, для нас являются такие качества,
             </p>
           </div>
           <div class="col-lg-6 intro__text">
             <p>
-              Современным и лечебным и оборудованием. При составлении плана лечения. Все наши доктора влюблены  в свою работу и постоянно в ней совершенствуются.
+              как стремление развиваться и совершенствоваться, желание делиться полученными знаниями с окружающими и готовность потратить каждый свой день на благо здоровья пациентов.
             </p>
           </div>
         </div>
@@ -625,22 +623,19 @@
   </div>
   <script src="https://code.jquery.com/jquery-3.5.1.js" type="text/javascript"></script>
   <script src="./assets/scripts/vendor/bootstrap.js" type="text/javascript"></script>
-  <script src="./assets/scripts/app/dropdown.js" type="text/javascript"></script>
-  <script src="./assets/scripts/app/dropdownphoto.js" type="text/javascript"></script>
   <script src="./assets/scripts/vendor/aos.js" type="text/javascript"></script>
   <script src="./assets/scripts/app/aosinit.js" type="text/javascript"></script>
   <script>
     $( ".form" ).load( "./form.html" );
     $( ".map" ).load( "./map.html" );
     $( ".footer" ).load( "./footer.html" );
-    $( "#servicesDropdown" ).load( "./dropdown__container.html" );
+    $( "#servicesDropdown" ).load( "./dropdown__container.html", function() {
+      $.getScript("./assets/scripts/app/dropdown.js");
+    });
   </script>
   <script>
     $(document).ready(function() {
       $(window).scrollTop(0);
-      $('.dropdown__column').click(function(e) {
-          e.stopPropagation();
-      });
     });
   </script>
 </body>

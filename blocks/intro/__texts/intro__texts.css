@@ -16,4 +16,7 @@
 }
 
 @media (max-width: 576px) {
+  .intro__texts {
+    padding-bottom: 30px;
+  }
 }

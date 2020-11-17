@@ -43,8 +43,11 @@
 
 @media (max-width: 576px) {
   .dentist {
+    padding: 30px 15px 30px 15px;
+    margin-bottom: 30px;
     display: flex;
     flex-wrap: wrap;
+    width: calc(100% - 30px);
   }
 }
 }

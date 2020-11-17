@@ -1,6 +1,9 @@
 .dentist__photo {
   grid-area: dentist__photo;
   width: inherit;
+  object-fit: cover;
+  width: -webkit-fill-available;
+  max-height: 500px;
 }
 
 
