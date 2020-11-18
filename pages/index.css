@@ -66,6 +66,7 @@
 @import url("../blocks/main-services/main-services.css");
 @import url("../blocks/main-services/__img/main-services__img.css");
 @import url("../blocks/main-services/__info-module/main-services__info-module.css");
+@import url("../blocks/main-services/__text/main-services__text.css");
 
 @import url("../blocks/form/form.css");
 @import url("../blocks/form/__title/form__title.css");

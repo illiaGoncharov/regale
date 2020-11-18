@@ -27,7 +27,9 @@
 @media (max-width: 576px) {
   .details__info-module {
     width: calc(100vw - 30px);
+    background-color: rgba(255, 255, 255, 0.7);
     margin-left: 15px;
+    bottom: -180px;
   }
 }
 

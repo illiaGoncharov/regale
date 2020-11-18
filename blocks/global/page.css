@@ -20,42 +20,16 @@ html {
   scroll-behavior: smooth;
 }
 
-body {
-  /*overflow-x: hidden;*/
-}
-
-.root {
-  font-family: OpenSans;
-  font-size: 15px;
-  line-height: 20px;
-  margin: 0 auto;
-  overflow: hidden;
-}
-
-.row {
-  margin-left: 0 !important;
-  margin-right: 0 !important;
-}
-
-.befuckinwhite * {
-  color: #fff !important;
-}
-
-.zindexminus {
-  position: relative;
-  z-index: -1;
-}
-
 @font-face {
   src: url('./../../assets/fonts/Lora-VariableFont_wght.ttf') format('truetype');
   font-family: 'Lora';
 }
 
 @font-face {
-	src: url('./../../assets/fonts/OpenSans-Regular.ttf') format('truetype');
-	font-style: normal;
-	font-family: 'OpenSans';
-	font-weight: normal;
+  src: url('./../../assets/fonts/OpenSans-Regular.ttf') format('truetype');
+  font-style: normal;
+  font-family: 'OpenSans';
+  font-weight: normal;
 }
 
 @font-face {
@@ -83,6 +57,38 @@ body {
 *:focus {
   outline: none !important;
   box-shadow: none !important;
+}
+
+body {
+  /*overflow-x: hidden;*/
+}
+
+.root {
+  font-family: OpenSans;
+  font-size: 15px;
+  line-height: 20px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+
+.befuckinwhite * {
+  color: #fff !important;
+}
+
+.zindexminus {
+  position: relative;
+  z-index: -1;
+}
+
+.container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl {
+  padding-right: 0px;
+  padding-left: 0px;
+}
+
+.row {
+  margin-left: 0 !important;
+  margin-right: 0 !important;
 }
 
 .mb-20 {

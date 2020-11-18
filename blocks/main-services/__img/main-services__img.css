@@ -3,6 +3,26 @@
 	position: absolute;
 	height: 570px;
 	top: 160px;
-	right: -26px;
+	right: 0px;
 	object-fit: cover;
+}
+
+@media (max-width: 1200px) {
+
+}
+
+@media (max-width: 992px) {
+
+}
+
+
+@media (max-width: 768px) {
+
+}
+
+@media (max-width: 576px) {
+  .main-services__img {
+    height: 610px;
+    top: 160px;
+  }
 }
