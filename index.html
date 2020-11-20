@@ -313,7 +313,7 @@
                   <p class="carousel__subtitle header_carousel__subtitle">
                     Откройте для себя стоматологию по-новому: ультрасовременные технологии сочетаются с расслабляющим комфортом
                   </p>
-                  <a class="btn btn-lg btn-primary header_carousel__main_button" href="#" role="button">
+                  <a class="btn btn-lg btn-primary header_carousel__main_button" href="#formMain">
                     Записаться
                   </a>
                 </div>
@@ -329,7 +329,7 @@
                   <p class="carousel__subtitle header_carousel__subtitle">
                     Комплексный подход к заботе о вашем здоровье: в диагностике и лечении мы придерживаемся протокола Венской школы междисциплинарной стоматологии VieSID
                   </p>
-                  <a class="btn btn-lg btn-primary header_carousel__main_button" href="#" role="button">
+                  <a class="btn btn-lg btn-primary header_carousel__main_button" href="#formMain">
                     Записаться
                   </a>
                 </div>
@@ -345,7 +345,7 @@
                   <p class="carousel__subtitle header_carousel__subtitle">
                     Regale один из самых современных стоматологических центров в Европе, Наш центр изначально был задуман как уникальное место, в которой собраны все самое современное оборудование и технологии
                   </p>
-                  <a class="btn btn-lg btn-primary header_carousel__main_button" href="#" role="button">
+                  <a class="btn btn-lg btn-primary header_carousel__main_button" href="#formMain">
                     Записаться
                   </a>
                 </div>
@@ -618,7 +618,7 @@
           </div>
         </div>
       </div>
-      <section class="form"></section>
+      <section id="formMain" class="form"></section>
       <section class="map"></section>
       <footer class="container footer"></footer>
     </main>
@@ -641,6 +641,13 @@
     $(document).ready(function() {
       $(window).scrollTop(0);
     });
+  </script>
+  <script>
+    $(".header_carousel__main_button").click(function() {
+      $([document.documentElement, document.body]).animate({
+          scrollTop: $("#formMain").offset().top - 50
+        }, 800);
+      });
   </script>
 </body>
 </html>

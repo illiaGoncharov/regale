@@ -54,6 +54,7 @@
 @import url("./../../blocks/form/__main-container/form__main-container.css");
 @import url("./../../blocks/form/__subtitle/form__subtitle.css");
 @import url("./../../blocks/form/__input/form__input.css");
+@import url("./../../blocks/form/__label/_hidden/form__label_hidden.css");
 @import url("./../../blocks/form/__file-field/form__file-field.css");
 @import url("./../../blocks/form/__file-field/__file-field-container/form__file-field-container.css");
 @import url("./../../blocks/form/__file-field/__file-field-input/form__file-field-input.css");
