@@ -17,14 +17,11 @@ plan
 <!-- https://three-sisters.ru/ -->
 ---
 
-[] = git add . && git commit -m "favicon added + local jquery min + hot-fix: not main header"
+[] = git add . && git commit -m ""
 
 --- верстка
 
-- hot-fix [prices]
-  - full button dropdown
 - hot-fix: картинки дропдаун
-
 - [index] team counter
   - design
   - add
@@ -132,3 +129,6 @@ everywhere] + optimaize bootstrap's css & js + removed some trash
 + hf/main _carousel + hf/scrroll-to-form _carousel + minor form upd-s
 21.11
 + feature: [index] main srv carusel && counter && menu
++ favicon added + local jquery min + hot-fix: not main header
++ hot-fix: [prices] full button dropdown + box-shadow bug
++ box-shadow bug+
