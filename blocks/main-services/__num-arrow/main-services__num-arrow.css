@@ -1,0 +1,10 @@
+.main-services__num-arrow ,
+.main-services__num-arrow:hover {
+  padding: 0;
+  text-decoration: none;
+  display: flex;
+}
+
+.main-services__num-arrow:nth-child(1) {
+  transform: scale(-1);
+}

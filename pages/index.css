@@ -67,6 +67,14 @@
 @import url("../blocks/main-services/__img/main-services__img.css");
 @import url("../blocks/main-services/__info-module/main-services__info-module.css");
 @import url("../blocks/main-services/__text/main-services__text.css");
+@import url("../blocks/main-services/__controller-module/main-services__controller-module.css");
+@import url("../blocks/main-services/__num-controller-container/main-services__num-controller-container.css");
+@import url("../blocks/main-services/__num-arrow/main-services__num-arrow.css");
+@import url("../blocks/main-services/__num-controller/main-services__num-controller.css");
+@import url("../blocks/main-services/__carousel-indicators/main-services__carousel-indicators.css");
+@import url("../blocks/main-services/__circles/main-services__circles.css");
+@import url("../blocks/main-services/__carousel-menu/main-services__carousel-menu.css");
+@import url("../blocks/main-services/__carousel-menu-item/main-services__carousel-menu-item.css");
 
 @import url("../blocks/form/form.css");
 @import url("../blocks/form/__title/form__title.css");

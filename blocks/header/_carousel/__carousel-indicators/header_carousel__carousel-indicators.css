@@ -2,14 +2,14 @@
 	margin-left: 0;
 	margin-right: 0;
 	position: absolute;
-    width: fit-content;
-    right: 35px;
-    bottom: 300px;
-    left: initial;
-    z-index: 15;
-    list-style: none;
-    transform: rotate(90deg);
-    display: inline-flex;
+  width: fit-content;
+  right: 35px;
+  bottom: 300px;
+  left: initial;
+  z-index: 15;
+  list-style: none;
+  transform: rotate(90deg);
+  display: inline-flex;
 }
 
 @media (max-width: 576px) {

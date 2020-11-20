@@ -1,7 +1,7 @@
 .carousel__circles {
 	width: 5px !important;
 	height: 5px !important;
-	border-radius: 50%;
+	border-radius: 100%;
 	margin-right: 10px !important;
 	margin-left: 10px !important;
 }

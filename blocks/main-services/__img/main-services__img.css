@@ -1,10 +1,11 @@
 .main-services__img {
 	width: 70vw;
 	position: absolute;
-	height: 570px;
-	top: 160px;
+	height: 600px;
+	top: 50px;
 	right: 0px;
 	object-fit: cover;
+  border-radius: 5px;
 }
 
 @media (max-width: 1200px) {
@@ -23,6 +24,6 @@
 @media (max-width: 576px) {
   .main-services__img {
     height: 610px;
-    top: 160px;
+    top: 50px;
   }
 }

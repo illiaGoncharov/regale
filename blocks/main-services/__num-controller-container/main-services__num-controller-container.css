@@ -1,0 +1,24 @@
+.main-services__num-controller-container {
+  position: absolute;
+  display: inline-flex;
+  font-size: 39px;
+  left: 24px;
+  top: 0px;
+  height: fit-content;
+}
+
+@media (max-width: 576px) {
+}
+
+@media (max-width: 768px) {
+
+}
+
+@media (max-width: 992px) {
+  .main-services__num-controller-container {
+    display: none;
+  }
+}
+
+@media (min-width: 1200px) {
+}
