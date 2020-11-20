@@ -1,5 +1,6 @@
 .price {
-  box-shadow: 0 12.5px 32.5px 0 rgba(0, 0, 0, 0.2);
+  /*box-shadow: 0 12.5px 32.5px 0 rgba(0, 0, 0, 0.2);*/
+  box-shadow: 0 2.5px 5px 0 rgba(0, 0, 0, 0.2);
   transition: box-shadow 0.3s ease-in-out;
   border-radius: 5px;
   padding: 40px;

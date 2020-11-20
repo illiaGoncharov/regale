@@ -17,13 +17,10 @@ plan
 <!-- https://three-sisters.ru/ -->
 ---
 
-[] = git add . && git commit -m ""
+[] = git add . && git commit -m "favicon added + local jquery min + hot-fix: not main header"
 
 --- верстка
 
-- на локалку скрипт jquery
-- hot-fix: not main header
-- hot-fix: not-main header to purple
 - hot-fix [prices]
   - full button dropdown
 - hot-fix: картинки дропдаун
@@ -77,9 +74,6 @@ plan
     - mq-
     - стиль кнопки в нижней форме
 
-
-
-- favicon
 - 404 page
 - wc3 validate html
 - meta upts
