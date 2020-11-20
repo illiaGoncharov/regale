@@ -1,14 +1,17 @@
 .price {
-  /*box-shadow: 0 12.5px 32.5px 0 rgba(0, 0, 0, 0.2);*/
-  box-shadow: 0 2.5px 5px 0 rgba(0, 0, 0, 0.2);
+  box-shadow: 0 12.5px 32.5px 0 rgba(0, 0, 0, 0.2);
   transition: box-shadow 0.3s ease-in-out;
   border-radius: 5px;
-  padding: 40px;
-  padding-bottom: 30px;
+  padding: 30px 40px 24px 40px;
   margin-bottom: 30px;
   font-family: OpenSans;
   font-size: 15px;
   line-height: 19px;
+  cursor: pointer;
+}
+
+.price.collapsed {
+  box-shadow: 0 2.5px 5px 0 rgba(0, 0, 0, 0.2);
 }
 
 @media (max-width: 1200px) {
