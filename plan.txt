@@ -17,35 +17,52 @@ plan
 <!-- https://three-sisters.ru/ -->
 ---
 
-[] = git commit -m ""
+[] = git add . && git commit -m ""
 
-- хостинг
-: - mobile drowpdown
-    - one nav [bootstrap navbar]
-      - [index] [service] [.load]
-- [index] carusel layout
-- logo upd [dropdown + footer]
-- [index] нумератор странный
-- navs to one to outer
-- dropdown footer 1280+ fixed
-- h1 c инновационyая стоматология
-- дропдаун наведение фотка
--
-- [services] модуль из услуг финальный
-- [index] p-blue должность на главной
-- [index] фейд team + нумератор team
-- застравка
-- footer to 100% (lechenie)
-- design main serv [index]
+--- верстка
+- hf: form
+  - file added
+  - вопросительный значек с объяснением
+  - стиль кнопки в нижней форме
+  - fetch
+  - табличка отправлено
+    - диз
+    - mq-s
+- hot-fix: картинки дропдаун
+- правки элана 1411
+  - [index] нумератор странный
+  - [index] main srv carusel layout
+  - [index] team
+    - fade
+    - pointers
+    - controler
+    - animation
+  - logo upd [dropdown + footer]z
+  - застравка
+
+- на локалку скрипт jquery
 - animation steps
   - advantages
   - addresses
-- navs to external [scripts workin wrong bug fixed]
-- [index] carousel bug fix
+  - специалисты
+- правки [filials]
+  - контент в табличке верстка
+  - event listener
+- navs to one to outer
+- mobile drowpdown
+    - one nav [bootstrap navbar]
+- [services] модуль из услуг финальный
+- footer to 100% (lechenie)
 - [prices] upds
   - table & class & file str
-- можно подумать о скриптах
-- на локалку скрипты
+  - tables to grid
+- [dentist] upds
+  - design [detnist] tablet + mobile
+  - br to css
+  - dentist transition
+  - expand + expand js
+
+- f: админка wp
 - [filials] upd
   - map bug
     - https://qna.habr.com/q/97795
@@ -53,26 +70,17 @@ plan
     - https://blog.lisogorsky.ru/ignor-scroll-iframe-maps
   - change text on click map
   - button add
-- [dentist] upds
-  - br to css
-  - dentist transition
-  - expand + expand js
-- design [detnist] tablet + mobile
 - favicon
-- form engine
-	- дока
-	- бутстрап
-- [index] services finish
-	- pointers
-	- controler
 - 404 page
-- h1 to filial [+ check other]
 - wc3 validate html
 - meta upts
   - https://yandex.ru/q/question/computers/kak_pravilno_zapolniat_metategi_li_teg_6ec772df/
   - https://yandex.ru/support/webmaster/controlling-robot/html.html
   - https://css-tricks.com/essential-meta-tags-social-media/
-- попап на ""
+
+--- постпродакшн
+- сжимаем скрипты
+- css
 
 ---
 + media querries works + carousel media q + team basic media q + form styles
@@ -111,3 +119,11 @@ plan
 + .com на .clinic [dropdown + footer]
 + map pointer events none + faq deleted + mail update + [index] modal for main carousel
 + хлебные крошки убираем + [index] горизонтальный 1290+ main + togglers mobile ok [index + .load] + lechenie link sustem upd + dropdown styles [dropdown__root .load & services] + logo mobile menu
+17.11
++ [team] тексты + [filials] small upd-s + dropdown photo & text script [+ #servicesDropdown .load
+everywhere] + optimaize bootstrap's css & js + removed some trash
+18.11
++ global bootstrap paddings to 0s + [index] main serv & detaials mq-s upd-s + Наши центры
++ dev: [index] small upd-s
+20.11
++ hf/main _carousel + hf/scrroll-to-form _carousel + minor form upd-s
