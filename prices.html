@@ -1148,5 +1148,13 @@
       $(window).scrollTop(0);
     });
   </script>
+  <script>
+    $('.price').on('show.bs.collapse', function (e) {
+     $(this).addClass('boxShadowed');
+    });
+    $('.price').on('hidden.bs.collapse', function (e) {
+     $(this).removeClass('boxShadowed');
+    });
+  </script>
 </body>
 </html>
