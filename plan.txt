@@ -21,20 +21,22 @@ plan
 
 --- верстка
 
-- hot-fix: картинки дропдаун
-- [index] team counter
+! - [services] модуль из услуг финальный
+! - гипер ссылки из меню
+! - [index] team counter
   - design
   - add
+! - anim: team text & img
+  - anim: main-serv text & img
+! - logo upd [dropdown + footer]
+
+
 - [index] hot fix: controller && counter - header carousel && main-services
-- logo upd [dropdown + footer]
 - animation steps
   - advantages
   - addresses
   - специалисты
-  - team text & img
-  - main-serv text & img
   - dentitst gradually
-- [services] модуль из услуг финальный
 - footer to 100% [services]
 - footer for services
 - dropdown

@@ -1,6 +1,7 @@
 @import url("./../../assets/styles/vendor/bootstrap.css");
 @import url("./../../assets/styles/vendor/normalize.css");
 @import url("./../../assets/styles/vendor/aos.css");
+@import url("./../../assets/styles/vendor/owl.css");
 
 @import url("./../../blocks/global/page.css");
 @import url("./../../blocks/rectangle/rectangle.css");
@@ -13,6 +14,7 @@
 @import url("./../../blocks/p_services/__article/_four-blue/p_service__article_four-blue.css");
 @import url("./../../blocks/p_services/__img/p_service__img.css");
 @import url("./../../blocks/p_services/__text/p_service__text.css");
+@import url("./../../blocks/p_services/__carousel/p_service__carousel.css");
 
 @import url("./../../blocks/header/header.css");
 @import url("./../../blocks/header/__menu/header__menu.css");

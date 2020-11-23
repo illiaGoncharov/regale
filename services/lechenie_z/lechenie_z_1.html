@@ -541,6 +541,8 @@
             <div class="rectangle footer__rectangle"></div>
           </div>
         </article>
+      </section>
+      <section class="container">
         <article class="row p_service__article" data-aos="fade-up" data-aos-duration="1000">
           <div class="col-lg-8  p_service__article_special-blue" >
             <h3 class="h3-blue mb-30">
@@ -555,7 +557,9 @@
             <div class="rectangle footer__rectangle"></div>
           </div>
         </article>
-         <article class="row p_service__article"  data-aos="fade-up" data-aos-duration="1000">
+      </section>
+      <section class="container">
+        <article class="row p_service__article"  data-aos="fade-up" data-aos-duration="1000">
             <div class="col-lg-8 p_service__article_four-blue" >
               <div class="row">
                 <div class="col-lg-6">
@@ -594,16 +598,116 @@
             </div>
         </article>
       </section>
+      <section class="container-fluid">
+        <article class="p_service__carousel">
+            <div class="container">
+              <div class="row section__header">
+                <div class="rectangle align-self-center"></div>
+                <h2 class="section__title h2-black">Высокие стандарты лечения</h2>
+              </div>
+            </div>
+
+            <div id="carouselServicesOne" class="p_service__carousel">
+              <div class="container carousel-inner p_service__carousel-inner" role="listbox">
+                <div class="owl-slider">
+                  <div id="carousel" class="owl-carousel">
+                    <div class="item p_service__carousel-item">
+
+                       <figure class="bg-white p_service__carousel-figure">
+                        <img class="" src="./../../images/img-7.jpg" alt="First slide">
+                        <figcaption class="p_service__carousel-figcaption">
+                          <h3 class="h3-blue mb-30">
+                            Image Caption
+                          </h3>
+                          <p class="p-basic">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor.
+                          </p>
+                        </figcaption>
+                      </figure>
+
+                    </div>
+                    <div class="item p_service__carousel-item">
+
+                       <figure class="bg-white p_service__carousel-figure">
+                        <img class="" src="./../../images/img-6.jpg" alt="Second slide">
+                        <figcaption class="p_service__carousel-figcaption">
+                          <h3 class="h3-blue mb-30">
+                            Image Caption
+                          </h3>
+                          <p class="p-basic">
+                            Микроскоп незаменим при перелечивании зубного канала, особенно если дело касается четвертого канала, который невооруженным глазом заметить невозможно. Без увеличительной техники невозможно увидеть особенности строения корня и качественно провести его обработку.
+                          </p>
+                        </figcaption>
+                      </figure>
+
+                    </div>
+                    <div class="item p_service__carousel-item">
+
+                       <figure class="bg-white p_service__carousel-figure">
+                        <img class="" src="./../../images/img-4.jpg" alt="Third slide">
+                        <figcaption class="p_service__carousel-figcaption">
+                          <h3 class="h3-blue mb-30">
+                            Image Caption
+                          </h3>
+                          <p class="p-basic">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor.
+                          </p>
+                        </figcaption>
+                      </figure>
+
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+        </article>
+      </section>
       <section if="formMain" class="form"></section>
       <section class="map"></section>
       <footer class="container footer"></footer>
     </main>
   </div>
-  <script src="./../../assets/scripts/vendor/jquery.js" type="text/javascript"></script>
-	<script src="./../../assets/scripts/vendor/bootstrap.js" type="text/javascript"></script>
-  <script src="./../../assets/scripts/vendor/aos.js" type="text/javascript"></script>
-  <script src="./../../assets/scripts/app/aosinit.js" type="text/javascript"></script>
-  <script src="./../../assets/scripts/app/dropdown.js" type="text/javascript"></script>
+  <script src="./../../assets/scripts/vendor/jquery.js"></script>
+	<script src="./../../assets/scripts/vendor/bootstrap.js"></script>
+  <script src="./../../assets/scripts/vendor/aos.js"></script>
+  <script src="./../../assets/scripts/app/aosinit.js"></script>
+  <script src="./../../assets/scripts/app/dropdown.js"></script>
+  <script src="./../../assets/scripts/app/dropdown.js"></script>
+
+  <script src="./../../assets/scripts/vendor/owl.js"></script>
+  <script>
+    $("#carousel").owlCarousel({
+      autoplay: true,
+      lazyLoad: true,
+      loop: true,
+      margin: 24,
+      /*animateOut: 'fadeOut',
+      animateIn: 'fadeIn',*/
+      /*responsiveClass: true,*/
+      autoHeight: false,
+      autoplayTimeout: 7000,
+      smartSpeed: 800,
+      responsive: {
+        0: {
+          items: 1
+        },
+
+        600: {
+          items: 1
+        },
+
+        1024: {
+          items: 3
+        },
+
+        1366: {
+          items: 4
+        }
+      }
+    });
+  </script>
+
   <script>
     $( ".form" ).load( "./../../form.html" );
     $( ".map" ).load( "./../../map.html" );
