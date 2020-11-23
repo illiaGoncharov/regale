@@ -7,7 +7,7 @@
   padding-top: 30px;
 }
 
-.carousel-fade .carousel-inner .carousel-item {
+.team .carousel-fade .carousel-inner .carousel-item {
   opacity: 0;
   -webkit-transition: opacity 0.2s;
   -moz-transition: opacity 0.2s;
@@ -15,7 +15,7 @@
   transition: opacity 0.2s;
 }
 
-.carousel-fade .carousel-inner .active {
+.team .carousel-fade .carousel-inner .active {
   opacity: 1;
 }
 

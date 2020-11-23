@@ -4,3 +4,15 @@
   padding-top: 90px;
 	min-height: 880px;
 }
+
+.main-services .carousel-inner .carousel-item {
+  opacity: 0;
+  -webkit-transition: opacity 0.3s;
+  -moz-transition: opacity 0.3s;
+  -o-transition: opacity 0.3s;
+  transition: opacity 0.3s;
+}
+
+.main-services .carousel-inner .active {
+  opacity: 1;
+}
