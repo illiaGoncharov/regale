@@ -135,3 +135,4 @@ everywhere] + optimaize bootstrap's css & js + removed some trash
 + box-shadow bug+
 23.11
 + [services] модуль из услуг финальный
++ [services] pages added + dropdown updates + minor upds
