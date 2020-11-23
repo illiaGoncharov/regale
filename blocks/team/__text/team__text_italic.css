@@ -7,6 +7,30 @@
   padding-top: 30px;
 }
 
+.carousel-fade .carousel-inner .carousel-item {
+  opacity: 0;
+  -webkit-transition: opacity 0.2s;
+  -moz-transition: opacity 0.2s;
+  -o-transition: opacity 0.2s;
+  transition: opacity 0.2s;
+}
+
+.carousel-fade .carousel-inner .active {
+  opacity: 1;
+}
+
+/*.carousel-fade .carousel-inner .active.left,
+.carousel-fade .carousel-inner .active.right {
+  left: 0;
+  opacity: 0;
+  z-index: 1;
+}
+
+.carousel-fade .carousel-inner .next.left,
+.carousel-fade .carousel-inner .prev.right {
+  opacity: 1;
+}*/
+
 @media (max-width: 1200px) {
 	.team__text_italic {
 		padding-right: 10%;
