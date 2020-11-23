@@ -21,7 +21,6 @@ plan
 
 --- верстка
 
-! - [services] модуль из услуг финальный
 ! - гипер ссылки из меню
 ! - [index] team counter
   - design
@@ -134,3 +133,5 @@ everywhere] + optimaize bootstrap's css & js + removed some trash
 + favicon added + local jquery min + hot-fix: not main header
 + hot-fix: [prices] full button dropdown + box-shadow bug
 + box-shadow bug+
+23.11
++ [services] модуль из услуг финальный
