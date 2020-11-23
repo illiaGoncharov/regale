@@ -16,9 +16,9 @@
 }
 
 .dropdown__link-item::after {
-	/*content: "▸";*/
+	content: "▸";
 	position: absolute;
-	right: 0;
+	right: 35px;
 	color: #fff;
 	opacity: 0;
   transition: opacity .15s ease-in-out;
