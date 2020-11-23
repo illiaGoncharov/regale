@@ -17,11 +17,10 @@ plan
 <!-- https://three-sisters.ru/ -->
 ---
 
-[] = git add . && git commit -m ""
+[] = git add . && git commit -m "team animation smooth + map active"
 
 --- верстка
 
-! - гипер ссылки из меню
 ! - [index] team counter
   - design
   - add
