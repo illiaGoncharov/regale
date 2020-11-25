@@ -17,33 +17,22 @@ plan
 <!-- https://three-sisters.ru/ -->
 ---
 
-[] = git add . && git commit -m ""
+[] = git add . && git commit -m "elan's texts + images + minor updates"
 
 --- верстка
 
 ! - [index] team counter
   - design
   - add
-! - anim: team text & img
-  - anim: main-serv text & img
 ! - logo upd [dropdown + footer]
 
-
-- [index] hot fix: controller && counter - header carousel && main-services
 - animation steps
-  - advantages
   - addresses
   - специалисты
   - dentitst gradually
 - footer to 100% [services]
 - footer for services
-- dropdown
-  - redis
-  - animation
-  - usability
-- [index] mobile menu main services
-  - design
-  - add
+
 - footer
   - design upd
 - [filials] && map upd
@@ -66,10 +55,7 @@ plan
 - f: админка wp
   - hf: form
   - fetch
-  - табличка отправлено
-    - диз
-    - mq-
-    - стиль кнопки в нижней форме
+
 
 - 404 page
 - wc3 validate html
@@ -78,9 +64,17 @@ plan
   - https://yandex.ru/support/webmaster/controlling-robot/html.html
   - https://css-tricks.com/essential-meta-tags-social-media/
 
+--- диз
+ - [index] mobile menu main services
+ - табличка отправлено
+    - диз
+    - mq-
+    - стиль кнопки в нижней форме
+
 --- постпродакшн
-- сжимаем скрипты
-- css
+
+
+
 
 ---
 + media querries works + carousel media q + team basic media q + form styles
@@ -136,3 +130,5 @@ everywhere] + optimaize bootstrap's css & js + removed some trash
 + [services] модуль из услуг финальный
 + [services] pages added + dropdown updates + minor upds
 + team animation smooth + map
++ [index] hot fix: controller && counter - header carousel && main-services
++ [index] smooth animation advantages + main service
