@@ -17,7 +17,7 @@ plan
 <!-- https://three-sisters.ru/ -->
 ---
 
-[] = git add . && git commit -m "[index] main-srvices photo change + smooth main-services "
+[] = git add . && git commit -m ""
 
 --- верстка
 
@@ -134,4 +134,4 @@ everywhere] + optimaize bootstrap's css & js + removed some trash
 28.11
 + [index] team counter + minor layout upd-s
 + team indicator bug fixed fixed
-
++ [index] main-srvices photo change + smooth main-services
