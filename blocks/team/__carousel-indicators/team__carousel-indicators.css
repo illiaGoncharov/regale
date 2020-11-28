@@ -7,8 +7,27 @@
   top: 0;
   bottom: initial;
   padding-top: 30px;
+  pointer-events: none;
 }
 
 .team__carousel-indicators li {
   background-color: #143C7D;
+}
+
+@media (max-width: 1200px) {
+
+}
+
+@media (max-width: 992px) {
+  .team__carousel-indicators {
+    display: none;
+  }
+}
+
+@media (max-width: 768px) {
+
+}
+
+@media (max-width: 576px) {
+
 }

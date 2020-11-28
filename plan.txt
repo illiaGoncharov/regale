@@ -17,11 +17,10 @@ plan
 <!-- https://three-sisters.ru/ -->
 ---
 
-[] = git add . && git commit -m "[index] team counter + minor layout upd-s"
+[] = git add . && git commit -m "team indicator bug fixed fixed"
 
 --- верстка
 
-! - [index] team counter fixed
 ! - [index] mobile menu main services
 ! - [index] main-srvices photo change
 ! - logo upd [dropdown + footer]
@@ -134,5 +133,6 @@ everywhere] + optimaize bootstrap's css & js + removed some trash
 + [index] smooth animation advantages + main service
 24.11
 + elan's texts + images + minor updates
-27.11
+28.11
++ [index] team counter + minor layout upd-s
 

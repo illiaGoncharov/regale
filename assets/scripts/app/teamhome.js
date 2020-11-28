@@ -1,20 +1,11 @@
-let cur = 1;
-  $("#teamCarousel").bind('slide.bs.carousel', function (e) {
-    if (cur < 3) {
-      $('.team__imgs-container.active')
-        .addClass('team__imgs-container_hidden')
-        .removeClass('team__imgs-container active')
-          .next()
-            .removeClass('team__imgs-container_hidden')
-            .addClass('team__imgs-container active');
-      cur = cur + 1;
-    } else {
-      $('.team__imgs-container.active')
-        .removeClass('team__imgs-container active')
-        .addClass('team__imgs-container_hidden');
-      $('.team__imgs-container_hidden').eq(0)
-        .removeClass('team__imgs-container_hidden')
-        .addClass('team__imgs-container active');
-      cur = 1;
-    }
+let tCar = $('#teamCarousel');
+let tIm = $('.team__imgs-container');
+function getImage(i) {
+  $('.team__imgs-container').eq(i - 1).toggleClass('team__imgs-container_hidden');
+  $('.team__imgs-container').eq(i).toggleClass('team__imgs-container_hidden');
+}
+$(tCar).bind('slid.bs.carousel', function (e) {
+  let ci = $('.team__slide.active').index();
+  getImage(ci);
 });
+
