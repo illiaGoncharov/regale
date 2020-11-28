@@ -17,12 +17,10 @@ plan
 <!-- https://three-sisters.ru/ -->
 ---
 
-[] = git add . && git commit -m "team indicator bug fixed fixed"
+[] = git add . && git commit -m "[index] main-srvices photo change + smooth main-services "
 
 --- верстка
 
-! - [index] mobile menu main services
-! - [index] main-srvices photo change
 ! - logo upd [dropdown + footer]
 ! - [dentists] add all
 - animation steps
@@ -50,7 +48,7 @@ plan
   - expand + expand js
 - [services] ups
   - design
-  -
+  - add
 
 
 - f: админка wp
@@ -64,7 +62,7 @@ plan
   - https://css-tricks.com/essential-meta-tags-social-media/
 
 --- диз
- -
+ - [index] mobile menu main services
  - табличка отправлено
     - диз
     - mq-
@@ -135,4 +133,5 @@ everywhere] + optimaize bootstrap's css & js + removed some trash
 + elan's texts + images + minor updates
 28.11
 + [index] team counter + minor layout upd-s
++ team indicator bug fixed fixed
 

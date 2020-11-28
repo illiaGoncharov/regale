@@ -13,7 +13,10 @@
 }
 
 @media (max-width: 992px) {
-
+  .main-services__img {
+    width: 100vw;
+    opacity: .5;
+  }
 }
 
 
