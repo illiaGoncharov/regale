@@ -1,14 +1,17 @@
 .header_not-main {
-	height: 300px;
+	height: calc(90px + 300px);
 }
 
 .header_not-main__img {
   /*background-color: rgba(20, 60, 125, 0.6);*/
   /*background-color: #515066;*/
   background-image: url('./not-main-img-2.jpg');
+  background-image: url('./../../header/_carousel/overlay-4.jpg');
+ /* background-image: url('./../../header/_carousel/overlay-1.png');*/
+  /*background-image: url('./../../header/_carousel/overlay-5.jpg');*/
   background-position: center;
   background-size: cover;
-  height: 210px;
+  height: 300px;
 }
 
 @media (max-width: 1200px) {

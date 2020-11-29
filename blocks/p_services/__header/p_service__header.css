@@ -1,0 +1,88 @@
+.p_service__header {
+  height: calc(90px + 400px);
+}
+
+.p_service__header-img {
+  background-image: url('./../../header/_carousel/overlay-5.jpg');
+  background-position: center;
+  background-size: cover;
+  height: 400px;
+}
+
+.p_service__header-title {
+  margin: 0;
+  padding-top: 150px;
+  color: #fff;
+  font-family: Lora;
+  font-size: 43px;
+  line-height: 52px;
+}
+
+.p_service__header-subtitle {
+  max-width: 500px;
+  padding-top: 5px;
+  margin-bottom: 0;
+  color: #fff;
+}
+
+.p_service__main_button {
+  background-color: rgba(255, 255, 255, 0.3);
+  border-radius: 5px;
+  border: none;
+  width: 176px;
+  height: 50px;
+  position: relative;
+  color: #fff;
+  font-size: 15px;
+  text-align: center;
+  padding-top: 15px;
+  margin-top: 50px;
+}
+
+.p_service__main_button:hover,
+.p_service__main_button:focus {
+  background-color: #515066;
+  border: none;
+  outline: none;
+  box-shadow: none;
+}
+
+@media (max-width: 1200px) {
+
+}
+
+@media (max-width: 992px) {
+  .p_service__header {
+    height: 400px;
+  }
+
+}
+
+@media (max-width: 768px) {
+  .p_service__main_button {
+    display: none;
+  }
+}
+
+@media (max-width: 576px) {
+  .p_service__header {
+    height:250px;
+  }
+  .p_service__header-img {
+    height: 250px;
+  }
+  .p_service__header-title {
+    position: absolute;
+    bottom: 30px;
+    font-size: 32px;
+    line-height: initial;
+    padding-left: 15px;
+  }
+
+  .p_service__header-subtitle {
+    display: none;
+  }
+  .header_carousel__main_button {
+
+  }
+}

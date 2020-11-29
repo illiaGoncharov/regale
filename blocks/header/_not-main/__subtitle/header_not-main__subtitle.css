@@ -1,6 +1,7 @@
 .header_not-main__subtitle {
 	max-width: 500px;
 	padding-top: 5px;
+  margin-bottom: 0;
 	color: #fff;
 }
 

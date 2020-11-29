@@ -8,6 +8,7 @@
 @import url("./../../blocks/devider/devider.css");
 
 @import url("./../../blocks/p_services/p_global.css");
+@import url("./../../blocks/p_services/__header/p_service__header.css");
 @import url("./../../blocks/p_services/__content/p_service__content.css");
 @import url("./../../blocks/p_services/__article/p_service__article.css");
 @import url("./../../blocks/p_services/__article/_special-blue/p_service__article_special-blue.css");
@@ -25,6 +26,10 @@
 @import url("./../../blocks/header/_not-main/__title/header_not-main__title.css");
 @import url("./../../blocks/header/_not-main/__subtitle/header_not-main__subtitle.css");
 @import url("./../../blocks/header/_not-main/__container/header_not-main__container.css");
+
+@import url("./../../blocks/p_services/__header/p_service__header.css");
+
+@import url("./../../blocks/header/_carousel/__button/header_carousel__main_button.css");
 
 @import url("./../../blocks/dropdown/dropdown.css");
 @import url("./../../blocks/dropdown/__container/dropdown__container.css");

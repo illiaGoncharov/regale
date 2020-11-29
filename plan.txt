@@ -17,12 +17,30 @@ plan
 <!-- https://three-sisters.ru/ -->
 ---
 
-[] = git add . && git commit -m ""
+[] = git add . && git commit -m "header: subtitle + кнопка + mq-s + [all services pages]"
 
 --- верстка
+- ! header
+  - + subtitle
+  - + кнопка
+  - + mq-s
+  - + [all services pages]
 
+
+- ! mobile
+  - dropdown bug
+  - style bg
 - ! услуги дищайн + дев
+  - menu design
+  - design
+  - container every page
+  - id every block
+  - .load()
+  - тесты
+- ! удалить страницу и из меню условно-
 
+- header js photo solution
+- [index] ms photo smooth
 - [filials] && map upd
   - map bug
     - https://qna.habr.com/q/97795
@@ -36,8 +54,6 @@ plan
 - [dentist] upds
   - design [detnist] tablet + mobile
   - br to css
-  - dentist transition
-  - expand + expand js
 - [services] ups
   - design
   - add
