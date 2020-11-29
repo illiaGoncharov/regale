@@ -17,20 +17,14 @@ plan
 <!-- https://three-sisters.ru/ -->
 ---
 
-[] = git add . && git commit -m ""
+[] = git add . && git commit -m "[services] page sub-menu: headings + ids + h-s all [services] + [services] page sub-menu + new module"
 
 --- верстка
-
-- ! mobile
-  - dropdown bug
-  - style bg
-- ! услуги дищайн + дев
-  - menu design
-  - design
-  - container every page
-  - id every block
-  - .load()
-  - тесты
+- ! [services] page sub-menu
+  - + headings + ids
+  - + h-s all [services]
+  - + menu design
+  - + б[services] everywhere
 - ! удалить страницу и из меню условно-
 
 - header js photo solution
@@ -142,3 +136,4 @@ everywhere] + optimaize bootstrap's css & js + removed some trash
 29.11
 + map bug fixed + добавил дантистов
 + header: subtitle + кнопка + mq-s + [all services pages]
++ [services] dropdown bug

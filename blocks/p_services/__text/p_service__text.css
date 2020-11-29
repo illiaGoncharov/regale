@@ -12,24 +12,28 @@
 @media (max-width: 1200px) {
 }
 
-@media (max-width: 768px) {
-}
-
 @media (max-width: 992px) {
-}
-
-@media (max-width: 576px) {
   .p_service__text {
-    margin-top: 30px;
+    /*margin-top: 30px;*/
     padding: 0;
   }
 
   .p_service__text:nth-child(even) {
     padding-left: 0px;
+    margin-top: 20px;
   }
 
   .p_service__text:nth-child(odd) {
     padding-left: 0;
+    margin-bottom: 20px;
   }
+}
+
+@media (max-width: 768px) {
+
+}
+
+@media (max-width: 576px) {
+
 }
 

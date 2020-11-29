@@ -11,7 +11,7 @@
 
 .p_service__header-title {
   margin: 0;
-  padding-top: 150px;
+  padding-top: 180px;
   color: #fff;
   font-family: Lora;
   font-size: 43px;
@@ -36,7 +36,7 @@
   font-size: 15px;
   text-align: center;
   padding-top: 15px;
-  margin-top: 50px;
+  margin-top: 30px;
 }
 
 .p_service__main_button:hover,

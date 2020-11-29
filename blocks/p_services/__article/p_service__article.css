@@ -1,8 +1,28 @@
 .p_service__article {
+  margin-top: 40px;
   margin-bottom: 60px;
   padding: 0;
 }
 
+.p_service__article_purple-fluid {
+  padding-top: 60px;
+  padding-bottom: 40px;
+  background-color: #515066;
+  height: auto;
+}
+
+.p_service__article_purple-fluid p {
+  color: white;
+}
+
+.p_service__article_purple-fluid h3,
+.p_service__article_purple-fluid h2 {
+  color: white !important;
+}
+
+.p_service__article_purple-fluid .rectangle {
+  background: white !important;
+}
 
 @media (max-width: 1200px) {
 
@@ -16,7 +36,6 @@
 
 @media (max-width: 576px) {
   .p_service__article {
-    margin-bottom: 30px;
     padding-left: 15px;
     padding-right: 15px;
   }
