@@ -1,9 +1,10 @@
 .p_service__img {
   padding: 0;
   width: inherit;
-  height: 390px;
-  max-height: 420px;
-
+  height: auto;
+  border-radius: 5px;
+  /*height: 390px;*/
+  /*max-height: 420px;*/
   object-fit: cover;
 }
 
