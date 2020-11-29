@@ -17,14 +17,9 @@ plan
 <!-- https://three-sisters.ru/ -->
 ---
 
-[] = git add . && git commit -m "[services] page sub-menu: headings + ids + h-s all [services] + [services] page sub-menu + new module"
+[] = git add . && git commit -m ""
 
 --- верстка
-- ! [services] page sub-menu
-  - + headings + ids
-  - + h-s all [services]
-  - + menu design
-  - + б[services] everywhere
 - ! удалить страницу и из меню условно-
 
 - header js photo solution
@@ -137,3 +132,5 @@ everywhere] + optimaize bootstrap's css & js + removed some trash
 + map bug fixed + добавил дантистов
 + header: subtitle + кнопка + mq-s + [all services pages]
 + [services] dropdown bug
+30.11
++ [services] page sub-menu: headings + ids + h-s all [services] + [services] page sub-menu + new module pSPEC

@@ -178,7 +178,7 @@ feature/header # появилась новая ветка
                           </li>
                           <li class="dropdown-item dropdown__link-submenu-item">
                             <a href="./services/implantacia_i/implantacia_i_5.html">
-                              Условно-съемное протезирование на имплантах
+
                             </a>
                           </li>
                           <li class="dropdown-item dropdown__link-submenu-item">
@@ -519,7 +519,7 @@ feature/header # появилась новая ветка
               <a href="/services/implantatsiya-i-khirurgiya/implantatsiya-s-otsrochennoy-nagruzkoy/" class="sitemap_subsubtitle">Имплантация с отсроченной нагрузкой</a>
               <a href="/services/implantatsiya-i-khirurgiya/implantatsiya-s-nemedlennoy-nagruzkoy/" class="sitemap_subsubtitle">Имплантация с немедленной нагрузкой</a>
               <a href="/services/implantatsiya-i-khirurgiya/implantatsiya-zubov-vo-sne/" class="sitemap_subsubtitle">Имплантация во сне</a>
-              <a href="/services/implantatsiya-i-khirurgiya/uslovno-semnoe-protezirovanie-na-implantakh/" class="sitemap_subsubtitle">Условно-съемное протезирование на имплантах</a>
+              <a href="/services/implantatsiya-i-khirurgiya/uslovno-semnoe-protezirovanie-na-implantakh/" class="sitemap_subsubtitle"></a>
               <a href="/services/implantatsiya-i-khirurgiya/sinus-lifting-i-kostnaya-plastika/" class="sitemap_subsubtitle">Синус-лифтинг и костная пластика</a>
               <a href="/services/implantatsiya-i-khirurgiya/implantatsiya-all-on-4-i-all-on-6/" class="sitemap_subsubtitle">Имплантация All-on-4 и All-on-6</a>
           </div>
