@@ -17,15 +17,9 @@ plan
 <!-- https://three-sisters.ru/ -->
 ---
 
-[] = git add . && git commit -m "header: subtitle + кнопка + mq-s + [all services pages]"
+[] = git add . && git commit -m ""
 
 --- верстка
-- ! header
-  - + subtitle
-  - + кнопка
-  - + mq-s
-  - + [all services pages]
-
 
 - ! mobile
   - dropdown bug
@@ -147,3 +141,4 @@ everywhere] + optimaize bootstrap's css & js + removed some trash
 + animation steps: dentitst gradually + footer to 100% [services] + footer for services + footer detail pages added
 29.11
 + map bug fixed + добавил дантистов
++ header: subtitle + кнопка + mq-s + [all services pages]
