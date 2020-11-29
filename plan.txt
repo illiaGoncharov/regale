@@ -17,20 +17,13 @@ plan
 <!-- https://three-sisters.ru/ -->
 ---
 
-[] = git add . && git commit -m ""
+[] = git add . && git commit -m "map bug fixed"
 
 --- верстка
 
-! - logo upd [dropdown + footer]
-! - [dentists] add all
-- animation steps
-  - addresses
-  - специалисты
-  - dentitst gradually
-- footer to 100% [services]
-- footer for services
-- footer
-  - 404 comment
+- ! врачи контент
+- ! услуги дищайн + дев
+
 - [filials] && map upd
   - map bug
     - https://qna.habr.com/q/97795
@@ -51,7 +44,8 @@ plan
   - add
 
 
-- f: админка wp
+--- f: админка wp
+  - ! - [dentists] add all
   - hf: form
   - fetch
   - застравка
@@ -135,3 +129,4 @@ everywhere] + optimaize bootstrap's css & js + removed some trash
 + [index] team counter + minor layout upd-s
 + team indicator bug fixed fixed
 + [index] main-srvices photo change + smooth main-services
++ animation steps: dentitst gradually + footer to 100% [services] + footer for services + footer detail pages added
