@@ -342,10 +342,9 @@
                 Москва, Россия, 115162
               </p>
             </div>
-            <div class="col-lg-4" >
-              <img src="./blocks/address/address.jpg" alt="" class="address__img">
+            <div class="col-lg-6" >
+              <img src="./images/img-4.jpg" alt="" class="address__img">
             </div>
-            <div class="col-lg-2"></div>
           </div>
         </div>
         <div class="container devider_not-main" data-aos="zoom-in" data-aos-duration="3000"></div>
@@ -371,10 +370,9 @@
                 Москва, Россия, 127521
               </p>
             </div>
-            <div class="col-lg-4">
-              <img src="./blocks/address/address.jpg" alt="" class="address__img">
+            <div class="col-lg-6">
+              <img src="./images/img-12.jpg" alt="" class="address__img">
             </div>
-            <div class="col-lg-2"></div>
           </div>
         </div>
       </section>
@@ -417,7 +415,12 @@
         // от 0 (весь мир) до 19.
         zoom: 11
       });
-
+      myMap.controls.remove('geolocationControl');
+      myMap.controls.remove('searchControl');
+      myMap.controls.remove('trafficControl');
+      myMap.controls.remove('typeSelector');
+      myMap.controls.remove('fullscreenControl');
+      myMap.controls.remove('rulerControl');
       myMap.behaviors.disable('scrollZoom');
       myMap.events.add('click', function() {
         myMap.behaviors.enable('scrollZoom');
@@ -436,7 +439,7 @@
       myMap.geoObjects
         .add(new ymaps.Placemark([55.803322, 37.614689], {
           balloonContent: '<strong>Центр инновационной стоматологии Regale</strong> <br><br> Россия, Москва, Шереметьевская улица, 27 <br><br>  Время работы: <br> Ежедневно 09:00 - 21:00 <br><br> Телефон: +7 495 900 10 39',
-           iconCaption: 'Regale - Шереметьевская'
+           iconCaption: 'Regale - Марьина Роща'
         }, {
           preset: 'islands#blueCircleDotIconWithCaption',
           iconColor: '#515066'

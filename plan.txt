@@ -18,28 +18,14 @@ plan
 https://www.sberbank.ru/ru/oib?tab=vsp
 ---
 
-[] = git add . && git commit -m "[index] ms upd-s: photos 6 blue + [filials] && map upd-s: API added + "
+[] = git add . && git commit -m ""
 
 --- верстка
 
-- ... [index] ms upd-s
-  - + photos 6 + blue
+- [index] ms upd-s
   - photo smooth
   - text smooth
-
-- ... [filials] && map upd-s
-  - + API add
-  - + add markers
-  - upd info module layout
-  - change text on click map
-  - map bug
-    - https://qna.habr.com/q/97795
-    - https://www.avito.ru/moskva/igry_pristavki_i_programmy/igrovye_pristavki-ASgBAgICAUSSAsoJ?q=ps4
-    - https://blog.lisogorsky.ru/ignor-scroll-iframe-maps
-    - order buttons
-
 - header js photo solution
-
 - [prices] upds
   - table & class & file str
   - tables to grid
@@ -139,3 +125,4 @@ everywhere] + optimaize bootstrap's css & js + removed some trash
 30.11
 + [services] page sub-menu: headings + ids + h-s all [services] + [services] page sub-menu + new module pSPEC
 + [условно] deleted + from menu + not header on mobile fixed
++ [index] ms upd-s: photos 6 blue + [filials] && map upd-s: API added + [filials] && map upd-s + add markers
