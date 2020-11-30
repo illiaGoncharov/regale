@@ -16,6 +16,8 @@
   <meta name="twitter:image" content="" />
   <link rel="icon" href="./images/favicon.png" type="image/gif" sizes="32x32">
 	<link rel="stylesheet" href="./pages/filials.css">
+  <script src="https://api-maps.yandex.ru/2.1/?apikey=a5c17325-78ab-4c74-8ac6-17fb6985b383
+&lang=ru_RU" type="text/javascript"></script>
 </head>
 <body>
   <div class="root">
@@ -82,11 +84,9 @@
                 <ul class="dropdown-menu dropdown_user_Mobile" aria-labelledby="nDropdown-1">
                   <div class="container dropdown__container dropdown_user_Mobile__container">
                     <ul class=" dropdown__link-column dropdown_user_Mobile__link-column">
-
                       <li class="dropdown_user_Mobile__link-item">
                         <a class="dropdown-toggle a-white" tabindex="-1" href="#">
                           Лечение зубов и десен
-      </a>
                         </a>
                         <ul class="dropdown-menu dropdown_user_Mobile__link-submenu">
                           <li tabindex="-1" class="dropdown__link-submenu-item dropdown_user_Mobile__link-submenu-item">
@@ -291,10 +291,11 @@
         </nav>
       </div>
       <section class="container-fluid header_filials__map">
-        <iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3Abca18db7c0eea38875e4dc6b96d33ffacaef3c5931a77a9555fe78e600c2f01d&amp;scroll=false source=constructor;scroll=false" width="100%" height="590" frameborder="0">
-        </iframe>
-        <div class="container header_filials__map-info-container">
-          <div class="col-lg-5 header_filials__map-info-module" data-aos="zoom-in" >
+        <!-- <iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3Abca18db7c0eea38875e4dc6b96d33ffacaef3c5931a77a9555fe78e600c2f01d&amp;scroll=false source=constructor;scroll=false" width="100%" height="590" frameborder="0">
+        </iframe> -->
+        <div id="map" style="width: 100%; height: 500px"></div>
+       <!--  <div class="container header_filials__map-info-container">
+          <div class="header_filials__map-info-module" data-aos="zoom-in" >
             <h3 style="" class="h3-blue mb-30">
               Центр инновационной стоматологии Regale
               <br>
@@ -311,7 +312,7 @@
               +7 495 900 10 39
             </p>
           </div>
-        </div>
+        </div> -->
       </section>
     </header>
     <main class="content">
@@ -398,6 +399,62 @@
     $(document).ready(function() {
       $(window).scrollTop(0);
     });
+  </script>
+  <script type="text/javascript">
+    // Функция ymaps.ready() будет вызвана, когда
+    // загрузятся все компоненты API, а также когда будет готово DOM-дерево.
+    ymaps.ready(init);
+
+    function init() {
+      // Создание карты.
+      var myMap = new ymaps.Map("map", {
+        // Координаты центра карты.
+        // Порядок по умолчанию: «широта, долгота».
+        // Чтобы не определять координаты центра карты вручную,
+        // воспользуйтесь инструментом Определение координат.
+        center: [55.76, 37.64],
+        // Уровень масштабирования. Допустимые значения:
+        // от 0 (весь мир) до 19.
+        zoom: 11
+      });
+
+      myMap.behaviors.disable('scrollZoom');
+      myMap.events.add('click', function() {
+        myMap.behaviors.enable('scrollZoom');
+      });
+
+      /*var myGeoObject = new ymaps.GeoObject( {
+        geometry: {
+          type: "Point", // тип геометрии - точка
+          coordinates: [55.8, 37.8] // координаты точки
+        }
+      });
+
+      // Размещение геообъекта на карте.
+      myMap.geoObjects.add(myGeoObject);*/
+
+      myMap.geoObjects
+        .add(new ymaps.Placemark([55.803322, 37.614689], {
+          balloonContent: '<strong>Центр инновационной стоматологии Regale</strong> <br><br> Россия, Москва, Шереметьевская улица, 27 <br><br>  Время работы: <br> Ежедневно 09:00 - 21:00 <br><br> Телефон: +7 495 900 10 39',
+           iconCaption: 'Regale - Шереметьевская'
+        }, {
+          preset: 'islands#blueCircleDotIconWithCaption',
+          iconColor: '#515066'
+        }))
+        .add(new ymaps.Placemark([55.713699, 37.621839], {
+            balloonContent: '<strong>Центр инновационной стоматологии Regale</strong> <br><br> Россия, Москва, Люсиновская улица, 72 <br><br>  Время работы: <br> Ежедневно 09:00 - 21:00 <br><br> Телефон: +7 495 900 10 39',
+            iconCaption: 'Regale - Тульская'
+        }, {
+            preset: 'islands#blueCircleDotIconWithCaption',
+            iconColor: '#515066'
+        }));
+
+        /*myMap.events.add('click', function (e) {
+            // Получение координат щелчка
+            var coords = e.get('coords');
+            alert(coords.join(', '));
+        });*/
+      };
   </script>
 </body>
 </html>

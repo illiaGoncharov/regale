@@ -15,32 +15,36 @@ plan
 
 <!-- https://bootstrap-4.ru/docs/4.5/components/forms/ -->
 <!-- https://three-sisters.ru/ -->
+https://www.sberbank.ru/ru/oib?tab=vsp
 ---
 
-[] = git add . && git commit -m ""
+[] = git add . && git commit -m "[index] ms upd-s: photos 6 blue + [filials] && map upd-s: API added + "
 
 --- верстка
 
-- header js photo solution
-- [index] ms photo smooth
-- [filials] && map upd
+- ... [index] ms upd-s
+  - + photos 6 + blue
+  - photo smooth
+  - text smooth
+
+- ... [filials] && map upd-s
+  - + API add
+  - + add markers
+  - upd info module layout
   - change text on click map
   - map bug
     - https://qna.habr.com/q/97795
     - https://www.avito.ru/moskva/igry_pristavki_i_programmy/igrovye_pristavki-ASgBAgICAUSSAsoJ?q=ps4
     - https://blog.lisogorsky.ru/ignor-scroll-iframe-maps
-  - order buttons
+    - order buttons
+
+- header js photo solution
 
 - [prices] upds
   - table & class & file str
   - tables to grid
 - [dentist] upds
-  - design [detnist] tablet + mobile
-  - br to css
-- [services] ups
-  - design
-  - add
-
+  - [detnist] mobile образование
 
 --- f: админка wp
   - ! - [dentists] add all

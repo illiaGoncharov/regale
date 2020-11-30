@@ -40,13 +40,18 @@
 
   .p_service__menu {
     flex-direction: column;
-    text-align: center;
+    text-align: left;
   }
 
   .p_service__menu li {
-    margin-bottom: 10px;
+    margin-bottom: 20px;
   }
-}
+
+  .p_service__menu a {
+    font-weight: bold;
+    margin-right: initial;
+  }
+
 }
 
 

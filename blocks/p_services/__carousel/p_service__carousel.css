@@ -11,7 +11,7 @@
 
 .p_service__carousel-inner .carousel-item {
   height: auto;
-  border-radius: 5px;
+  border-radius: 10px;
   overflow: hidden;
 }
 
@@ -22,7 +22,7 @@
 }
 
 .p_service__carousel-item {
-  border-radius: 5px;
+  border-radius: 10px;
 }
 
 .p_service__carousel-figcaption {
@@ -30,7 +30,7 @@
 }
 
 .p_service__carousel-figure {
-  border-radius: 5px;
+  border-radius: 10px;
   box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.2);
 }
 

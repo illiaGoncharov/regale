@@ -14,7 +14,7 @@
   background-color: #FFFFFF;
   box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.2);
   transition: box-shadow 0.3s ease-in-out;
-  border-radius: 5px;
+  border-radius: 10px;
   min-height: 600px;
 }
 

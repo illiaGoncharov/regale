@@ -4,7 +4,7 @@
   height: 680px;
 }
 
-.header_filials__map iframe {
+#map {
   position: absolute;
 }
 
