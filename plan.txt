@@ -22,6 +22,7 @@ https://www.sberbank.ru/ru/oib?tab=vsp
 
 --- верстка
 
+- modal close btn om mobile
 - [index] ms upd-s
   - photo smooth
   - text smooth
@@ -126,3 +127,4 @@ everywhere] + optimaize bootstrap's css & js + removed some trash
 + [services] page sub-menu: headings + ids + h-s all [services] + [services] page sub-menu + new module pSPEC
 + [условно] deleted + from menu + not header on mobile fixed
 + [index] ms upd-s: photos 6 blue + [filials] && map upd-s: API added + [filials] && map upd-s + add markers
++ [prices] upds (now all)

@@ -19,7 +19,7 @@
   <link rel="stylesheet" href="./pages/index.css">
 </head>
 <body>
-  <div class="root">
+  <div id="content" class="root">
     <header class="container header">
       <div class="header__navs">
         <nav class="container navbar navbar-expand-lg navbar-dark header__menu">
@@ -478,7 +478,7 @@
                   <div class="col-lg-5 details__info-module" data-aos="zoom-in" >
                     <h3 style="" class="h3-blue mb-30">Интерьер</h3>
                     <p class="p-basic">
-                      Для создания комфортного и безмятежного пространства мы пригласили итальянского дизайнера Франческо Бинфаре.
+                      Авторский дизайн интерьера клиники воплощает ощущение безмятежности и спокойствия, которым наполняются все пациенты после первого общения с нашими докторами.
                     </p>
                   </div>
                 </div>
@@ -666,11 +666,6 @@
                         </a>
                       </li>
                       <li class="main-services__list-item">
-                        <a class="a-blue" href="./services/implantacia_i_5.html">
-
-                        </a>
-                      </li>
-                      <li class="main-services__list-item">
                         <a class="a-blue" href="./services/implantacia_i_6.html">
                           Синус-лифтинг и костная пластика
                         </a>
@@ -782,7 +777,7 @@
     $( "#servicesDropdown" ).load( "./dropdown__container.html", function() {
       $.getScript("./assets/scripts/app/dropdown.js");
     });
-    $( ".form" ).load( "./form.html" );
+    $( ".form" ).load( "./form.html");
     $( ".map" ).load( "./map.html" );
     $( ".footer" ).load( "./footer.html" );
   </script>
@@ -798,5 +793,26 @@
         }, 800);
       });
   </script>
+  <!-- <script>
+    let loader = function(content){
+      console.log('good');
+      document.querySelector('#loader').style.opacity = "0";
+      let logoYes = function(logo) {
+        document.querySelector("#logo-img").style.opacity = "9";
+      }
+      setTimeout(logoYes, 2000);
+
+      let gradient = function(gradient) {
+        document.querySelector('#gradient').style.opacity = "0";
+        document.querySelector('body').style.overflowY = "scroll";
+        document.querySelector('#logo-img').style.opacity = "0";
+        document.querySelector('#loader').style.height = "0vh";
+        document.querySelector('#gradient').style.height = "0vh";
+      }
+      setTimeout(gradient, 5000);
+        document.querySelector('#content').style.opacity = "9";
+    }
+    setTimeout(loader, 2500);
+    </script> -->
 </body>
 </html>

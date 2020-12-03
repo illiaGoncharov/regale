@@ -36,11 +36,13 @@
 @media (max-width: 768px) {
   .p_service__menu-container {
     margin-top: 0;
+    padding-left: 15px;
   }
 
   .p_service__menu {
     flex-direction: column;
     text-align: left;
+
   }
 
   .p_service__menu li {
