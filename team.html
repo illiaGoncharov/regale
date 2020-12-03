@@ -117,17 +117,17 @@
                         </a>
                         <ul class="dropdown-menu dropdown_user_Mobile__link-submenu">
                           <li tabindex="-1" class="dropdown__link-submenu-item dropdown_user_Mobile__link-submenu-item">
-                            <a href="./services/esteticheskaya_s/esteticheskaya_s_1.html">
+                            <a href="./services/esteticheskaya/esteticheskaya_s_1.html">
                               Виниры и ультратонкие виниры
                             </a>
                           </li>
                           <li tabindex="-1" class="dropdown__link-submenu-item dropdown_user_Mobile__link-submenu-item">
-                            <a href="./services/esteticheskaya_s/esteticheskaya_s_2.html">
+                            <a href="./services/esteticheskaya/esteticheskaya_s_2.html">
                               Художественная реставрация зубов
                             </a>
                           </li>
                           <li tabindex="-1" class="dropdown__link-submenu-item dropdown_user_Mobile__link-submenu-item">
-                            <a href="./services/esteticheskaya_s/esteticheskaya_s_3.html">
+                            <a href="./services/esteticheskaya/esteticheskaya_s_3.html">
                               Отбеливание зубов
                             </a>
                           </li>
@@ -1189,7 +1189,9 @@
   <script src="./assets/scripts/vendor/aos.js" type="text/javascript"></script>
   <script src="./assets/scripts/app/aosinit.js" type="text/javascript"></script>
   <script>
-    $( ".form" ).load( "./form.html" );
+    $( ".form" ).load( "./form.html", function() {
+      $.getScript("./assets/scripts/app/form.js");
+    });
     $( ".map" ).load( "./map.html" );
     $( ".footer" ).load( "./footer.html" );
     $( "#servicesDropdown" ).load( "./dropdown__container.html", function() {

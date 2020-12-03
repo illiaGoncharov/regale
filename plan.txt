@@ -25,13 +25,11 @@ https://www.sberbank.ru/ru/oib?tab=vsp
   - https://css-tricks.com/essential-meta-tags-social-media/
 ---
 
-[] = git add . && git commit -m ""
+[] = git add . && git commit -m "form upd-s: success modal + [services] form"
 
-- feat: form upd-s: success/error div + ajax + [services] form
-  - mamp to test
-  - js + main to assets
-  - error test
-  - дублируем для услуг
+- feat:
+  - элан
+  - стили
 - админка
 - диз
 
@@ -47,6 +45,7 @@ https://www.sberbank.ru/ru/oib?tab=vsp
   - tables to grid
 - [dentist] upds
   - [detnist] mobile образование
+- клик на лого = главная
 
 --- f: админка wp
   - ! - [dentists] add all
@@ -54,8 +53,6 @@ https://www.sberbank.ru/ru/oib?tab=vsp
   - fetch
 - застравка
 - анимации внутри боксов с фотками на слайдах
-
-
 
 
 --- диз
@@ -69,9 +66,10 @@ https://www.sberbank.ru/ru/oib?tab=vsp
 - доработать анимации а спецах
 - feat: фетчнуть данные из докс в цены
 - доработать клинику в делталях
+- футер страницы
 
---- постпродакшн
--
+--- рефактор
+- ./../../ to /
 
 
 

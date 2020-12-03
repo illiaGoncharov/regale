@@ -515,7 +515,9 @@
     $( "#servicesDropdown" ).load( "./dropdown__container.html", function() {
       $.getScript("./assets/scripts/app/dropdown.js");
     });
-    $( ".form" ).load( "./form.html" );
+    $( ".form" ).load( "./form.html", function() {
+      $.getScript("./assets/scripts/app/form.js");
+    });
     $( ".map" ).load( "./map.html" );
     $( ".footer" ).load( "./footer.html" );
   </script>

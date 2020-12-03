@@ -769,7 +769,9 @@
 <script src="./../../assets/scripts/app/services.js"></script>
 
   <script>
-    $( ".form" ).load( "./../../form.html" );
+    $( ".form" ).load( "./../../form.html", function() {
+      $.getScript("./../../assets/scripts/app/form.js");
+    });
     $( ".map" ).load( "./../../map.html" );
     $( ".footer" ).load( "./../../footer_services.html");
   </script>

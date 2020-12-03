@@ -22,5 +22,7 @@ $('form').submit(function() {
 
     // отключаем действие по умолчанию
     $('#formModal').modal('show');
+    $('input[type="text"], textarea').val('')
+    $('input[type="tel"], textarea').val('')
     return false;
 });
