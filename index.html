@@ -777,7 +777,9 @@
     $( "#servicesDropdown" ).load( "./dropdown__container.html", function() {
       $.getScript("./assets/scripts/app/dropdown.js");
     });
-    $( ".form" ).load( "./form.html");
+    $( ".form" ).load( "./form.html", function() {
+      $.getScript("./assets/scripts/app/form.js");
+    });
     $( ".map" ).load( "./map.html" );
     $( ".footer" ).load( "./footer.html" );
   </script>
@@ -793,26 +795,5 @@
         }, 800);
       });
   </script>
-  <!-- <script>
-    let loader = function(content){
-      console.log('good');
-      document.querySelector('#loader').style.opacity = "0";
-      let logoYes = function(logo) {
-        document.querySelector("#logo-img").style.opacity = "9";
-      }
-      setTimeout(logoYes, 2000);
-
-      let gradient = function(gradient) {
-        document.querySelector('#gradient').style.opacity = "0";
-        document.querySelector('body').style.overflowY = "scroll";
-        document.querySelector('#logo-img').style.opacity = "0";
-        document.querySelector('#loader').style.height = "0vh";
-        document.querySelector('#gradient').style.height = "0vh";
-      }
-      setTimeout(gradient, 5000);
-        document.querySelector('#content').style.opacity = "9";
-    }
-    setTimeout(loader, 2500);
-    </script> -->
 </body>
 </html>

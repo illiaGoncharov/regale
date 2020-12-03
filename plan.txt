@@ -6,6 +6,8 @@ plan
 * https://developers.google.com/web/tools/chrome-devtools/speed/get-started
 * https://glidejs.com/docs/setup/
 
+http://malina.city/2018/05/02/instruktsiya-po-ustanovke-i-nastrojke-lokalnogo-servera-mamp/
+
 - https://www.google.com/search?q=html+to+wordpress&rlz=1C5CHFA_enRU827RU827&oq=html+to+w&aqs=chrome.3.69i57j0i457j0l3j69i60l3.4367j0j7&sourceid=chrome&ie=UTF-8
 - https://websitesetup.org/html-to-wordpress/
 - https://www.highervisibility.com/blog/converting-html-to-wordpress-step-by-step-tutorial/
