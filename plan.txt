@@ -26,7 +26,9 @@ https://www.sberbank.ru/ru/oib?tab=vsp
 [] = git add . && git commit -m ""
 
 - feat: form upd-s: success/error div + ajax + [services] form
-  - php = отправляе
+  - mamp to test
+  - js + main to assets
+  - error test
   - дублируем для услуг
 - админка
 - диз
@@ -143,4 +145,6 @@ everywhere] + optimaize bootstrap's css & js + removed some trash
 + [условно] deleted + from menu + not header on mobile fixed
 + [index] ms upd-s: photos 6 blue + [filials] && map upd-s: API added + [filials] && map upd-s + add markers
 + [prices] upds (now all)
+02.12
 + form php sender added (test)
++ feat: elan's upd-s + new imgs
