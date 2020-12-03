@@ -16,9 +16,20 @@ plan
 <!-- https://bootstrap-4.ru/docs/4.5/components/forms/ -->
 <!-- https://three-sisters.ru/ -->
 https://www.sberbank.ru/ru/oib?tab=vsp
+
+- meta upts
+  - https://yandex.ru/q/question/computers/kak_pravilno_zapolniat_metategi_li_teg_6ec772df/
+  - https://yandex.ru/support/webmaster/controlling-robot/html.html
+  - https://css-tricks.com/essential-meta-tags-social-media/
 ---
 
 [] = git add . && git commit -m ""
+
+- feat: form upd-s: success/error div + ajax + [services] form
+  - php = отправляе
+  - дублируем для услуг
+- админка
+- диз
 
 --- верстка
 
@@ -37,22 +48,26 @@ https://www.sberbank.ru/ru/oib?tab=vsp
   - ! - [dentists] add all
   - hf: form
   - fetch
-  - застравка
+- застравка
+- анимации внутри боксов с фотками на слайдах
 
-- meta upts
-  - https://yandex.ru/q/question/computers/kak_pravilno_zapolniat_metategi_li_teg_6ec772df/
-  - https://yandex.ru/support/webmaster/controlling-robot/html.html
-  - https://css-tricks.com/essential-meta-tags-social-media/
+
+
 
 --- диз
  - [index] mobile menu main services
+ - модал удобный
  - табличка отправлено
     - диз
     - mq-
     - стиль кнопки в нижней форме
+- удобные меню в ценах и спецах
+- доработать анимации а спецах
+- feat: фетчнуть данные из докс в цены
+- доработать клинику в делталях
 
 --- постпродакшн
-
+-
 
 
 
@@ -128,3 +143,4 @@ everywhere] + optimaize bootstrap's css & js + removed some trash
 + [условно] deleted + from menu + not header on mobile fixed
 + [index] ms upd-s: photos 6 blue + [filials] && map upd-s: API added + [filials] && map upd-s + add markers
 + [prices] upds (now all)
++ form php sender added (test)
